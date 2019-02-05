@@ -1,0 +1,27 @@
+
+PUSH
+ORG $AAC5AC
+#incext Png2Dmp "Title.png" --lz77
+ORG $AACBA8
+#incext Png2Dmp "Title.png" --palette-only
+ORG $C5830
+POIN SubtitleImage
+ORG $AADBC8
+#incext Png2Dmp "Subtitle.png" --palette-only
+ORG $C57E4
+POIN DragonsImage
+ORG $C57F4
+POIN DragonsPalette
+POP
+
+ALIGN 4
+SubtitleImage:
+#incext Png2Dmp "Subtitle.png" --lz77
+ALIGN 4
+DragonsImage:
+#incext Png2Dmp "Dragons.png" --lz77
+ALIGN 4
+DragonsPalette:
+#incext Png2Dmp "Dragons.png" --palette-only
+
+#include "TitleScreen/titlebackgroundinstaller.event"

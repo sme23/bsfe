@@ -1,0 +1,198 @@
+#include "EAstdlib.event"
+
+ALIGN 4
+
+EventPointerTable(0xA,BS1)
+
+ALIGN 4
+
+BS1:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Nyna Bishop_F 0x0 Level(1,Ally,0) [5,13] 0x0 0x0 0x0 0x1 [Mend] NoAI
+UNIT Midia Paladin_F 0x0 Level(1,Ally,0) [3,13] 0x0 0x0 0x0 0x1 [SilverLance,SteelSword] NoAI
+UNIT Tomas Archer 0x0 Level(1,Ally,0) [3,15] 0x0 0x0 0x0 0x1 [SteelBow,IronBow] NoAI
+UNIT Boah Bishop 0x0 Level(3,Ally,0) [5,15] 0x0 0x0 0x0 0x1 [Heal,Rescue] NoAI
+UNIT Macellan Knight 0x0 Level(1,Ally,0) [5,11] 0x0 0x0 0x0 0x1 [SteelLance,Javelin] NoAI
+UNIT Dolph Knight 0x0 Level(3,Ally,0) [3,11] 0x0 0x0 0x0 0x1 [SteelLance,Javelin] NoAI
+UNIT
+
+ALIGN 4
+
+EnemyUnits:
+UNIT Dolhr Archer Gouber Level(1,Enemy,1) [3,2] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Dolhr Archer Gouber Level(1,Enemy,1) [5,2] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [3,5] 0x2 0x0 0x0 0x0 [IronLance,ChestKey] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [5,5] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(2,Enemy,1) [4,7] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Mage Gouber Level(1,Enemy,1) [6,1] 0x0 0x0 0x0 0x0 [Fire] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(5,Enemy,1) [7,2] 0x0 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI	
+UNIT Dolhr Knight Gouber Level(5,Enemy,1) [9,2] 0x0 0x0 0x0 0x0 [IronLance] MoveWithLeaderAI	
+UNIT Dolhr Bishop Gouber Level(1,Enemy,1) [11,1] 0x0 0x0 0x0 0x0 [Heal] HealUnits
+UNIT Dolhr Archer Gouber Level(1,Enemy,1) [12,7] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Dolhr Archer Gouber Level(1,Enemy,1) [14,7] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Dolhr Mage Gouber Level(1,Enemy,1) [14,9] 0x0 0x0 0x0 0x0 [Fire] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [12,9] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [12,11] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [14,11] 0x2 0x0 0x0 0x0 [IronLance,ChestKey] PursueWithoutHeedAI
+UNIT Dolhr Mage Gouber Level(1,Enemy,1) [12,19] 0x0 0x0 0x0 0x0 [Fire] PursueWithoutHeedAI
+UNIT Dolhr Archer Gouber Level(1,Enemy,1) [10,20] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Dolhr Archer Gouber Level(1,Enemy,1) [10,18] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,21] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,19] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,17] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Gouber General Gouber Level(10,Enemy,0) [8,2] 0x0 0x0 0x0 0x0 [SteelLance] [AttackInRange,NoAI2,CautiousRecovery,DefaultAI4]
+UNIT
+
+ALIGN 4
+
+TurnBasedEvents:
+//Survive(EndingScene,2) //testing end 
+TurnEventPlayer(0xB,TalkProc,4)
+END_MAIN
+
+ALIGN 4
+
+CharacterBasedEvents:
+CharacterEventBothWays(8,Talk1,Nyna,Midia)
+CharacterEventBothWays(9,Talk2,Nyna,Boah)
+CharacterEventBothWays(0xA,Talk3,Midia,Boah)
+END_MAIN
+
+ALIGN 4
+
+LocationBasedEvents:
+Chest(Divine,9,5) //Should I change these to light tomes or should I give bishops anima?  can just map their existing magic animation to anima as well and all should work
+Chest(Shine,10,12)
+Chest(Armorslayer,9,20) 
+END_MAIN
+
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+ALIGN 4
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+TrapData:
+END_MAIN
+
+
+ALIGN 4
+
+BeginningScene:
+//Scroll text (actually this is a different event buuuuut) BROWNBOXTEXT *Text ID* [Text position X, Text position Y] 
+FADI 5
+ENUT 8
+ENUT 9
+ENUT 0xA
+MUSC 0x26
+LOAD1 0x1 EnemyUnits
+LOAD1 0x1 PlayerUnits
+ENUN
+SetBackground(Castle)
+Text(BS1b)
+EndConvo
+CAM1 Nyna
+STAL 20
+CAM1 [5,19]
+STAL 20
+CAM1 Gouber
+STAL 20
+Text(BS1c)
+CAM1 Nyna
+SetBackground(Castle)
+Text(BS1d)
+EndConvo
+NoFade
+ENDA
+
+ALIGN 4
+
+EndingScene:
+SetBackground(Castle)
+TEXTSHOW (BS1end1)
+TEXTEND
+REMA
+SetBackground(Castle)
+TEXTSHOW (BS1end2)
+TEXTEND
+REMA
+SetBackground(Castle)
+TEXTSHOW (BS1end3)
+TEXTEND
+REMA
+SetBackground(Castle)
+TEXTSHOW (BS1end4)
+TEXTEND
+REMA
+SetBackground(Castle)
+TEXTSHOW (BS1end5)
+TEXTEND
+SetBackground(Desert)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW BS1e
+TEXTEND
+REMA
+DISA Nyna
+DISA Tomas
+DISA Boah
+DISA Midia
+DISA Dolph
+DISA Macellan
+ASMC SetFlag1ASMC|1
+MNC2 0
+ENDA 
+
+ALIGN 4
+
+Talk1:
+Text(BS1Talk1) //Nyna Midia
+NoFade
+ENDA
+
+ALIGN 4
+
+Talk2:
+Text(BS1Talk2) //Nyna Boah
+NoFade
+ENDA
+
+ALIGN 4
+
+Talk3:
+Text(BS1Talk3) //Midia Boah
+NoFade
+ENDA
+
+ALIGN 4
+
+TalkProc:
+ENUF 8
+ENUF 9
+ENUF 0xA
+
+ENDA

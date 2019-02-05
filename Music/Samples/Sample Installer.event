@@ -1,0 +1,167 @@
+Sample0:
+ALIGN 4
+#incbin "Sample 0.bin"
+
+Sample1:
+ALIGN 4
+#incbin "Sample 1.bin"
+
+Sample2:
+ALIGN 4
+#incbin "Sample 2.bin"
+
+Sample3:
+ALIGN 4
+#incbin "Sample 3.bin"
+
+Sample4:
+ALIGN 4
+#incbin "Sample 4.bin"
+
+Sample5:
+ALIGN 4
+#incbin "Sample 5.bin"
+
+Sample6:
+ALIGN 4
+#incbin "Sample 6.bin"
+
+Sample7:
+ALIGN 4
+#incbin "Sample 7.bin"
+
+Sample8:
+ALIGN 4
+#incbin "Sample 8.bin"
+
+Sample12:
+ALIGN 4
+#incbin "Sample 12.bin"
+
+Sample13:
+ALIGN 4
+#incbin "Sample 13.bin"
+
+Sample14:
+ALIGN 4
+#incbin "Sample 14.bin"
+
+Sample15:
+ALIGN 4
+#incbin "Sample 15.bin"
+
+Sample16:
+ALIGN 4
+#incbin "Sample 16.bin"
+
+Sample17:
+ALIGN 4
+#incbin "Sample 17.bin"
+
+Sample18:
+ALIGN 4
+#incbin "Sample 18.bin"
+
+Sample19:
+ALIGN 4
+#incbin "Sample 19.bin"
+
+Sample20:
+ALIGN 4
+#incbin "Sample 20.bin"
+
+Sample21:
+ALIGN 4
+#incbin "Sample 21.bin"
+
+Sample22:
+ALIGN 4
+#incbin "Sample 22.bin"
+
+Sample23:
+ALIGN 4
+#incbin "Sample 23.bin"
+
+Sample24:
+ALIGN 4
+#incbin "Sample 24.bin"
+
+Sample25:
+ALIGN 4
+#incbin "Sample 25.bin"
+
+Sample26:
+ALIGN 4
+#incbin "Sample 26.bin"
+
+Sample27:
+ALIGN 4
+#incbin "Sample 27.bin"
+
+Sample28:
+ALIGN 4
+#incbin "Sample 28.bin"
+
+Sample29:
+ALIGN 4
+#incbin "Sample 29.bin"
+
+Sample30:
+ALIGN 4
+#incbin "Sample 30.bin"
+
+Sample42:
+ALIGN 4
+#incbin "Sample 42.bin"
+
+Sample43:
+ALIGN 4
+#incbin "Sample 43.bin"
+
+Sample44:
+ALIGN 4
+#incbin "Sample 44.bin"
+
+Sample45:
+ALIGN 4
+#incbin "Sample 45.bin"
+
+Sample46:
+ALIGN 4
+#incbin "Sample 46.bin"
+
+Sample47:
+ALIGN 4
+#incbin "Sample 47.bin"
+
+Sample48:
+ALIGN 4
+#incbin "Sample 48.bin"
+
+Sample52:
+ALIGN 4
+#incbin "Sample 52.bin"
+
+Sample53:
+ALIGN 4
+#incbin "Sample 53.bin"
+
+Sample54:
+ALIGN 4
+#incbin "Sample 54.bin"
+
+Sample55:
+ALIGN 4
+#incbin "Sample 55.bin"
+
+Sample56:
+ALIGN 4
+#incbin "Sample 56.bin"
+
+Sample57:
+ALIGN 4
+#incbin "Sample 57.bin"
+
+Sample58:
+ALIGN 4
+#incbin "Sample 58.bin"

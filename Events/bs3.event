@@ -1,0 +1,240 @@
+#include "EAstdlib.event"
+
+ALIGN 4
+
+EventPointerTable(0x14,BS3)
+
+ALIGN 4
+
+BS3:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Rickard Thief Rickard Level(1,Ally,0) [19,21] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Lena Cleric Rickard Level(3,Ally,0) [19,19] 0x0 0x0 0x0 0x1 [Heal,Warp,Rescue] NoAI
+UNIT Navarre Myrmidon Rickard Level(3,Ally,0) [21,19] 0x0 0x0 0x0 0x1 [IronSword] NoAI
+UNIT Castor Archer_F Rickard Level(3,Ally,0) [21,21] 0x0 0x0 0x0 0x1 [IronBow] NoAI
+UNIT
+
+ALIGN 4
+
+EnemyUnits:
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [15,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [17,12] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [9,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [9,9] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [9,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [6,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [15,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [17,7] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,4] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,4] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT
+
+EnemyUnits2:
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [2,21] 0x0 0x0 0x0 0x1 [IronSword] StealingThiefAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [4,20] 0x0 0x0 0x0 0x1 [IronSword] StealingThiefAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [4,22] 0x0 0x0 0x0 0x1 [IronSword] StealingThiefAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [16,19] 0x0 0x0 0x0 0x1 [IronSword] DefaultAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [17,20] 0x0 0x0 0x0 0x1 [IronSword] DefaultAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [17,22] 0x0 0x0 0x0 0x1 [IronSword] DefaultAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [15,21] 0x0 0x0 0x0 0x1 [IronSword] DefaultAI
+UNIT 0xD0 Thief 0 Level(3,Enemy,1) [10,1] 0x0 0x0 0x0 0x1 [IronSword] StealingThiefAI
+UNIT Vaam Thief 0 Level(10,Enemy,0) [2,19] 0x2 0x0 0x0 0x1 [Armorslayer] StealingThiefAI
+UNIT 
+
+DiceAndMalice:
+UNIT Dice Fighter 0 Level(10,Enemy,0) [8,20] 0x0 0x0 0x0 0x1 [DevilAxe,HandAxe] AttackInRangeAI
+UNIT Malice Myrmidon_F 0 Level(8,Enemy,0) [9,21] 0x0 0x0 0x0 0x1 [LadySword,LevinSword] AttackInRangeAI
+UNIT
+
+
+ALIGN 4
+
+TurnBasedEvents:
+TurnEventEnemy(0,DiceMaliceTextStuff,1)
+END_MAIN
+
+ALIGN 4
+
+CharacterBasedEvents:
+CHAR 8 MaliceRecruitment [Rickard,Malice] 0
+CHAR 9 DiceRecruitment [Malice,Dice] 0
+END_MAIN
+
+ALIGN 4
+
+LocationBasedEvents:
+ChestMoney(200,3,2)
+ChestMoney(200,3,3)
+ChestMoney(200,3,4)
+ChestMoney(200,3,5)
+Chest(Vulnerary,3,6)
+ChestMoney(200,9,2)
+ChestMoney(200,15,2)
+Chest(Vulnerary,9,7)
+ChestMoney(200,15,7)
+Chest(Mend,20,2)
+ChestMoney(200,20,3)
+ChestMoney(200,20,4)
+Chest(Vulnerary,20,5)
+ChestMoney(200,20,6)
+Chest(KillingEdge,3,12)
+ChestMoney(200,9,12)
+ChestMoney(200,15,12)
+ChestMoney(200,20,12)
+END_MAIN
+
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+AFEV 10 MaliceRecruitUnlock 0
+END_MAIN
+
+ALIGN 4
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+
+TrapData:
+END_MAIN
+
+
+ALIGN 4
+
+BeginningScene:
+Text(Castle_Outside,ch3opening1)
+Text(Castle_Outside,ch3opening2)
+Text(Castle_Outside,ch3opening3)
+Text(Castle_Hall_2,ch3opening4)
+REMA
+LOAD1 0x1 EnemyUnits
+LOAD1 0x1 EnemyUnits2
+LOAD1 0x1 DiceAndMalice
+LOAD1 0x1 PlayerUnits
+CAM1 [16,19]
+STAL 5
+CAM1 [3,19]
+STAL 5
+CAM1 [3,2]
+STAL 5
+CAM1 [16,2]
+STAL 5
+CAM1 [16,19]
+STAL 5
+CUMO Rickard
+STAL 40
+CURE
+Text(ch3opening5)
+ENUT 8
+NoFade
+ENDA
+
+ALIGN 4
+
+EndingScene:
+Text(Castle,ch3ending1)
+Text(Castle,ch3ending2)
+Text(2,ch3ending3)
+
+SetBackground(Desert)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW ch3scrollend
+TEXTEND
+DISA Rickard
+DISA Lena
+DISA Castor
+DISA Navarre
+DISA Dice
+DISA Malice
+ASMC SetFlag3ASMC|1
+MNC2 0
+NoFade
+ENDA
+
+DiceMaliceTextStuff:
+Text(ch3turn1)
+NoFade
+ENDA
+
+MaliceRecruitUnlock:
+CHECK_MONEY
+SVAL 1 500
+BGE 1 0xC 1 
+ENUF 10
+NoFade
+ENDA
+LABEL 1
+ENUF 8
+NoFade
+ENDA
+
+MaliceRecruitment:
+Text(ch3talkrickardmalice)
+SVAL 3 500
+GIVETOSLOT3 //who the fuck named the take gold away opcode this
+TurnAlly(Malice)
+ENUT 11
+ENUT 12
+ENDA
+
+DiceRecruitment:
+Text(ch3talkmalicedice)
+TurnAlly(Dice)
+ENDA
+
+DiceDeathTestEvent:
+CHECK_ALLEGIANCE Dice
+SVAL 1 1
+BNE 1 1 0xC
+  Text(ch3dicedeathquote)
+GOTO 2
+LABEL 1
+  Text(ch3dicedeathquoteenemy)
+LABEL 2
+NoFade
+ENDA
+
+
+MaliceDeathTestEvent:
+CHECK_ALLEGIANCE Malice
+SVAL 1 1
+BNE 1 1 0xC
+  Text(ch3malicedeathquote)
+GOTO 2
+LABEL 1
+  Text(ch3malicedeathquoteenemy)
+LABEL 2
+NoFade
+ENDA
+
+
+

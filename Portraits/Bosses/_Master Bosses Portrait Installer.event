@@ -1,0 +1,20 @@
+setMugEntry(Gazzak, GazzakPortrait, 3, 4, 3, 2)
+setMugEntry(0x30, EmereusPortrait, 2, 5, 2, 3)
+setMugEntry(0x09, CamusPortrait, 3, 5, 2, 3)
+setMugEntry(Medeus,MedeusPortrait, 4, 6, 4, 4)
+setMugEntry(Gharnef,MerachPortrait, 0, 0, 0, 0)
+
+GazzakPortrait:
+#incext HalfbodyFormatter "Gazzak.png"
+
+EmereusPortrait:
+#incext HalfbodyFormatter "Emereus.png"
+
+CamusPortrait:
+#incext HalfbodyFormatter "Camus.png"
+
+MedeusPortrait:
+#incext HalfbodyFormatter "Medeus.png"
+
+MerachPortrait:
+#incext HalfbodyFormatter "Merach.png"

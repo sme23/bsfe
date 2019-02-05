@@ -1,0 +1,40 @@
+//incext each of them, then org to the location of the intstrument table pointer for the sfx to replace and POIN to the incext files
+
+PUSH
+
+hit1:
+#incbin "bash.bin"
+
+hit2:
+#incbin "bash.bin"
+
+hit3:
+#incbin "bash.bin"
+
+killinghit:
+#incbin "smash.bin"
+
+death:
+#incbin "die.bin"
+
+nodamage:
+#incbin "miss.bin"
+
+ORG 0x212538
+POIN hit1
+
+ORG 0x212544
+POIN hit2
+
+ORG 0x212550
+POIN hit3
+
+ORG 0x21255C
+POIN killinghit
+
+ORG 0x2124E4
+POIN death
+ORG 0x2132C4
+POIN nodamage
+
+POP

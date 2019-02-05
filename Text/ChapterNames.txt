@@ -1,0 +1,89 @@
+# 0x160 Ch1Name
+Ch. 1: Marth Embarks[X]
+
+## Ch2Name
+Ch. 2: The Pirates of Galder[X]
+
+## Ch3Name
+Ch. 3: A Brush in the Teeth[X]
+
+## Ch4Name
+Ch. 4: Battle in the Lea[X]
+
+## Ch5Name
+Ch. 5: Champions of Aurelis[X]
+
+## Ch6Name
+Ch. 6: Fia Emburem[X]
+
+## Ch6xName
+Ch. 6x: In War's Grip[X]
+
+## Ch7Name
+Ch. 7: Lefcandith Gauntlet[X]
+
+## Ch8Name
+Ch. 8: Port Warren[X]
+
+## Ch9Name
+Ch. 9: The Pyrathi Dragon[X]
+
+## Ch10Name
+Ch. 10: Princess Minerva[X]
+
+## Ch11Name
+Ch. 11: Knorda Market[X]
+
+## Ch12Name
+Ch. 12: The Ageless Palace[X]
+
+## Ch12xName
+Ch. 12x: A Traitor's Worth[X]
+
+## Ch13Name
+Ch. 13: The Wooden Cavalry[X]
+
+## Ch14Name
+Ch. 14: Land of Sorrow[X]
+
+## Ch15Name
+Ch. 15: An Oasis of Magic[X]
+
+## Ch16Name
+Ch. 16: The Battle for Altea[X]
+
+## Ch17Name
+Ch. 17: Star and Savior[X]
+
+## Ch17xName
+Ch. 17x: Helena Castle[X]
+
+## Ch18Name
+Ch. 18: The Sable Order[X]
+
+## Ch19Name
+Ch. 19: Manakete Princess[X]
+
+## Ch20Name
+Ch. 20: Camus the Sable[X]
+
+## Ch20xName
+Ch. 20x: The Lair of Fire[X]
+
+## Ch21Name
+Ch. 21: Clash in Macedon[X]
+
+## Ch22Name
+Ch. 22: A Knight-Filled Sky[X]
+
+## Ch23Name
+Ch. 23: Dark Pontifex[X]
+
+## Ch24Name
+Ch. 24: The Dragonkin Realm[X]
+
+## Ch24xName
+Ch. 24x: The Alterspire[X]
+
+## FinalChapterName
+Final Chapter: Chosen by Fate[X]

@@ -1,0 +1,3 @@
+[OpenMidRight][LoadCastor]
+Mother[ToggleMouthMove]...[ToggleMouthMove][NL]
+I'm sorry[ToggleMouthMove]...[ToggleMouthMove][A][X]

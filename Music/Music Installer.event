@@ -1,0 +1,67 @@
+#ifdef _FE6_
+  #define SongTableOffset  0x3994D8
+  voicegroup000:
+  //include your voicemap here, FE6 has no native instrument map at this time
+#endif
+
+#ifdef _FE7_
+  #define SongTableOffset  0x69d6E0
+  voicegroup000:
+  #incbin "FE7_NI_Map.bin"
+#endif
+
+#ifdef _FE8_
+  #ifndef SongTableOffset
+    #define SongTableOffset  0x224470
+  #endif
+  #include "drumfix_fe8.event"
+  voicegroup000:
+  #incbin "FE8_NI_Map.bin"
+#endif
+
+//#include "Instrument Table Installer.event"
+//#include "SFX/SFX Installer.event"
+
+#ifndef SongTable
+  #define SongTable(index,SongPointer,Group) "PUSH; ORG SongTableOffset+(8*index); POIN SongPointer; SHORT Group Group; POP"
+#endif
+  #define BattleMusicGroup 0
+#define MapMusicGroup 1
+#define SFXGroup 6
+
+//Example song
+//SongTable(99,My_song,MapMusicGroup)
+//#include "My_song.event"
+
+SongTable(9,UnderThisFlag1,MapMusicGroup)
+#include "UnderThisFlag1.event"
+
+SongTable(0x19,Battle1,BattleMusicGroup)
+#include "Battle1.event"
+
+SongTable(0x1A,EnemyBattle1,BattleMusicGroup)
+#include "EnemyBattle1.event"
+
+SongTable(0x1B,Clash1,BattleMusicGroup)
+#include "Clash1.event"
+
+SongTable(0x10,VictoryIsOurs,MapMusicGroup)
+#include "VictoryIsOurs.event"
+
+SongTable(0x26,CombatMission,MapMusicGroup)
+#include "CombatMission.event"
+
+SongTable(0x30,TogetherWeRide,MapMusicGroup)
+#include "TogetherWeRide.event"
+
+SongTable(0x43,maintheme,MapMusicGroup)
+#include "maintheme.event"
+
+SongTable(0x13,EnemyPhase,MapMusicGroup)
+#include "EnemyPhase.event"
+
+SongTable(0x1F,bstown,MapMusicGroup)
+#include "bstown.event"
+
+SongTable(0x1E,taleselect,MapMusicGroup)
+#include "taleselect.event"

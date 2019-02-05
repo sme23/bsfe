@@ -1,0 +1,3 @@
+[OpenMidRight][LoadNyna][CloseEyes]
+Save me[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+Camus[ToggleMouthMove]...[ToggleMouthMove][A][X]

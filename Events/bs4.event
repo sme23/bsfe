@@ -1,0 +1,237 @@
+#include "EAstdlib.event"
+
+ALIGN 4
+
+EventPointerTable(0x17,BS4)
+
+ALIGN 4
+
+BS4:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Nyna Bishop_F Nyna Level(1,Ally,0) [4,6] 0x0 0x0 0x0 0x1 [Heal] NoAI
+UNIT Camus Paladin Nyna Level(10,Ally,0) [2,9] 0x0 0x0 0x0 0x1 [Gradivus,SilverLance,SilverSword] NoAI
+UNIT Belf Cavalier Camus Level(10,Ally,0) [4,9] 0x0 0x0 0x0 0x1 [KillerLance,Javelin,SteelSword] NoAI
+UNIT Reiden Cavalier Camus Level(10,Ally,0) [3,9] 0x0 0x0 0x0 0x1 [Ridersbane,IronLance,SteelSword] NoAI
+UNIT Roberto Ranger Camus Level(1,Ally,0) [5,9] 0x0 0x0 0x0 0x1 [KillerBow,SteelBow,SteelSword] NoAI
+UNIT
+
+ALIGN 4
+
+InitialEnemies:
+UNIT Bulzark Manakete_2_F Bulzark Level(10,Enemy,0) [5,29] 0x0 0x0 0x0 0x1 [Dragonstone] NeverMoveAI
+UNIT Dolhr Ranger Bulzark Level(5,Enemy,1) [6,30] 0x0 0x0 0x0 0x1 [SteelBow] NoAI
+UNIT Dolhr Cavalier Bulzark Level(10,Enemy,1) [7,30] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Dolhr Cavalier Bulzark Level(10,Enemy,1) [8,30] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Dolhr Ranger Bulzark Level(5,Enemy,1) [9,30] 0x0 0x0 0x0 0x1 [SteelBow] NoAI
+UNIT Dolhr Paladin Bulzark Level(5,Enemy,1) [4,29] 0x0 0x0 0x0 0x1 [SilverSword] NoAI
+UNIT Dolhr Paladin Bulzark Level(5,Enemy,1) [4,28] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT Dolhr Paladin Bulzark Level(5,Enemy,1) [5,28] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT Dolhr Paladin Bulzark Level(5,Enemy,1) [6,28] 0x0 0x0 0x0 0x1 [SilverSword] NoAI
+UNIT Dolhr Paladin Bulzark Level(5,Enemy,1) [5,27] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT Dolhr Cavalier Bulzark Level(10,Enemy,1) [5,26] 0x0 0x0 0x0 0x1 [SteelSword] NoAI
+UNIT Dolhr Cavalier Bulzark Level(10,Enemy,1) [5,25] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT Dolhr Cavalier Bulzark Level(10,Enemy,1) [4,25] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT Dolhr Cavalier Bulzark Level(10,Enemy,1) [3,25] 0x0 0x0 0x0 0x1 [SteelLance] NoAI
+UNIT
+
+BanditEnemies:
+UNIT 0xD0 Archer_F 0 Level(10,Enemy,1) [19,10] 0x0 0x0 0x0 0x1 [SteelBow] NeverMoveAI
+UNIT 0xD0 Brigand 0 Level(10,Enemy,1) [20,11] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT 0xD0 Brigand 0 Level(10,Enemy,1) [19,12] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT 0xD0 Brigand 0 Level(10,Enemy,1) [18,13] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT 0xD0 Archer_F 0 Level(10,Enemy,1) [20,13] 0x0 0x0 0x0 0x1 [SteelBow] NeverMoveAI
+UNIT 0xD0 Brigand 0 Level(10,Enemy,1) [19,14] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT 0xD0 Brigand 0 Level(10,Enemy,1) [20,15] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT 0xD0 Brigand 0 Level(10,Enemy,1) [21,16] 0x0 0x0 0x0 0x1 [SteelAxe] NeverMoveAI
+UNIT 0xD0 Archer_F 0 Level(10,Enemy,1) [20,17] 0x0 0x0 0x0 0x1 [SteelBow] NeverMoveAI
+UNIT
+
+ThisPostMadeByThiefGang:
+UNIT 0xD0 Thief 0 Level(10,Enemy,1) [12,1] 0x2 0x0 0x0 0x1 [SteelSword,Ridersbane] NoAI
+UNIT 0xD0 Thief 0 Level(10,Enemy,1) [12,2] 0x2 0x0 0x0 0x1 [SteelSword,Mend] NoAI
+UNIT 0xD0 Thief 0 Level(10,Enemy,1) [12,3] 0x2 0x0 0x0 0x1 [SteelSword,Speedwings] NoAI
+UNIT 0xD0 Thief 0 Level(10,Enemy,1) [13,3] 0x2 0x0 0x0 0x1 [SteelSword,AngelicRobe] NoAI
+UNIT 0xD0 Thief 0 Level(10,Enemy,1) [13,4] 0x2 0x0 0x0 0x1 [SteelSword,EnergyRing] NoAI
+UNIT 0xD0 Thief 0 Level(10,Enemy,1) [13,5] 0x2 0x0 0x0 0x1 [SteelSword,Dracoshield] NoAI
+UNIT
+
+BossReinforcements:
+UNIT Dolhr Ranger 0 Level(5,Enemy,1) [5,31] 0x0 0x0 0x0 0x1 [SilverBow] NoAI
+UNIT Dolhr Paladin 0 Level(5,Enemy,1) [6,31] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT Dolhr Paladin 0 Level(5,Enemy,1) [7,31] 0x0 0x0 0x0 0x1 [SilverLance] NoAI
+UNIT Dolhr Ranger 0 Level(5,Enemy,1) [8,31] 0x0 0x0 0x0 0x1 [SilverBow] NoAI
+UNIT
+
+ALIGN 4
+
+TurnBasedEvents:
+TurnEventEnemy(0,BulzarkOpeningEvent,0,1)
+TurnEventPlayer(0,ActivateNynaCamusTalk,1,1)
+TurnEventPlayer(0,BulzarkTurn3Event,3,1)
+TurnEventPlayer(0,SpawnBossReinforcements,3,245)
+TurnEventPlayer(0,CamusCommentsEvent,8,1)
+END_MAIN
+
+ALIGN 4
+
+CharacterBasedEvents:
+CharacterEventBothWays(8,CamusNynaTalk,Nyna,Camus)
+END_MAIN
+
+ALIGN 4
+
+LocationBasedEvents:
+Seize(23,2)
+Village(9,MountainVillageEvent,29,22)
+END_MAIN
+
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+ALIGN 4
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+
+TrapData:
+END_MAIN
+
+
+ALIGN 4
+
+BeginningScene:
+ENUT 8
+Text(Castle_Room,ch4opening1)
+Text(Castle_Hall,ch4opening2)
+Text(Woodland,ch4opening3)
+LOAD1 0x1 PlayerUnits
+LOAD1 0x1 InitialEnemies
+LOAD1 0x1 BanditEnemies
+LOAD1 0x1 ThisPostMadeByThiefGang
+CAM1 Bulzark
+Text(ch4opening4)
+CAM1 Nyna
+Text(ch4opening5)
+CAM1 [18,5]
+CUMO [23,2]
+STAL 60
+CURE
+NoFade
+ENDA
+
+ALIGN 4
+
+EndingScene:
+MUSC Victory
+Text(Fort_Outside,ch4ending1)
+MUSC Into_the_Shadow_of_Victory
+CHECK_ALIVE Bulzark
+SVAL 1 1
+BNE 1 1 0xC
+Text(Plain,ch4ending2bossalive)
+GOTO 2
+LABEL 1
+Text(Plain,ch4ending2bossdead)
+LABEL 2
+SetBackground(Desert)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW ch4endingscrolltext
+TEXTEND
+DISA Camus
+DISA Nyna
+DISA Reiden
+DISA Roberto
+DISA Belf
+ASMC SetFlag4ASMC|1
+MNC2 0
+NoFade
+ENDA 
+
+BulzarkOpeningEvent:
+MUSS Tension
+CAM1 Bulzark
+CUMO Bulzark
+STAL 40
+CURE
+Text(ch4turn1end1)
+MUSI
+CAM1 [13,10]
+Text(ch4turn1end2)
+MUNO
+MURE 5
+NoFade
+ENDA
+
+ActivateNynaCamusTalk:
+ENUF 8
+NoFade
+ENDA
+
+CamusNynaTalk:
+Text(ch4talknynacamus)
+NoFade
+ENDA
+
+BulzarkTurn3Event:
+MUSS Tension
+CAM1 Bulzark
+CUMO Bulzark
+STAL 40
+CURE
+Text(ch4turn3end)
+MUNO
+//Bulzark starts to move here, so does bandit unit group
+SVAL 1 0
+CHAI Bulzark 
+CHAI [19,10]
+CHAI [20,11]
+CHAI [19,12]
+CHAI [18,13]
+CHAI [20,13]
+CHAI [19,14]
+CHAI [20,15]
+CHAI [21,16]
+CHAI [20,17]
+NoFade
+ENDA
+
+
+SpawnBossReinforcements:
+LOAD1 0x1 BossReinforcements
+NoFade
+ENDA
+
+CamusCommentsEvent:
+CAM1 Camus
+Text(ch4turnsomethingend)
+NoFade
+ENDA
+
+MountainVillageEvent:
+VillageEventItem(ch4villagetext,Town_Day,Boots)
+NoFade
+ENDA

@@ -1,0 +1,5 @@
+[OpenMidRight][LoadBelf][CloseEyes]
+I have no regrets[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+General Camus[ToggleMouthMove]...[ToggleMouthMove][NL]
+Please[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+keep going[ToggleMouthMove]...[ToggleMouthMove][A][X]

@@ -1,0 +1,229 @@
+#include "EAstdlib.event"
+
+ALIGN 4
+
+EventPointerTable(0xD,BS2)
+
+ALIGN 4
+
+BS2:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+
+PlayerUnits:
+UNIT Minerva WyvernLord_F Minerva Level(1,Ally,0) [27,5] 0x0 0x0 0x0 0x1 [SilverAxe,SteelLance] NoAI
+UNIT Catria PegasusKnight Minerva Level(3,Ally,0) [28,4] 0x0 0x0 0x0 0x1 [KillerLance,Javelin] NoAI
+UNIT Est PegasusKnight Minerva Level(1,Ally,0) [27,4] 0x0 0x0 0x0 0x1 [Horseslayer,Javelin] NoAI
+UNIT Hardin Cavalier Hardin Level(8,Ally,0) [28,3] 0x0 0x0 0x0 0x1 [SilverLance,SilverSword] NoAI
+UNIT Roshea Cavalier Hardin Level(5,Ally,0) [27,3] 0x0 0x0 0x0 0x1 [SteelLance,SteelSword] NoAI
+UNIT Wolf Ranger Hardin Level(1,Ally,0) [29,3] 0x0 0x0 0x0 0x1 [SteelBow,SteelSword] NoAI
+UNIT
+
+ALIGN 4
+
+EnemyUnits:
+UNIT 0xCF Ranger Ruben Level(1,Enemy,1) [0,6] 0x0 0x0 0x0 0x1[SteelBow] AttackInRangeAI
+UNIT 0xCF Ranger Ruben Level(1,Enemy,1) [1,6] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI 
+UNIT 0xCF Knight Ruben Level(7,Enemy,1) [4,9] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0xCF Sniper Ruben Level(1,Enemy,1) [5,9] 0x0 0x0 0x0 0x1 [SilverBow] AttackInRangeAI
+UNIT 0xCF Knight Ruben Level(7,Enemy,1) [6,9] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT Frost Bishop Ruben Level(1,Enemy,0) [12,8] 0x0 0x0 0x0 0x1 [Thunder,Physic] AttackInRangeAI
+UNIT 0xCF Thief Ruben Level(5,Enemy,1) [15,7] 0x0 0x0 0x0 0x1 [IronSword] LootingThiefAI
+UNIT 0xCF Fighter Ruben Level(5,Enemy,1) [20,9] 0x0 0x0 0x0 0x1 [SteelAxe] DefaultAI
+UNIT 0xCF Fighter Ruben Level(5,Enemy,1) [21,9] 0x0 0x0 0x0 0x1 [SteelAxe] DefaultAI
+UNIT 0xCF Archer Ruben Level(5,Enemy,1) [20,10] 0x0 0x0 0x0 0x1 [SteelBow] DefaultAI
+UNIT 0xCF Archer Ruben Level(5,Enemy,1) [21,10] 0x0 0x0 0x0 0x1 [SteelBow] DefaultAI
+UNIT 0xCF Cavalier Ruben Level(5,Enemy,1) [24,16] 0x0 0x0 0x0 0x1 [SteelSword] DefaultAI
+UNIT 0xCF Cavalier Ruben Level(5,Enemy,1) [25,16] 0x0 0x0 0x0 0x1 [SteelSword] DefaultAI
+UNIT 0xCF Ranger Ruben Level(1,Enemy,1) [24,17] 0x0 0x0 0x0 0x1 [SteelBow] DefaultAI
+UNIT 0xCF Knight Ruben Level(5,Enemy,1) [13,16] 0x2 0x0 0x0 0x1 [SteelLance,Vulnerary] AttackInRangeAI
+UNIT 0xCF Knight Ruben Level(5,Enemy,1) [14,16] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0xCF Archer Ruben Level(5,Enemy,1) [13,18] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 0xCF Knight Ruben Level(5,Enemy,1) [15,18] 0x0 0x0 0x0 0x1 [Horseslayer] AttackInRangeAI
+UNIT 0xCF Archer Ruben Level(5,Enemy,1) [16,18] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
+UNIT 0xCF Knight Ruben Level(5,Enemy,1) [14,19] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
+UNIT 0xCF Knight Ruben Level(5,Enemy,1) [15,19] 0x2 0x0 0x0 0x1 [SteelLance,Vulnerary] AttackInRangeAI
+UNIT Ruben WyvernLord Ruben Level(3,Enemy,0) [2,4] 0x0 0x0 0x0 0x1 [SilverLance,SilverAxe] NeverMoveAI
+UNIT
+
+
+Turn4Reinforcements:
+UNIT 0xCF Cavalier Ruben Level(5,Enemy,1) [3,7] 0x0 0x0 0x0 0x1 [SteelSword] DefaultAI
+UNIT 0xCF Fighter Ruben Level(5,Enemy,1) [4,7] 0x0 0x0 0x0 0x1 [SteelAxe] DefaultAI
+UNIT 0xCF Cavalier Ruben Level(5,Enemy,1) [5,7] 0x0 0x0 0x0 0x1 [SteelSword] DefaultAI
+UNIT 0xCF Fighter Ruben Level(5,Enemy,1) [4,8] 0x0 0x0 0x0 0x1 [SteelAxe] DefaultAI
+UNIT
+
+ALIGN 4
+
+TurnBasedEvents:
+TurnEventPlayer(0,EndPlayerPhase1,1)
+TurnEventPlayer(0,EndPlayerPhase4,4)
+TurnEventEnemy(0,ActivateHardinTalk,3)
+TurnEventEnemy(0,DoTheReinforcements,5,6)
+END_MAIN
+
+ALIGN 4
+
+CharacterBasedEvents:
+CharacterEventBothWays(8,MinervaCatriaTalk,Minerva,Catria)
+CharacterEventBothWays(9,MinervaEstTalk,Minerva,Est)
+CharacterEventBothWays(12,MinervaHardinTalk,Minerva,Hardin)
+CharacterEventBothWays(13,FrostRecruit,Minerva,Frost)
+END_MAIN
+
+ALIGN 4
+
+LocationBasedEvents:
+Village(10,Village1,28,2)
+Village(11,Village2,13,1)
+END_MAIN
+
+ALIGN 4
+
+MiscBasedEvents:
+CauseGameOverIfLordDies
+END_MAIN
+
+ALIGN 4
+
+Dunno:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+ALIGN 4
+
+TrapData:
+END_MAIN
+
+
+ALIGN 4
+
+BeginningScene:
+ENUT 12
+Text(Town_Day,ch2opening1)
+REMA
+Text(Town_Day,ch2opening2)
+REMA
+Text(Town_Day,ch2opening3)
+REMA
+LOAD1 0x1 PlayerUnits
+LOAD1 0x1 EnemyUnits
+CAM1 Ruben
+CUMO Ruben
+STAL 40
+CURE
+Text(ch2opening4)
+CAM1 [15,0]
+CUMO Minerva
+STAL 40
+CURE
+Text(ch2opening5)
+NoFade
+ENDA
+
+ALIGN 4
+
+EndingScene:
+Text(Castle_Hall,ch2ending1)
+Text(Castle_Hall,ch2ending2)
+SetBackground(Desert)
+CenterTutorialTextBox
+TUTORIALTEXTBOXSTART
+TEXTSHOW ch2endingscroll
+TEXTEND
+DISA Minerva
+DISA Frost
+DISA Palla
+DISA Catria
+DISA Est
+DISA Hardin
+DISA Roshea
+DISA Wolf
+ASMC SetFlag2ASMC|1
+MNC2 0
+NoFade
+ENDA 
+
+MinervaEstTalk:
+Text(ch2talkestminerva)
+NoFade
+ENDA
+
+MinervaCatriaTalk:
+Text(ch2talkcatriaminerva)
+NoFade
+ENDA
+
+Village1:
+VillageEventItem(ch2villagetopright,Village,Vulnerary)
+NoFade
+ENDA
+
+Village2:
+VillageEventItem(ch2villagetopmiddle,Village,EnergyRing)
+NoFade
+ENDA
+
+EndPlayerPhase1:
+Text(ch2endturn1)
+NoFade
+ENDA
+
+EndPlayerPhase4:
+Text(ch2endturn4)
+LOAD1 0x1 Turn4Reinforcements
+NoFade
+ENDA
+
+ActivateHardinTalk:
+ENUF 12
+NoFade
+ENDA
+
+DoTheReinforcements:
+LOAD1 0x1 Turn4Reinforcements
+NoFade
+ENDA
+
+
+MinervaHardinTalk:
+Text(ch2talkhardinminerva)
+NoFade
+ENDA
+
+
+FrostRecruit:
+MUSS Comrades
+Text(ch2talkfrostminerva)
+CUSA Frost
+ENUT 14
+NoFade
+ENDA
+
+FrostDeathTestEvent:
+CHECK_ALLEGIANCE Frost
+SVAL 1 1
+BNE 1 1 0xC
+  Text(ch2frostdeathquote)
+GOTO 2
+LABEL 1
+  Text(ch2frostdeathquoteenemy)
+LABEL 2
+NoFade
+ENDA
+

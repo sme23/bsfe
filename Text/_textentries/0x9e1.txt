@@ -1,0 +1,4 @@
+[OpenMidLeft][LoadVaam]
+M-my treasure[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+Damn[ToggleMouthMove]...[ToggleMouthMove][NL]
+you's[ToggleMouthMove]...[ToggleMouthMove][A][X]

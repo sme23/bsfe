@@ -1,0 +1,35 @@
+##BowgunName
+Bowgun[X]
+
+##BowgunDesc
+As precise as it is heavy.[X]
+
+##LevinSwordName
+Levin Sword[X]
+
+##MercuriusName
+Mercurius[X]
+
+##LadySwordName
+Lady Sword[X]
+
+##WoDaoName
+Wo Dao[X]
+
+##RidersbaneName
+Ridersbane[X]
+
+##DragonpikeName
+Dragonpike[X]
+
+##GradivusName
+Gradivus[X]
+
+##PoleaxName
+Poleax[X]
+
+##HauteclereName
+Hauteclere[X]
+
+##BlizzardName
+Blizzard[X]

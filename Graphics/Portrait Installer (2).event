@@ -1,0 +1,41 @@
+#include "Tools/Tool Helpers.txt"
+//this file defines the macro:
+//setMugEntry(number, data, mouth_x, mouth_y, eye_x, eye_y)
+
+//playable portraits start at 0x01, boss portaits start at 0x30
+
+midiaportrait:
+#incext HalfbodyFormatter "midia.png"
+setMugEntry(0x04, midiaportrait, 3, 5, 3, 3)
+
+nynaportrait:
+#incext HalfbodyFormatter "nyna.png"
+setMugEntry(0x02, nynaportrait, 1, 5, 1, 3)
+
+boahportrait:
+#incext HalfbodyFormatter "boah.png"
+setMugEntry(0x06, boahportrait, 0, 0, 0, 0)
+
+dolphportrait:
+#incext HalfbodyFormatter "dolph.png"
+setMugEntry(0x08, dolphportrait, 2, 4, 2, 2)
+
+macellanportrait:
+#incext HalfbodyFormatter "macellan.png"
+setMugEntry(0x07, macellanportrait, 2, 4, 2, 2)
+
+tomasportrait:
+#incext HalfbodyFormatter "tomas.png"
+setMugEntry(0x05, tomasportrait, 0, 0, 0, 0)
+
+gouberportrait:
+#incext HalfbodyFormatter "gouber.png"
+setMugEntry(0x30, gouberportrait, 4, 5, 3, 3)
+
+#define nyna_portrait 0x2
+#define boah_portrait 0x6
+#define gouber_portrait 0x30
+#define midia_portrait 0x4
+#define dolph_portrait 0x8
+#define macellan_portrait 0x7
+#define tomas_portrait 0x5

@@ -1,0 +1,4 @@
+[OpenMidLeft][LoadFrost][CloseEyes]
+I don't care if I die[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+But[ToggleMouthMove]...[ToggleMouthMove][NL]
+My family[ToggleMouthMove]...[ToggleMouthMove][A][X]

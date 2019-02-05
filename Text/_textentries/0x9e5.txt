@@ -1,0 +1,3 @@
+[OpenMidRight][LoadMalice]
+I lose[ToggleMouthMove]...[ToggleMouthMove][NL]
+huh[ToggleMouthMove]...?[ToggleMouthMove][A][X]

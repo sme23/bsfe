@@ -1,0 +1,3 @@
+[OpenMidLeft][LoadDice]
+My gamble's[ToggleMouthMove]...[ToggleMouthMove][NL]
+over[ToggleMouthMove]..[ToggleMouthMove][A][X]

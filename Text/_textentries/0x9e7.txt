@@ -1,0 +1,3 @@
+[OpenMidLeft][LoadMalice]
+Damn[ToggleMouthMove]...[ToggleMouthMove][NL]
+Too strong[ToggleMouthMove]...[ToggleMouthMove][A][X]

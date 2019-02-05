@@ -1,0 +1,4 @@
+[OpenMidLeft][LoadFrost]
+I don't want to fight[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+But if I don't,
+my family will be[ToggleMouthMove]...[ToggleMouthMove][A][X]

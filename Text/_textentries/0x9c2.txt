@@ -1,0 +1,6 @@
+[OpenMidRight][LoadActiveUnit][OpenMidLeft][LoadBoy]
+Oh-ho, it's you again![A][2NL]
+The ones who are goin' to[NL]
+exterminate those fiendish ruffians![A][2NL]
+Please have this strength potion.[A][NL]
+I beg o' you, avenge us![A][X]

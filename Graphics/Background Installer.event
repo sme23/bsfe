@@ -1,0 +1,24 @@
+HubBackgroundImage:
+#incbin "owoimage.dmp"
+
+HubBackgroundTSA:
+#incbin "owotsa.dmp"
+
+HubBackgroundPalette:
+#incbin "owopalette.dmp"
+
+PUSH
+ORG 0x95DF5C
+POIN HubBackgroundImage
+POIN HubBackgroundTSA
+POIN HubBackgroundPalette
+POP
+
+
+//am lazy so also here
+PUSH
+ORG 0x598174
+#incext Png2Dmp "Gradivus.png"
+POP
+
+

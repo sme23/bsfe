@@ -1,0 +1,101 @@
+# 0x02CD
+Horseman[.][X]
+
+# 0x04F6
+Mov[X]
+
+# 0x4EE
+Luk[X]
+
+# 0x0094
+HP Bars[.][X]
+
+# 0x00B2
+Set health bar display[X]
+
+#0x3A LearnedSkillText
+#first text ID in the free block
+Learned  [X]
+
+#include "statscreen_text.txt"
+
+#include "unitmenu_text.txt"
+
+# 0x160 PrologueChName
+Chapter Select[X]
+
+## Ch1Name
+Fall of Palace Archanea[X]
+
+##Ch2Name
+The Red Dragoon[X]
+
+##Ch3Name
+Thieves' Gang of Justice[X]
+
+##Ch4Name
+The Beginning[X]
+
+#0x903 HouseText
+#first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+## VillageText
+[MidRight][LoadFace][CurrentPortrait]These look useful.[A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+#for identity problems
+Belf[X]
+
+## nameSirius
+Belf[X]
+
+## nameZeke
+Vergil[X]
+
+##RatingsTID
+Rating[X]
+
+##Mov_Text_ID
+Mov[X]
+
+##RandomizedTID
+Randomized[X]
+
+##HunterClassName
+Hunter[X]
+
+##Hub1
+Please select a book.[A][X]
+
+##PlaceholderOption
+This option is not yet available.[A][X]
+
+##Hub2
+Please select a chapter.[A][X]
+
+##HubOption1
+Chapter 1: Fall of Palace Archanea[X]
+
+##HubOption2
+Chapter 2: The Red Dragoon[X]
+
+##HubOption3
+Chapter 3: Thieves' Gang of Justice[X]
+
+##HubOption4
+Chapter 4: The Beginning[X]
+
+#include "skilldesc_text.txt"
+
+#include "ep1.txt"
+#include "ep2.txt"
+#include "ep3.txt"
+#include "ep4.txt"
+#include "unit_text.txt"
+
+#include "Items.txt"

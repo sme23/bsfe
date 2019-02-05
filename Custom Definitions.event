@@ -1,0 +1,143 @@
+#define FreeSpace 0xEFB2E0
+#define FreeSpaceBLRange 0x1c1ec0
+
+#define ChapterTileset(chapter, object, palette, config) "PUSH; ORG 0x8b0890 + (148* chapter) + 4; SHORT object; BYTE palette config; POP"
+#define ChapterTileAnims(chapter, anim1, anim2) "PUSH; ORG 0x8b0890 + (148* chapter) + 9; BYTE anim1 anim2; POP"
+
+#ifndef ItemTable
+  #define ItemTable 0x809B10
+#endif
+#ifndef DebuffTable
+    #define DebuffTable 0x203F100
+#endif
+
+#define LunarBrace MoonBracelet
+#define SolarBrace SunBracelet
+
+// #define __DEBUG__ // Uncomment to get the Debug startup menu :p
+
+#define EndConvo "CALL $9EE2C4"
+
+#define Nyna 1
+#define Midia 2
+#define Tomas 3
+#define Boah 4
+#define Macellan 5
+#define Dolph 6
+#define Camus 7
+#define Minerva 8
+#define Palla 9
+#define Catria 10
+#define Est 11
+#define Hardin 12
+#define Roshea 13
+#define Wolf 14
+#define Frost 15
+#define Rickard 16
+#define Lena 17
+#define Navarre 18
+#define Castor 19
+#define Dice 20
+#define Malice 21
+#define Roberto 22
+#define Reiden 23
+#define Belf 24
+
+#define Gouber 70
+#define Ruben 71
+#define Vaam 72
+#define Bulzark 73
+
+#define Dolhr 100
+#define Castle 0x0B
+
+#define LevinSword LightBrand
+#define LadySword BraveSword
+#define Gradivus Vidofnir
+
+
+#define Marth 1
+#define Jagen 2
+#define Caeda 3
+#define Cain 4
+#define Abel 5
+#define Gordin 6
+#define Draug 7
+#define MyUnitMale 8
+#define MyUnitFemale 9
+#define Frey 10
+#define Norne 11
+#define Wrys 12
+#define Ogma 13
+#define Barst 14
+#define Bord 15
+#define Cord 16
+#define Darros 17
+//#define Castor 18
+#define Julian 19
+//#define Lena 20
+//#define Navarre 21
+#define Merric 22
+#define Matthis 23
+//#define Hardin 24
+#define Sedgar 25
+//#define Wolf 26
+#define Vyland 27
+//#define Roshea 28
+#define Wendell 29
+#define Ricard 30
+#define Athena 31
+#define Bantu 32
+#define Caesar 33
+#define Radd 34
+#define Roger 35
+#define Jeorge 36
+#define Maria 37
+//#define Minerva 38
+#define Linde 39
+#define Jake 40
+#define Horace 46
+#define Astram 47
+#define Beck 48
+//#define Palla 49
+//#define Catria 50
+#define Xane 51
+#define Samson 52
+#define Arran 53
+#define Etzel 54
+//#define Est 55
+#define Tiki 56
+#define Lorenz 57
+#define Ymir 58
+#define Elice 59
+#define Nagi 60
+#define Gotoh 61
+
+#define Gazzak 70
+#define Gomer 71 
+#define Hyman 72
+#define Bentheon 73
+#define Merach 74
+#define Emereus 75
+#define Bathys 76
+#define Harmein 77
+#define Kannival 78
+#define Mannu 79
+#define Zharov 80
+#define Khozen 81 
+#define Volzhin 82 
+#define Heimler 83
+#define Dejanira 84
+#define Grigas 85
+#define Jiol 86
+#define Gharnef 87
+#define Hollstadt 88
+#define Morzas 89
+#define Dactyl 90
+#define Sternlin 91
+//#define Camus 92
+#define Larissa 93
+#define Orridyon 94
+#define Michalis 95
+#define Xemcel 96
+#define Medeus  97

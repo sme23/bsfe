@@ -1,0 +1,3 @@
+[OpenMidRight][LoadWolf][CloseEyes]
+Coyote[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+Forgive me[ToggleMouthMove]...[ToggleMouthMove][A][X]

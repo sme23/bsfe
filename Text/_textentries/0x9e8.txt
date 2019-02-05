@@ -1,0 +1,3 @@
+[OpenMidRight][LoadNavarre]
+I've grown weak[ToggleMouthMove]...[ToggleMouthMove][NL]
+huh[ToggleMouthMove]...?[ToggleMouthMove][A][X]

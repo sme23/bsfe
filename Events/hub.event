@@ -1,0 +1,139 @@
+#include "EAstdlib.event"
+
+ALIGN 4
+EventPointerTable(0x7,Hub)
+
+ALIGN 4
+Hub:
+POIN TurnBasedEvents
+POIN CharacterBasedEvents
+POIN LocationBasedEvents
+POIN MiscBasedEvents
+POIN Dunno Dunno Dunno
+POIN Tutorial
+POIN TrapData TrapData
+POIN PlayerUnits PlayerUnits
+POIN $0 $0 $0 $0 $0 $0
+POIN BeginningScene EndingScene
+
+ALIGN 4
+PlayerUnits:
+UNIT Nyna Bishop_F 0x0 Level(1,Ally,0) [0,0] 0x0 0x0 0x0 0x1 [Mend] NoAI
+UNIT
+
+ALIGN 4
+TurnBasedEvents:
+END_MAIN
+
+ALIGN 4
+CharacterBasedEvents:
+END_MAIN
+
+ALIGN 4
+LocationBasedEvents:
+END_MAIN
+
+ALIGN 4
+MiscBasedEvents:
+CauseGameOverIfLordDies
+DefeatBoss(EndingScene)
+END_MAIN
+
+ALIGN 4
+Dunno:
+//DO NOT TOUCH
+WORD $00
+
+ALIGN 4
+Tutorial:
+//DO NOT TOUCH
+WORD $00
+
+ALIGN 4
+TrapData:
+END_MAIN
+
+ALIGN 4
+
+BeginningScene:
+ENUT 0x127
+MUSC 0x1E
+//LOAD1 0x1 PlayerUnits
+FADU 5
+SetBackground(Desert)
+SETVAL 0xB 0x00600034
+TUTORIALTEXTBOXSTART
+TEXTSHOW Hub2
+TEXTEND
+LABEL 0x0
+ASMC (prCallEventMenu+1)
+SVAL 0x1 0x0
+BNE 0x1 0xC 0x1
+//if episode 1:
+SETVAL 0xB 0x0068001D
+TUTORIALTEXTBOXSTART
+TEXTSHOW BS1a
+TEXTEND
+MNC2 1
+ENDA
+LABEL 1
+SVAL 0x1 0x1
+BNE 0x2 0xC 0x1
+//if episode 2:
+SETVAL 0xB 0x00680010
+TUTORIALTEXTBOXSTART
+TEXTSHOW ch2scrolltext
+TEXTEND
+MNC2 2
+ENDA
+LABEL 2
+SVAL 0x1 0x2
+BNE 0x3 0xC 0x1
+//if episode 3:
+SETVAL 0xB 0x0068000D
+TUTORIALTEXTBOXSTART
+TEXTSHOW ch3scrolltext
+TEXTEND
+MNC2 3
+ENDA
+LABEL 3
+SVAL 0x1 0x3
+BNE 0x0 0xC 0x1
+//if episode 4:
+SETVAL 0xB 0x0068000D
+TUTORIALTEXTBOXSTART
+TEXTSHOW ch4scrolltext
+TEXTEND
+MNC2 4
+ENDA
+
+
+
+ALIGN 4
+EndingScene:
+ENDA 
+
+ALIGN 4
+prCallEventMenu:
+	SHORT 0xB510 0x1C04 0x4B10 0x469E 0xF800 0x4A10 0x7850 0x2101 0x4308 0x2102 0x4308 0x2104 0x4308 0x2108 0x4308 0x2110 0x4308 0x7050 0x2000 0x4B0A 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4B09 0x469E 0xF800 0x4809 0x1C21 0x4B07 0x469E 0xF800 0xBC10 0xBC01 0x4700 0xE884 0x0804 0x3080 0x0300 0x3D38 0x0800 0x43A8 0x0800 0xEB68 0x0804 0xEBC8 0x0804
+	POIN pMenuDefinition
+ALIGN 4
+#define EventMenuCommand(aTextId) "WORD 0; SHORT aTextId 0; WORD 0; POIN (0x04F448+1); WORD 0; POIN (prEventMenuCommandEffect+1); WORD 0 0 0"
+	#define EventMenuCommandEnd "WORD 0 0 0 0 0 0 0 0 0"
+		
+	pCommandDefinition:
+		EventMenuCommand(HubOption1)
+		EventMenuCommand(HubOption2)
+		EventMenuCommand(HubOption3)
+		EventMenuCommand(HubOption4)
+	EventMenuCommandEnd
+
+	prEventMenuCommandEffect:
+		SHORT 0xB500 0x203C 0x5C08 0x4B03 0x469E 0xF800 0x2017 0xBC02 0x4708 0x0000 0xD1F8 0x0800
+		ALIGN 4
+	pMenuDefinition:
+	BYTE 4 5 22 0           // Geomerty, order: X, Y, Width, Height (Height doesn't matter)
+	WORD 1                  // style (change it if u want)
+	POIN pCommandDefinition // Command Definitions
+	WORD 0 0 0 0 0 0        // No routines to handle B press/R press/construction/etc
+	
