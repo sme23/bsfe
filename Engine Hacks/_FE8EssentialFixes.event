@@ -2,9 +2,40 @@
 //Install with Event Assembler
 PUSH
 
-//Fix MNC2 Freezing glitch
-  ORG $BD070
-  SHORT $E0B8
+//Fix Stone's map animation crashing no$ due to a bad decompression
+ORG $7E2B4
+BYTE 0x8
+
+//Make the Add trap data routine have a check to prevent writing past the limit
+ORG $2E2B8
+SHORT 0xB470 0x4C07 0x4D07 0x3408 0x42AC 0xD806 0x78A6 0x2E00 0xD1F9 0x7020 0x7061 0x70A2 0x70E3 0x1C20 0xBC70 0x4770 0xA60C 0x0203 0xA814 0x0203
+
+PUSH
+// healer ai fix; stop them from healing max hp units
+// changes bhi to bhs
+    ORG $3FC9D
+    BYTE 0xD2
+    
+    ORG $3FE77
+    BYTE 0xD2
+POP
+
+// Fix CAM1/CAMERA2 going out of bounds
+  ORG $15D52
+  BYTE 14
+
+  ORG $15D66
+  BYTE 9
+
+//Allows MNC2 To jump to any chapter ID.
+ORG 0xBD070
+SHORT 0xE0B8
+//Fixes the world map chapter ID being loaded instead of the actual chapter ID.
+ORG 0x897B2
+SHORT 0 0
+//Fixes the game considering some chapters postgame.
+ORG 0x897C4
+SHORT 0x200E 0x5620 //mov r0, #0x0E; ldsb r0, [r4, r0]
 
 //Set Default Options
   ORG $30d8a  //animations type 2
