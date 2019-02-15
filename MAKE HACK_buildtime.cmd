@@ -8,6 +8,6 @@ CoreBuildTimes A FE8 -output:"%~dp0dummy.gba" -input:"%~dp0Debug.event"
 
 cd %~dp0
 
-del "oats1.gba"
+del "dummy.gba"
 
 pause
