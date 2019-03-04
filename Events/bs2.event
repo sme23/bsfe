@@ -146,15 +146,10 @@ CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW ch2endingscroll
 TEXTEND
-DISA Minerva
-DISA Frost
-DISA Palla
-DISA Catria
-DISA Est
-DISA Hardin
-DISA Roshea
-DISA Wolf
-MNC2 0
+FADI 100
+STAL 20
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
 NoFade
 ENDA 
 

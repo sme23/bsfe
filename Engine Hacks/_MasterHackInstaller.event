@@ -267,7 +267,8 @@ ALIGN 4
 MainMenuTable:
   MM_Unit
   MM_EveryOtherOneTooLazy
-  MM_Suspend
+  //MM_Suspend
+  MenuCommand(UM_Help,UM_HelpDesc,GreenText,$225B1,HintEffect)
   #ifdef DEBUG
   MenuCommand(UM_Debug, 0, GreenText, 0x4F449, EndEffect)
   #endif
@@ -286,8 +287,6 @@ MenuCommand(UM_ResumeChp, 0, NormalText, 0x4F449, 0x1C3B5)
 MenuCommand(UM_ResetSRAM, 0, NormalText, 0x4F449, 0x1C371)
 MM_Separator
 
-#include "SmeHax/ClearFlags.event"
-
-
-
 #include "ModularMinimugBox\MMB Installer GFE1R.event"
+
+#include "SmeHax/HintEffect.event"

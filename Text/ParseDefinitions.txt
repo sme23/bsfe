@@ -77,3 +77,4 @@
 [LoadReiden] = [LoadFace][0x5D][0x1]
 [LoadRoberto] = [LoadFace][0x5E][0x1]
 [LoadBelf] = [LoadFace][0x5F][0x1]
+[LoadAnna] = [LoadFace][0x64][0x1]

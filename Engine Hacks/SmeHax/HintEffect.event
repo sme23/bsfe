@@ -1,0 +1,25 @@
+HintEffect:
+#incbin "HintEffect.dmp"
+POIN HintEvent
+
+HintEvent:
+CHECK_CHAPTER_NUMBER
+SVAL 1 1
+BNE 1 1 0xC
+  Text(Ep1Hint)
+  GOTO 4
+LABEL 1
+SVAL 1 2
+BNE 2 1 0xC
+  Text(Ep2Hint)
+  GOTO 4
+LABEL 2
+SVAL 1 3
+BNE 3 1 0xC
+  Text(Ep3Hint)
+  GOTO 4
+LABEL 3
+Text(Ep4Hint)
+LABEL 4
+NoFade
+ENDA

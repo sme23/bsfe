@@ -216,14 +216,10 @@ TUTORIALTEXTBOXSTART
 TEXTSHOW ch3scrollend
 TEXTEND
 FADI 10
-DISA Rickard
-DISA Lena
-DISA Castor
-DISA Navarre
-DISA Dice
-DISA Malice
-ASMC SetFlag3ASMC|1
-MNC2 0
+FADI 100
+STAL 20
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
 NoFade
 ENDA
 

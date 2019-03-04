@@ -161,12 +161,10 @@ CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW ch4endingscrolltext
 TEXTEND
-DISA Camus
-DISA Nyna
-DISA Reiden
-DISA Roberto
-DISA Belf
-MNC2 0
+FADI 100
+STAL 20
+EVBIT_F 0x2
+MNTS 0x1 //return to title screen
 NoFade
 ENDA 
 
