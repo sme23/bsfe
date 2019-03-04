@@ -7,12 +7,194 @@ HubBackgroundTSA:
 HubBackgroundPalette:
 #incbin "owopalette.dmp"
 
-PUSH
-ORG 0x95DF5C
-POIN HubBackgroundImage
-POIN HubBackgroundTSA
-POIN HubBackgroundPalette
-POP
+
+
+Ch11BackgroundImage:
+#incbin "CGs/1-1.img.bin"
+
+Ch11BackgroundTSA:
+#incbin "CGs/1-1.map.bin"
+
+Ch11BackgroundPalette:
+#incbin "CGs/1-1.pal.bin"
+
+Ch12BackgroundImage:
+#incbin "CGs/1-2.img.bin"
+
+Ch12BackgroundTSA:
+#incbin "CGs/1-2.map.bin"
+
+Ch12BackgroundPalette:
+#incbin "CGs/1-2.pal.bin"
+
+Ch13BackgroundImage:
+#incbin "CGs/1-3.img.bin"
+
+Ch13BackgroundTSA:
+#incbin "CGs/1-3.map.bin"
+
+Ch13BackgroundPalette:
+#incbin "CGs/1-3.pal.bin"
+
+Ch14BackgroundImage:
+#incbin "CGs/1-4.img.bin"
+
+Ch14BackgroundTSA:
+#incbin "CGs/1-4.map.bin"
+
+Ch14BackgroundPalette:
+#incbin "CGs/1-4.pal.bin"
+
+Ch21BackgroundImage:
+#incbin "CGs/2-1.img.bin"
+
+Ch21BackgroundTSA:
+#incbin "CGs/2-1.map.bin"
+
+Ch21BackgroundPalette:
+#incbin "CGs/2-1.pal.bin"
+
+Ch22BackgroundImage:
+#incbin "CGs/2-2.img.bin"
+
+Ch22BackgroundTSA:
+#incbin "CGs/2-2.map.bin"
+
+Ch22BackgroundPalette:
+#incbin "CGs/2-2.pal.bin"
+
+Ch23BackgroundImage:
+#incbin "CGs/2-3.img.bin"
+
+Ch23BackgroundTSA:
+#incbin "CGs/2-3.map.bin"
+
+Ch23BackgroundPalette:
+#incbin "CGs/2-3.pal.bin"
+
+Ch24BackgroundImage:
+#incbin "CGs/2-4.img.bin"
+
+Ch24BackgroundTSA:
+#incbin "CGs/2-4.map.bin"
+
+Ch24BackgroundPalette:
+#incbin "CGs/2-4.pal.bin"
+
+Ch31BackgroundImage:
+#incbin "CGs/3-1.img.bin"
+
+Ch31BackgroundTSA:
+#incbin "CGs/3-1.map.bin"
+
+Ch31BackgroundPalette:
+#incbin "CGs/3-1.pal.bin"
+
+Ch32BackgroundImage:
+//#incbin "CGs/3-2.img.bin"
+#incbin "CGs/32image.dmp"
+
+Ch32BackgroundTSA:
+//#incbin "CGs/3-2.map.bin"
+#incbin "CGs/32tsa.dmp"
+
+Ch32BackgroundPalette:
+#incbin "CGs/3-2.pal.bin"
+
+Ch33BackgroundImage:
+#incbin "CGs/3-3.img.bin"
+
+Ch33BackgroundTSA:
+#incbin "CGs/3-3.map.bin"
+
+Ch33BackgroundPalette:
+#incbin "CGs/3-3.pal.bin"
+
+Ch34BackgroundImage:
+#incbin "CGs/3-4.img.bin"
+
+Ch34BackgroundTSA:
+#incbin "CGs/3-4.map.bin"
+
+Ch34BackgroundPalette:
+#incbin "CGs/3-4.pal.bin"
+
+Ch41BackgroundImage:
+#incbin "CGs/4-1.img.bin"
+
+Ch41BackgroundTSA:
+#incbin "CGs/4-1.map.bin"
+
+Ch41BackgroundPalette:
+#incbin "CGs/4-1.pal.bin"
+
+Ch42BackgroundImage:
+#incbin "CGs/4-2.img.bin"
+
+Ch42BackgroundTSA:
+#incbin "CGs/4-2.map.bin"
+
+Ch42BackgroundPalette:
+#incbin "CGs/4-2.pal.bin"
+
+Ch43BackgroundImage:
+#incbin "CGs/4-3.img.bin"
+
+Ch43BackgroundTSA:
+#incbin "CGs/4-3.map.bin"
+
+Ch43BackgroundPalette:
+#incbin "CGs/4-3.pal.bin"
+
+Ch44BackgroundImage:
+#incbin "CGs/4-4.img.bin"
+
+Ch44BackgroundTSA:
+#incbin "CGs/4-4.map.bin"
+
+Ch44BackgroundPalette:
+#incbin "CGs/4-4.pal.bin"
+
+Ch45BackgroundImage:
+#incbin "CGs/4-5.img.bin"
+
+Ch45BackgroundTSA:
+#incbin "CGs/4-5.map.bin"
+
+Ch45BackgroundPalette:
+#incbin "CGs/4-5.pal.bin"
+
+#define BackgroundTableEntry(index,image,tsa,palette) "PUSH; ORG 0x95DD1C+(12*index); POIN image tsa palette; POP"
+
+
+BackgroundTableEntry(0x30,HubBackgroundImage,HubBackgroundTSA,HubBackgroundPalette)
+
+
+BackgroundTableEntry(0x6,Ch11BackgroundImage,Ch11BackgroundTSA,Ch11BackgroundPalette)
+BackgroundTableEntry(0x7,Ch12BackgroundImage,Ch12BackgroundTSA,Ch12BackgroundPalette)
+BackgroundTableEntry(0x8,Ch13BackgroundImage,Ch13BackgroundTSA,Ch13BackgroundPalette)
+BackgroundTableEntry(0x9,Ch14BackgroundImage,Ch14BackgroundTSA,Ch14BackgroundPalette)
+
+
+BackgroundTableEntry(0x10,Ch21BackgroundImage,Ch21BackgroundTSA,Ch21BackgroundPalette)
+BackgroundTableEntry(0x11,Ch22BackgroundImage,Ch22BackgroundTSA,Ch22BackgroundPalette)
+BackgroundTableEntry(0x12,Ch23BackgroundImage,Ch23BackgroundTSA,Ch23BackgroundPalette)
+BackgroundTableEntry(0x13,Ch24BackgroundImage,Ch24BackgroundTSA,Ch24BackgroundPalette)
+
+
+BackgroundTableEntry(0x31,Ch31BackgroundImage,Ch31BackgroundTSA,Ch31BackgroundPalette)
+BackgroundTableEntry(0x32,Ch32BackgroundImage,Ch32BackgroundTSA,Ch32BackgroundPalette)
+BackgroundTableEntry(0x33,Ch33BackgroundImage,Ch33BackgroundTSA,Ch33BackgroundPalette)
+BackgroundTableEntry(0x34,Ch34BackgroundImage,Ch34BackgroundTSA,Ch34BackgroundPalette)
+
+
+BackgroundTableEntry(0x20,Ch41BackgroundImage,Ch41BackgroundTSA,Ch41BackgroundPalette)
+BackgroundTableEntry(0x21,Ch42BackgroundImage,Ch42BackgroundTSA,Ch42BackgroundPalette)
+BackgroundTableEntry(0x22,Ch43BackgroundImage,Ch43BackgroundTSA,Ch43BackgroundPalette)
+BackgroundTableEntry(0x23,Ch44BackgroundImage,Ch44BackgroundTSA,Ch44BackgroundPalette)
+BackgroundTableEntry(0x24,Ch45BackgroundImage,Ch45BackgroundTSA,Ch45BackgroundPalette)
+
+
 
 
 //am lazy so also here

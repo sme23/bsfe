@@ -22,7 +22,7 @@ ALIGN 4
 
 PlayerUnits:
 UNIT Nyna Bishop_F Nyna Level(1,Ally,0) [4,6] 0x0 0x0 0x0 0x1 [Heal] NoAI
-UNIT Camus Paladin Nyna Level(10,Ally,0) [2,9] 0x0 0x0 0x0 0x1 [Gradivus,SilverLance,SilverSword] NoAI
+UNIT Camus Paladin Nyna Level(10,Ally,0) [2,9] 0x0 0x0 0x0 0x1 [Gradivus,SilverLance,SilverSword,Elixir] NoAI
 UNIT Belf Cavalier Camus Level(10,Ally,0) [4,9] 0x0 0x0 0x0 0x1 [KillerLance,Javelin,SteelSword] NoAI
 UNIT Reiden Cavalier Camus Level(10,Ally,0) [3,9] 0x0 0x0 0x0 0x1 [Ridersbane,IronLance,SteelSword] NoAI
 UNIT Roberto Ranger Camus Level(1,Ally,0) [5,9] 0x0 0x0 0x0 0x1 [KillerBow,SteelBow,SteelSword] NoAI

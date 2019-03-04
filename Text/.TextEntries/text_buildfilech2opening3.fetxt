@@ -1,0 +1,188 @@
+[OpenMidRight][LoadBandit][OpenMidLeft][LoadHardin]
+
+[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidRight]
+
+W-what the hell is wrong with you!?[NL]
+
+Stay outta our way if you value yer life![A]
+
+[OpenMidLeft]
+
+Your vile deeds[ToggleMouthMove]...[ToggleMouthMove][NL]
+
+cannot be overlooked.[A]
+
+[OpenMidRight]
+
+T-these guys[ToggleMouthMove]...[ToggleMouthMove][NL]
+
+Damn you[ToggleMouthMove]...[ToggleMouthMove] We'll remember this![A]
+
+[ClearFace][LoadMinerva]
+
+Sir, what is your name?[A]
+
+[OpenMidLeft]
+
+I have no name worthy of note.[A]
+
+[OpenMidRight]
+
+Bah[ToggleMouthMove]...[ToggleMouthMove] I see.[A][2NL]
+
+Well, fair enough.[NL]
+
+The actions of those men offended me, too,[A][NL]
+
+but I see you were faster to the hunt.[A]
+
+[OpenMidLeft]
+
+By any chance, are you[ToggleMouthMove]...[ToggleMouthMove][NL]
+
+Dame Minerva of Macedon?[A]
+
+[OpenMidRight]
+
+Indeed I am.[NL]
+
+But how did you know?[A]
+
+[OpenMidLeft]
+
+I heard the Macedoniam army had a[NL]
+
+beautiful woman, clad in scarlet armor.[A][2NL]
+
+Rumors say she's a gifted soldier,[NL]
+
+nicknamed the Crimson Dragoon.[A]
+
+[OpenMidRight]
+
+Heh[ToggleMouthMove]...[ToggleMouthMove][NL]
+
+Those rumors are grossly exaggerated.[A]
+
+[OpenMidLeft]
+
+Either way, I presume those men[NL]
+
+weren't official Macedonian soldiers?[A][NL]
+
+Are they deserters?[A]
+
+[OpenMidRight]
+
+As much as it shames me,[NL]
+
+that seems to be the case.[A]
+
+[OpenMidLeft]
+
+I see.[A][2NL]
+
+Then, I believe I have a[NL]
+
+firm grasp of the situation.[A]
+
+[OpenMidRight]
+
+Where do you intend to go, now?[A]
+
+[OpenMidLeft]
+
+I am heading towards[NL]
+
+the fortress near here.[A][2NL]
+
+According to the villagers,[NL]
+
+the scoundrels we saw before[A][NL]
+
+are using it as their base and[NL]
+
+ravaging the nearby villages.[A][2NL]
+
+Apparently the kidnapped village[NL]
+
+maidens were taken there as well.[A][2NL]
+
+There isn't a moment to waste.[A]
+
+[OpenMidRight]
+
+What in heavens!?[NL]
+
+There's a large group of them?[A][2NL]
+
+I don't believe it[ToggleMouthMove]...![ToggleMouthMove][NL]
+
+That can't be[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+So, if you'll excuse me,[NL]
+
+I must hurry ahead![A][2NL]
+
+Wolf, Roshea, let's go.[A][ClearFace]
+
+[OpenMidRight]
+
+Ah, wait![.....][NL]
+
+[ToggleMouthMove]...[ToggleMouthMove]They're gone.[A]
+
+[OpenMidLeft][LoadPalla]
+
+Commander, what are our orders?[A]
+
+[OpenMidRight]
+
+Palla[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
+
+I'll follow them, together[NL]
+
+with Catria and Est.[A][2NL]
+
+You are to go ahead to the[NL]
+
+castle and bring reinforcements.[A]
+
+[OpenMidLeft]
+
+Yes, understood.[NL]
+
+The castle isn't far from here.[A][2NL]
+
+I shall return as soon as I can,[NL]
+
+so please don't push yourselves.[A][2NL]
+
+[OpenMidRight][ClearFace][LoadCatria][OpenMidLeft]
+
+Catria, Est.[NL]
+
+Take care of the commander.[A]
+
+[OpenMidRight]
+
+Yes, sister.[A]
+
+[ClearFace][LoadEst]
+
+Leave it to us![A]
+
+[ClearFace][LoadMinerva][OpenMidLeft][ClearFace][LoadCatria][OpenMidRight]
+
+Catria, Est, let's[NL]
+
+follow them at once.[A]
+
+[OpenMidLeft]
+
+Understood![A][X]
+

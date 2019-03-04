@@ -40,3 +40,5 @@
 
 #include "FE8 Nightmare modules\Quote editors\Death Quote Editor.event"
 
+#include "FE8 Nightmare modules\Sound Room\Sound Room Editor.event"
+

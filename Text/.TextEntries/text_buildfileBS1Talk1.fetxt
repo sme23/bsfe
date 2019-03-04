@@ -1,0 +1,56 @@
+
+
+[OpenMidRight][LoadFace][0x2][0x1]
+
+[OpenMidLeft][LoadFace][0x4][0x1]
+
+Princess! Are you safe?[A]
+
+[OpenMidRight]
+
+Yes, I am fine.[A]
+
+Midia, should anything[NL]
+
+happen to me[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
+
+Forget about me.[NL]
+
+Just escape with everyone.[A]
+
+[OpenMidLeft]
+
+But[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidRight]
+
+I don't want to lose anyone.[NL]
+
+Not a single one of you.[A][2NL]
+
+Midia, listen to me![A][NL]
+
+You are still searching[NL]
+
+for Astram, correct?[A][2NL]
+
+So, don't worry about me.[NL]
+
+Escape by yourself![A]
+
+[OpenMidLeft]
+
+There is no worse disgrace than to[NL]
+
+abandon you and the palace, Princess.[A][2NL]
+
+Please be patient for[NL]
+
+a little while longer.[A][2NL]
+
+I shall defeat every[NL]
+
+enemy, without fail.[A][NL]
+
+You have my word.[A][X]
+

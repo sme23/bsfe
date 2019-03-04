@@ -93,6 +93,40 @@ Chapter 3: Thieves' Gang of Justice[X]
 ##HubOption4
 Chapter 4: The Beginning[X]
 
+##FireEmblemThemeName
+Fire Emblem Theme[X]
+
+##UnderThisFlagThemeName
+Under This Flag[X]
+
+##BattleThemeName
+Attack[X]
+
+##EnemyBattleThemeName
+Defend[X]
+
+##BossBattleThemeName
+Clash[X]
+
+##VictoryThemeName
+Victory is Ours[X]
+
+##CombatMissionThemeName
+Combat Mission[X]
+
+##TogetherWeRideThemeName
+Together We Ride[X]
+
+##EnemyPhaseThemeName
+Enemy Phase[X]
+
+##BSTownThemeName
+Town Whose Name Was Stolen[X]
+
+##TaleSelectThemeName
+Tale Select[X]
+
+
 #include "skilldesc_text.txt"
 
 #include "ep1.txt"

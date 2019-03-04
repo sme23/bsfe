@@ -1,0 +1,64 @@
+[OpenMidRight][LoadMinerva][OpenMidLeft][LoadMan]
+
+Aiyee! The Macedonian[NL]
+
+army is here as well?[A]
+
+[OpenMidRight]
+
+Wait, what's going on here?[NL]
+
+What are those men doing?[A]
+
+[OpenMidLeft]
+
+Ehh?[NL]
+
+You ain't on their side?[A][2NL] 
+
+In that case, I beg o' you![NL]
+
+Please drive those foul demons away.[A][2NL]
+
+They kidnap women, loot everythin',[NL]
+
+and act like this town's theirs[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
+
+We just can't keep livin' like this.[NL]
+
+So, please, you have to help us![A][ClearFace]
+
+[OpenMidRight]
+
+To think the Macedonian army[NL]
+
+houses such shameless scoundrels[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+
+I demand an explanation.[A]
+
+[OpenMidLeft][LoadPalla]
+
+I've heard rumors that deserters from our[NL]
+
+army are in cahoots with the local bandits[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
+
+And they've been committing atrocities[NL]
+
+using the Macedonian army's name[ToggleMouthMove]...[ToggleMouthMove][A][ClearFace]
+
+[OpenMidLeft][LoadCatria]
+
+I wonder if those men are[NL]
+
+the ones you're describing?[A]
+
+[OpenMidRight]
+
+Either way, we cannot just let them be.[A]
+
+[OpenMidLeft][ClearFace][LoadEst]
+
+Oh, Commander![NL]
+
+Please look over there![A][X]
+

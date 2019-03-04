@@ -1,4 +1,4 @@
-setMugEntry(Gazzak, GazzakPortrait, 3, 4, 3, 2)
+setMugEntry(0x4D, GazzakPortrait, 3, 4, 3, 2)
 setMugEntry(0x30, EmereusPortrait, 2, 5, 2, 3)
 setMugEntry(0x09, CamusPortrait, 3, 5, 2, 3)
 setMugEntry(Medeus,MedeusPortrait, 4, 6, 4, 4)

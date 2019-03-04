@@ -1,0 +1,70 @@
+[OpenMidLeft][LoadMinerva][OpenMidRight][LoadPalla]
+
+Commander! Are you alright?[A]
+
+[OpenMidLeft]
+
+Palla.[A][NL]
+
+Don't worry about us, we're fine.[A][NL]
+
+What of the reinforcements?[A]
+
+[OpenMidRight]
+
+They are almost here already.[A]
+
+[OpenMidLeft]
+
+Good job.[A]
+
+[OpenMidRight][ClearFace][LoadSoldier]
+
+Princess Minerva, please[NL]
+
+leave the rest to us![A][NL]
+
+We shall deliver a heavy[NL]
+
+punishment to the criminals[A][NL]
+
+who dared to sully[NL]
+
+Macedon's good name![A][NL]
+
+But, Princess, there's something[NL]
+
+important[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+
+Isn't that knight Hardin of Aurelis?[A]
+
+[OpenMidLeft]
+
+What do you mean?[A]
+
+[OpenMidRight]
+
+Why, he's the spitting image of the[NL]
+
+infamous Coyote, leader of the rebel army.[A][2NL]
+
+Should we capture and interrogate him[ToggleMouthMove]...?[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+[ToggleMouthMove]...[ToggleMouthMove]Nonsense.[A][NL]
+
+There is no way that man is Hardin.[A]
+
+[OpenMidRight]
+
+But as I said, he's the spitting[ToggleMouthMove]...[ToggleMouthMove][......]
+
+[OpenMidLeft]
+
+I said he isn't. Now leave us![A]
+
+[OpenMidRight]
+
+P-pardon me, ma'am![A][X]
+

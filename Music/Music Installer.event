@@ -42,8 +42,8 @@ SongTable(0x19,Battle1,BattleMusicGroup)
 SongTable(0x1A,EnemyBattle1,BattleMusicGroup)
 #include "EnemyBattle1.event"
 
-SongTable(0x1B,Clash1,BattleMusicGroup)
-#include "Clash1.event"
+SongTable(0x1B,Clash2,BattleMusicGroup)
+#include "Clash2.event"
 
 SongTable(0x10,VictoryIsOurs,MapMusicGroup)
 #include "VictoryIsOurs.event"

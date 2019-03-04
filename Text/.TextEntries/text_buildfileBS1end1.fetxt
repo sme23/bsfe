@@ -1,0 +1,44 @@
+
+
+[OpenMidLeft][LoadFace][0x6B][0x1]
+
+Princess Nyna is 'ere![A][NL]
+
+We need reinforcements! Bring the[NL]
+
+entire battalion 'ere and surround 'em![A][NL]
+
+Don't let 'er escape![A]
+
+[ClearFace]
+
+[OpenMidRight][LoadFace][0x4][0x1]
+
+No![A][2NL]
+
+This can't be[ToggleMouthMove]...[ToggleMouthMove][NL]
+
+Even more reinforcements![A][NL]
+
+[ClearFace][LoadFace][0x2][0x1]
+
+So...is this the end?[A]
+
+[ClearFace]
+
+[OpenMidLeft][LoadFace][0x6B][0x1]
+
+Listen well, Archanean scum![A][2NL]
+
+You cannot 'ope to win.[NL]
+
+Surrender or suffer the pain of death.[A]
+
+[ClearFace][OpenMidRight]
+
+[LoadFace][0x2][0x1]
+
+[ToggleMouthMove].....[ToggleMouthMove][A]
+
+[OpenMidLeft][ClearFace][OpenMidRight][ClearFace][X]
+

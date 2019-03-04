@@ -1,0 +1,8 @@
+-polish ch4 map
+-find source of lag when selecting a unit
+-either fix or remove suspend
+-fix generic soldier halfbody
+-map to bosses their faces properly
+-format the other 16 CG images/TSA manually
+-add CGs to events/text
+-add background music to events

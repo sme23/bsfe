@@ -1,0 +1,24 @@
+[OpenMidLeft][LoadRuben][OpenMidRight][LoadSoldier]
+
+Lord Ruben, it's an enemy attack![A][NL]
+
+An unknown force led by a[NL]
+
+dracoknight is headin' this way![A]
+
+[OpenMidLeft]
+
+Did you say a dracoknight?[A][2NL]
+
+Who would want to come to[NL] 
+
+a backwater place like this[ToggleMouthMove]...?[ToggleMouthMove][A][2NL]
+
+But they don't seem that dangerous.[NL]
+
+Don't worry about them.[A][2NL]
+
+Should they approach this fortress,[NL]
+
+I'll make short work of them.[A][X]
+

@@ -1,0 +1,26 @@
+[OpenMidLeft][LoadCamus][OpenMidRight][LoadNyna]
+
+Camus, are you alright?[A]
+
+[OpenMidLeft]
+
+You need not worry about me.[A][NL]
+
+Nyna, you cannot stay here forever.[NL]
+
+We'll hold the enemy back.[A][NL]
+
+Please, worry not for me.[NL]
+
+Just hurry ahead already![A]
+
+[OpenMidRight]
+
+Camus[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+It's alright, Nyna.[A][NL]
+
+I'm not dying any time soon![A][X]
+

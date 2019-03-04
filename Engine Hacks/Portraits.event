@@ -136,8 +136,8 @@ POIN RightMugCutOAM
 ORG 0x5820
 POIN LeftMugCutOAM
 
-ORG 0x5594
-replaceWithHack(Load6CFACEGraphics)
+/*ORG 0x5594
+replaceWithHack(Load6CFACEGraphics)*/
 
 POP
 

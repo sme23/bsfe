@@ -130,11 +130,24 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
-Text(Castle_Outside,ch3opening1)
-Text(Castle_Outside,ch3opening2)
-Text(Castle_Outside,ch3opening3)
-Text(Castle_Hall_2,ch3opening4)
-REMA
+SetBackground(0x31)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch3opening1point5
+TEXTEND
+SetBackground(Castle_Outside)
+Text(ch3opening1)
+Text(ch3opening2)
+Text(ch3opening3)
+
+SetBackground(0x32)
+WORD 0x1A22 // switch to cg text mode
+
+TEXTSHOW ch3opening4
+TEXTEND
+SetBackground(Castle_Hall_2)
+Text(ch3opening4point5)
+ClearBackground
+
 LOAD1 0x1 EnemyUnits
 LOAD1 0x1 EnemyUnits2
 LOAD1 0x1 DiceAndMalice
@@ -162,7 +175,7 @@ ALIGN 4
 EndingScene:
 Text(Castle,ch3ending1)
 Text(Castle,ch3ending2)
-Text(2,ch3ending3)
+Text(3,ch3ending3)
 
 SetBackground(Desert)
 CenterTutorialTextBox

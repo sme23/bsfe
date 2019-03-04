@@ -148,7 +148,7 @@ MORETEXTIFASM, 0x1D, 16, -game:FE7 -indexMode:8
 	Text ID 2, 12, 2
 
 
-#Brings up a box similar to getting an item, having an item stolen, weapon braeking, weapon rank level up, etc
+#Brings up a box similar to getting an item, having an item stolen, weapon breaking, weapon rank level up, etc
 NOTIFY, 0x3A40, 8, -game:FE8 -indexMode:8
 	Text ID, 2, 2
 #Sound effect (or music track) to play

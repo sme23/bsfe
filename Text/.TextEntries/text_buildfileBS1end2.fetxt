@@ -1,0 +1,72 @@
+[OpenMidLeft][ClearFace][OpenMidRight][ClearFace]
+
+[OpenMidLeft][LoadFace][0x9][0x1]
+
+Oh, it seems I've arrived just in time.[A][2NL]
+
+Alright, that's quite enough.[NL]
+
+Both sides, lower your weapons.[A]
+
+[OpenMidRight][LoadFace][0x6B][0x1]
+
+You're[ToggleMouthMove]...[ToggleMouthMove]General Camus![A][NL]
+
+Why are you 'ere[ToggleMouthMove]...?[ToggleMouthMove][A]
+
+[OpenMidLeft]
+
+I hear that the princess of Archanea[NL]
+
+is in this room, is this true?[A]
+
+[OpenMidRight]
+
+Yes, sir![A][2NL]
+
+They are but few in number, yet,[NL]
+
+some knights are 'ere with 'em.[A][2NL]
+
+They gave us some trouble, but the[NL]
+
+princess' capture was inevitable.[A]
+
+[OpenMidLeft]
+
+I see. Good job.[A][2NL]
+
+But you've done enough, you[NL]
+
+may leave the rest to me.[A]
+
+[OpenMidRight]
+
+Yes, sir![A]
+
+[ClearFace]
+
+[OpenMidLeft]
+
+Listen well, Archanea.[A][2NL]
+
+I am Camus, captain of[NL]
+
+the Grustian knights.[A][2NL]
+
+I respect your prowess in battle, but further[NL]
+
+bloodshed is of no value to you or I.[A][NL]
+
+May I request that you lower your weapons?[A][2NL]
+
+I wish to speak with you.[NL]
+
+I have no weapons on my person.[A][2NL]
+
+I swear upon the honor of Grust[NL]
+
+that I will not deceive you.[A]
+
+[OpenMidLeft][ClearFace][OpenMidRight][ClearFace][X]
+
