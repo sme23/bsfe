@@ -528,8 +528,9 @@ H-how[ToggleMouthMove]...[ToggleMouthMove]disappointin'[ToggleMouthMove]...[Togg
 ##BS1e
 
 And this was the story of how[A][NL]
-the greatest palace in the continent[NL]
-fell under the Empire's control.[A][2NL]
-Would Nyna's promise ever be fulfilled?[A][2NL]
+the greatest palace in the[NL]
+continent[A] fell under the[NL]
+Empire's control.[A][NL]
+Would Nyna's promise ever be fulfilled?[A][NL]
 The answer to that question[NL]
 would only be known years later.[A][X]

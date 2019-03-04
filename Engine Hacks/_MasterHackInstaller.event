@@ -20,6 +20,14 @@ PUSH
   #endif
 POP
 
+//disable suspend
+PUSH
+ORG 0xA5A52
+BYTE $38 $BC $98 $46 $A1 $46 $AA $46 $F0 $BC $01 $BC $00 $47
+POP
+
+
+
 
 ////////////////////////////////FREE SPACE WITHIN BL RANGE
 PUSH
