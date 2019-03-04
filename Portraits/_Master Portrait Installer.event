@@ -9,9 +9,9 @@ ALIGN 4
 
 //Non-Playables
 setMugEntry(0x64, AnnaPortrait, 3, 7, 3, 5)
-setMugEntry(0x5C,VillagerBoyPortrait, 5, 7, 4, 9)
+setMugEntry(0x5C,VillagerBoyPortrait, 2, 9, 3, 7)
 setMugEntry(0x62,VillagerGirlPortrait, 3, 8, 3, 6)
-setMugEntry(0x6B,SoldierPortrait, 2, 5, 3, 3)
+setMugEntry(0x6B,SoldierPortrait, 3, 6, 3, 3)
 
 
 AnnaPortrait:

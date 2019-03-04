@@ -14,15 +14,22 @@ alternatives to consider, gave[A][NL]
 a secret order to the bishop Boah.[A][X]
 
 ##BS1b
+[SetName]Boah[NL]
+Princess Nyna, we have mere[NL]
+moments[A] before the millennial[NL]
+palace falls to the enemy.[A][NL]
+We must escape[NL]
+from here at once.[A][X]
+
+##BS1b2
+[SetName]Nyna[NL]
+But, what about my father[ToggleMouthMove]...[ToggleMouthMove]?[A][NL]
+I cannot just leave him.[A][X]
+
+
+##BS1b3
 [OpenMidRight][LoadFace][0x2][0x1]
 [OpenMidLeft][LoadFace][0x6][0x1]
-Princess Nyna, we have mere moments before[NL]
-the millennial palace falls to the enemy.[A][NL]
-We must escape from here at once.[A]
-[OpenMidRight]
-But, what about my father[ToggleMouthMove]...[ToggleMouthMove]?[A][NL]
-I cannot just leave him.[A]
-[OpenMidLeft]
 Princess, this is His Majesty's order.[A][NL]
 If you manage to escape, we will be able[NL]
 to restore Archanea at a later date[ToggleMouthMove]...[ToggleMouthMove][A][NL]
@@ -255,10 +262,12 @@ Shh! Camus has come![A]
 [OpenMidLeft][ClearFace][OpenMidRight][ClearFace][X]
 
 ## BS1end4
-[OpenMidLeft][ClearFace][OpenMidRight][ClearFace]
+[SetName]Midia [NL]
+Diiiie![A][X]
+
+##BS1end4b
 [OpenMidLeft][LoadFace][0x9][0x1]
 [OpenMidRight][LoadFace][0x4][0x1]
-Diiiie![A]
 [OpenMidLeft]
 Hah[ToggleMouthMove]...![A][NL]
 [OpenMidRight][ClearFace][OpenMidLeft]
@@ -291,7 +300,7 @@ More importantly, Princess Nyna[ToggleMouthMove]...[ToggleMouthMove][A]
 
 ## BS1end5
 [OpenMidLeft][ClearFace][OpenMidRight][ClearFace]
-[OpenMidRight][LoadFace][0x3][0x1]
+[OpenMidRight][LoadFace][0x2][0x1]
 If it has come to this, then[ToggleMouthMove]...[ToggleMouthMove][A]
 [OpenMidLeft][LoadFace][0x6][0x1]
 Princess, what are you doing!?[NL]
@@ -299,11 +308,21 @@ Please stay your hand![A]
 [OpenMidRight][ClearFace][LoadFace][0x2][0x1]
 Bishop, don't stop me![A][NL]
 Now that Midia has failed,[NL]
-I have no desire to live[ToggleMouthMove]...[ToggleMouthMove][A]
-[OpenMidLeft][ClearFace][LoadFace][0x9][0x1]
-You're Princess Nyna, I assume?[A][2NL]
-Not only your knight, but you as well[ToggleMouthMove]...[ToggleMouthMove][NL]
-are all Archaneans this irresponsible?[A][2NL]
+I have no desire to live[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+
+## BS1end5b
+[SetName]Camus [NL]
+You're Princess Nyna, I assume?[A][NL]
+Not only your knight,[NL]
+but you as well[ToggleMouthMove]...[ToggleMouthMove][A][NL]
+are all Archaneans this[NL]
+irresponsible?[A][X]
+
+
+## BS1end5c
+[OpenMidRight][LoadFace][0x2][0x1]
+[OpenMidLeft][LoadFace][0x9][0x1]
 In Grust, this kind of behavior is[NL]
 reserved for spoilt children only.[A]
 [OpenMidRight]
@@ -508,8 +527,9 @@ H-how[ToggleMouthMove]...[ToggleMouthMove]disappointin'[ToggleMouthMove]...[Togg
 
 ##BS1e
 
-And this was the story of how the greatest palace[NL]
-in the continent fell under the Empire's control.[A][2NL]
+And this was the story of how[A][NL]
+the greatest palace in the continent[NL]
+fell under the Empire's control.[A][2NL]
 Would Nyna's promise ever be fulfilled?[A][2NL]
 The answer to that question[NL]
 would only be known years later.[A][X]

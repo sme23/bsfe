@@ -1,94 +1,12 @@
-[OpenMidRight][LoadFace][0x2][0x1]
+[SetName]Boah[NL]
 
-[OpenMidLeft][LoadFace][0x6][0x1]
+Princess Nyna, we have mere[NL]
 
-Princess Nyna, we have mere moments before[NL]
+moments[A] before the millennial palace[NL]
 
-the millennial palace falls to the enemy.[A][NL]
+falls to the enemy.[A][NL]
 
-We must escape from here at once.[A]
+We must escape[NL]
 
-[OpenMidRight]
-
-But, what about my father[ToggleMouthMove]...[ToggleMouthMove]?[A][NL]
-
-I cannot just leave him.[A]
-
-[OpenMidLeft]
-
-Princess, this is His Majesty's order.[A][NL]
-
-If you manage to escape, we will be able[NL]
-
-to restore Archanea at a later date[ToggleMouthMove]...[ToggleMouthMove][A][NL]
-
-So please, Princess.[NL]
-
-For Archanea's future[ToggleMouthMove]...[ToggleMouthMove][A]
-
-[OpenMidRight]
-
-Even if it's my father's orders,[NL]
-
-I refuse to escape alone.[A][NL]
-
-I shall remain in the palace, together[NL]
-
-with my father until the very end.[A]
-
-[OpenMidLeft]
-
-Princess Nyna...[A][NL]
-
-Please consider His Majesty's feelings.[A][NL]
-
-We are fighting against time, now.[A]
-
-[OpenMidRight]
-
-No.[A][NL]
-
-No matter what you may persuade,[NL]
-
-I shall remain here.[A]
-
-[ClearFace][LoadFace][0x08][0x01]
-
-Bishop Boah! Princess Nyna![NL]
-
-There you are![A][NL]
-
-The enemy is fast approaching.[NL]
-
-Please make your escape, quickly![A][NL]
-
-[ClearFace][LoadFace][0x2][0x01]
-
-[OpenMidLeft]
-
-I see...[NL]
-
-It cannot be helped.[A][NL]
-
-Dolph, Macellan.[NL]
-
-Take Princess Nyna away from here.[A]
-
-[ClearFace][LoadFace][0x07][0x01]
-
-Yes, sir.[A]
-
-[OpenMidRight]
-
-No, Boah![NL]
-
-Father! Father[ToggleMouthMove]...[ToggleMouthMove]![A]
-
-[ClearFace]
-
-[OpenMidLeft][ClearFace][LoadFace][0x6][0x01]
-
-...Forgive me, Princess.[A][2NL]
-
-Now, everyone, hurry![A][X]
+from here at once.[A][X]
 

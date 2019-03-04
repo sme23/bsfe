@@ -130,15 +130,19 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+MUSC Indignation
 SetBackground(0x31)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW ch3opening1point5
 TEXTEND
 SetBackground(Castle_Outside)
 Text(ch3opening1)
+MUSC Tension
 Text(ch3opening2)
+MUSC Laughter
 Text(ch3opening3)
 
+MUSC Advance
 SetBackground(0x32)
 WORD 0x1A22 // switch to cg text mode
 
@@ -146,14 +150,19 @@ TEXTSHOW ch3opening4
 TEXTEND
 SetBackground(Castle_Hall_2)
 Text(ch3opening4point5)
-ClearBackground
+FADI 10
+
 
 LOAD1 0x1 EnemyUnits
 LOAD1 0x1 EnemyUnits2
 LOAD1 0x1 DiceAndMalice
 LOAD1 0x1 PlayerUnits
+
 CAM1 [16,19]
 STAL 5
+ClearBackground
+FADU 10
+
 CAM1 [3,19]
 STAL 5
 CAM1 [3,2]
@@ -174,9 +183,11 @@ ALIGN 4
 
 EndingScene:
 SetBackground(Castle)
-
+MUSC Raid
 Text(ch3ending1)
 Text(ch3ending2)
+
+MUSC Legacy
 SetBackground(0x33)
 WORD 0x1A22 // switch to cg text mode
 TEXTSHOW ch3ending2point5
@@ -184,6 +195,7 @@ TEXTEND
 SetBackground(Castle)
 Text(ch3ending2point7)
 
+MUSC Into_the_Shadow_of_Victory
 SetBackground(3)
 Text(ch3ending3)
 SetBackground(0x34)

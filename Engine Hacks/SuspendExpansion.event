@@ -1,5 +1,6 @@
 //Suspend Expansion
 //Expanded Suspend
+/*
 PUSH
   ORG 0xA6446 //Disable checksum check
   SHORT 0x0000
@@ -23,3 +24,4 @@ saveHack:
 ALIGN 4
 loadHack:
 #incbin "ASM/Expanded Suspend/LoadMoreBytesHack.dmp"
+*/

@@ -112,9 +112,17 @@ MUSC 0x26
 LOAD1 0x1 EnemyUnits
 LOAD1 0x1 PlayerUnits
 ENUN
+SetBackground(0x7)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BS1b
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BS1b2
+TEXTEND 
 SetBackground(Castle)
-Text(BS1b)
+Text(BS1b3)
 EndConvo
+
 CAM1 Nyna
 STAL 20
 CAM1 [5,19]
@@ -132,25 +140,47 @@ ENDA
 ALIGN 4
 
 EndingScene:
+MUSC 0x26
 SetBackground(Castle)
-TEXTSHOW (BS1end1)
+TEXTSTART
+TEXTSHOW BS1end1
 TEXTEND
 REMA
-SetBackground(Castle)
-TEXTSHOW (BS1end2)
+TEXTSTART
+TEXTSHOW BS1end2
 TEXTEND
 REMA
-SetBackground(Castle)
-TEXTSHOW (BS1end3)
+TEXTSTART
+TEXTSHOW BS1end3
 TEXTEND
 REMA
+SetBackground(0x8)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BS1end4
+TEXTEND
 SetBackground(Castle)
-TEXTSHOW (BS1end4)
+TEXTSTART
+TEXTSHOW BS1end4b
 TEXTEND
 REMA
-SetBackground(Castle)
-TEXTSHOW (BS1end5)
+
+
+
+TEXTSTART
+TEXTSHOW BS1end5
 TEXTEND
+SetBackground(0x9)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW BS1end5b
+TEXTEND
+SetBackground(Castle)
+TEXTSTART
+TEXTSHOW BS1end5c
+TEXTEND
+REMA
+
+
+MUSC 0x1E
 SetBackground(Desert)
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
