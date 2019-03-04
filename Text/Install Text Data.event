@@ -169,6 +169,14 @@ __TEXTPROCESS05B:
 #incbin ".TextEntries\text_buildfileUM_ResetSRAM.fetxt.dmp"
 setText($5B, __TEXTPROCESS05B)
 
+__TEXTPROCESS05C:
+#incbin ".TextEntries\text_buildfileUMText_Win.fetxt.dmp"
+setText($5C, __TEXTPROCESS05C)
+
+__TEXTPROCESS05D:
+#incbin ".TextEntries\text_buildfileUMDesc_Win.fetxt.dmp"
+setText($5D, __TEXTPROCESS05D)
+
 __TEXTPROCESS160:
 #incbin ".TextEntries\text_buildfilePrologueChName.fetxt.dmp"
 setText($160, __TEXTPROCESS160)
@@ -1174,352 +1182,372 @@ __TEXTPROCESS9F8:
 setText($9F8, __TEXTPROCESS9F8)
 
 __TEXTPROCESS9F9:
-#incbin ".TextEntries\text_buildfilech3ending3.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3ending2point5.fetxt.dmp"
 setText($9F9, __TEXTPROCESS9F9)
 
 __TEXTPROCESS9FA:
-#incbin ".TextEntries\text_buildfilech3scrollend.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3ending2point7.fetxt.dmp"
 setText($9FA, __TEXTPROCESS9FA)
 
 __TEXTPROCESS9FB:
-#incbin ".TextEntries\text_buildfilech4scrolltext.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3ending3.fetxt.dmp"
 setText($9FB, __TEXTPROCESS9FB)
 
 __TEXTPROCESS9FC:
-#incbin ".TextEntries\text_buildfilech4opening1.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3ending3point5.fetxt.dmp"
 setText($9FC, __TEXTPROCESS9FC)
 
 __TEXTPROCESS9FD:
-#incbin ".TextEntries\text_buildfilech4opening2.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3ending3point7.fetxt.dmp"
 setText($9FD, __TEXTPROCESS9FD)
 
 __TEXTPROCESS9FE:
-#incbin ".TextEntries\text_buildfilech4opening3.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3ending3point9.fetxt.dmp"
 setText($9FE, __TEXTPROCESS9FE)
 
 __TEXTPROCESS9FF:
-#incbin ".TextEntries\text_buildfilech4opening4.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech3scrollend.fetxt.dmp"
 setText($9FF, __TEXTPROCESS9FF)
 
 __TEXTPROCESSA00:
-#incbin ".TextEntries\text_buildfilech4opening5.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4scrolltext.fetxt.dmp"
 setText($A00, __TEXTPROCESSA00)
 
 __TEXTPROCESSA01:
-#incbin ".TextEntries\text_buildfilech4villagetext.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4opening1.fetxt.dmp"
 setText($A01, __TEXTPROCESSA01)
 
 __TEXTPROCESSA02:
-#incbin ".TextEntries\text_buildfilech4turn1end1.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4opening2.fetxt.dmp"
 setText($A02, __TEXTPROCESSA02)
 
 __TEXTPROCESSA03:
-#incbin ".TextEntries\text_buildfilech4turn1end2.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4opening3.fetxt.dmp"
 setText($A03, __TEXTPROCESSA03)
 
 __TEXTPROCESSA04:
-#incbin ".TextEntries\text_buildfilech4talknynacamus.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4opening4.fetxt.dmp"
 setText($A04, __TEXTPROCESSA04)
 
 __TEXTPROCESSA05:
-#incbin ".TextEntries\text_buildfilech4turn3end.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4opening5.fetxt.dmp"
 setText($A05, __TEXTPROCESSA05)
 
 __TEXTPROCESSA06:
-#incbin ".TextEntries\text_buildfilech4turnsomethingend.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4villagetext.fetxt.dmp"
 setText($A06, __TEXTPROCESSA06)
 
 __TEXTPROCESSA07:
-#incbin ".TextEntries\text_buildfilech4bulzarkbattlequote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4turn1end1.fetxt.dmp"
 setText($A07, __TEXTPROCESSA07)
 
 __TEXTPROCESSA08:
-#incbin ".TextEntries\text_buildfilech4bulzarkdeathquote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4turn1end2.fetxt.dmp"
 setText($A08, __TEXTPROCESSA08)
 
 __TEXTPROCESSA09:
-#incbin ".TextEntries\text_buildfilech4belfdeathquote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4talknynacamus.fetxt.dmp"
 setText($A09, __TEXTPROCESSA09)
 
 __TEXTPROCESSA0A:
-#incbin ".TextEntries\text_buildfilech4camusdeathquote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4turn3end.fetxt.dmp"
 setText($A0A, __TEXTPROCESSA0A)
 
 __TEXTPROCESSA0B:
-#incbin ".TextEntries\text_buildfilech4reidendeathquote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4turnsomethingend.fetxt.dmp"
 setText($A0B, __TEXTPROCESSA0B)
 
 __TEXTPROCESSA0C:
-#incbin ".TextEntries\text_buildfilech4nynadeathquote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4bulzarkbattlequote.fetxt.dmp"
 setText($A0C, __TEXTPROCESSA0C)
 
 __TEXTPROCESSA0D:
-#incbin ".TextEntries\text_buildfilech4robertodeathquote.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4bulzarkdeathquote.fetxt.dmp"
 setText($A0D, __TEXTPROCESSA0D)
 
 __TEXTPROCESSA0E:
-#incbin ".TextEntries\text_buildfilech4ending1.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4belfdeathquote.fetxt.dmp"
 setText($A0E, __TEXTPROCESSA0E)
 
 __TEXTPROCESSA0F:
-#incbin ".TextEntries\text_buildfilech4ending2bossalive.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4camusdeathquote.fetxt.dmp"
 setText($A0F, __TEXTPROCESSA0F)
 
 __TEXTPROCESSA10:
-#incbin ".TextEntries\text_buildfilech4ending2bossdead.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4reidendeathquote.fetxt.dmp"
 setText($A10, __TEXTPROCESSA10)
 
 __TEXTPROCESSA11:
-#incbin ".TextEntries\text_buildfilech4endingscrolltext.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4nynadeathquote.fetxt.dmp"
 setText($A11, __TEXTPROCESSA11)
 
 __TEXTPROCESSA12:
-#incbin ".TextEntries\text_buildfileNynaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4robertodeathquote.fetxt.dmp"
 setText($A12, __TEXTPROCESSA12)
 
 __TEXTPROCESSA13:
-#incbin ".TextEntries\text_buildfileMidiaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4ending1.fetxt.dmp"
 setText($A13, __TEXTPROCESSA13)
 
 __TEXTPROCESSA14:
-#incbin ".TextEntries\text_buildfileTomasName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4ending2bossalive.fetxt.dmp"
 setText($A14, __TEXTPROCESSA14)
 
 __TEXTPROCESSA15:
-#incbin ".TextEntries\text_buildfileBoahName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4ending2bossdead.fetxt.dmp"
 setText($A15, __TEXTPROCESSA15)
 
 __TEXTPROCESSA16:
-#incbin ".TextEntries\text_buildfileMacellanName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilech4endingscrolltext.fetxt.dmp"
 setText($A16, __TEXTPROCESSA16)
 
 __TEXTPROCESSA17:
-#incbin ".TextEntries\text_buildfileDolphName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileNynaName.fetxt.dmp"
 setText($A17, __TEXTPROCESSA17)
 
 __TEXTPROCESSA18:
-#incbin ".TextEntries\text_buildfileCamusName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMidiaName.fetxt.dmp"
 setText($A18, __TEXTPROCESSA18)
 
 __TEXTPROCESSA19:
-#incbin ".TextEntries\text_buildfileMinervaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileTomasName.fetxt.dmp"
 setText($A19, __TEXTPROCESSA19)
 
 __TEXTPROCESSA1A:
-#incbin ".TextEntries\text_buildfilePallaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBoahName.fetxt.dmp"
 setText($A1A, __TEXTPROCESSA1A)
 
 __TEXTPROCESSA1B:
-#incbin ".TextEntries\text_buildfileCatriaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMacellanName.fetxt.dmp"
 setText($A1B, __TEXTPROCESSA1B)
 
 __TEXTPROCESSA1C:
-#incbin ".TextEntries\text_buildfileEstName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDolphName.fetxt.dmp"
 setText($A1C, __TEXTPROCESSA1C)
 
 __TEXTPROCESSA1D:
-#incbin ".TextEntries\text_buildfileHardinName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCamusName.fetxt.dmp"
 setText($A1D, __TEXTPROCESSA1D)
 
 __TEXTPROCESSA1E:
-#incbin ".TextEntries\text_buildfileRosheaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMinervaName.fetxt.dmp"
 setText($A1E, __TEXTPROCESSA1E)
 
 __TEXTPROCESSA1F:
-#incbin ".TextEntries\text_buildfileWolfName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilePallaName.fetxt.dmp"
 setText($A1F, __TEXTPROCESSA1F)
 
 __TEXTPROCESSA20:
-#incbin ".TextEntries\text_buildfileFrostName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCatriaName.fetxt.dmp"
 setText($A20, __TEXTPROCESSA20)
 
 __TEXTPROCESSA21:
-#incbin ".TextEntries\text_buildfileRickardName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEstName.fetxt.dmp"
 setText($A21, __TEXTPROCESSA21)
 
 __TEXTPROCESSA22:
-#incbin ".TextEntries\text_buildfileLenaName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileHardinName.fetxt.dmp"
 setText($A22, __TEXTPROCESSA22)
 
 __TEXTPROCESSA23:
-#incbin ".TextEntries\text_buildfileNavarreName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRosheaName.fetxt.dmp"
 setText($A23, __TEXTPROCESSA23)
 
 __TEXTPROCESSA24:
-#incbin ".TextEntries\text_buildfileCastorName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWolfName.fetxt.dmp"
 setText($A24, __TEXTPROCESSA24)
 
 __TEXTPROCESSA25:
-#incbin ".TextEntries\text_buildfileDiceName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFrostName.fetxt.dmp"
 setText($A25, __TEXTPROCESSA25)
 
 __TEXTPROCESSA26:
-#incbin ".TextEntries\text_buildfileMaliceName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRickardName.fetxt.dmp"
 setText($A26, __TEXTPROCESSA26)
 
 __TEXTPROCESSA27:
-#incbin ".TextEntries\text_buildfileRobertoName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLenaName.fetxt.dmp"
 setText($A27, __TEXTPROCESSA27)
 
 __TEXTPROCESSA28:
-#incbin ".TextEntries\text_buildfileReidenName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileNavarreName.fetxt.dmp"
 setText($A28, __TEXTPROCESSA28)
 
 __TEXTPROCESSA29:
-#incbin ".TextEntries\text_buildfileBelfName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCastorName.fetxt.dmp"
 setText($A29, __TEXTPROCESSA29)
 
 __TEXTPROCESSA2A:
-#incbin ".TextEntries\text_buildfileVergilName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDiceName.fetxt.dmp"
 setText($A2A, __TEXTPROCESSA2A)
 
 __TEXTPROCESSA2B:
-#incbin ".TextEntries\text_buildfileNynaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMaliceName.fetxt.dmp"
 setText($A2B, __TEXTPROCESSA2B)
 
 __TEXTPROCESSA2C:
-#incbin ".TextEntries\text_buildfileMidiaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRobertoName.fetxt.dmp"
 setText($A2C, __TEXTPROCESSA2C)
 
 __TEXTPROCESSA2D:
-#incbin ".TextEntries\text_buildfileTomasDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileReidenName.fetxt.dmp"
 setText($A2D, __TEXTPROCESSA2D)
 
 __TEXTPROCESSA2E:
-#incbin ".TextEntries\text_buildfileBoahDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBelfName.fetxt.dmp"
 setText($A2E, __TEXTPROCESSA2E)
 
 __TEXTPROCESSA2F:
-#incbin ".TextEntries\text_buildfileMacellanDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileVergilName.fetxt.dmp"
 setText($A2F, __TEXTPROCESSA2F)
 
 __TEXTPROCESSA30:
-#incbin ".TextEntries\text_buildfileDolphDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileNynaDesc.fetxt.dmp"
 setText($A30, __TEXTPROCESSA30)
 
 __TEXTPROCESSA31:
-#incbin ".TextEntries\text_buildfileCamusDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMidiaDesc.fetxt.dmp"
 setText($A31, __TEXTPROCESSA31)
 
 __TEXTPROCESSA32:
-#incbin ".TextEntries\text_buildfileMinervaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileTomasDesc.fetxt.dmp"
 setText($A32, __TEXTPROCESSA32)
 
 __TEXTPROCESSA33:
-#incbin ".TextEntries\text_buildfilePallaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBoahDesc.fetxt.dmp"
 setText($A33, __TEXTPROCESSA33)
 
 __TEXTPROCESSA34:
-#incbin ".TextEntries\text_buildfileCatriaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMacellanDesc.fetxt.dmp"
 setText($A34, __TEXTPROCESSA34)
 
 __TEXTPROCESSA35:
-#incbin ".TextEntries\text_buildfileEstDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDolphDesc.fetxt.dmp"
 setText($A35, __TEXTPROCESSA35)
 
 __TEXTPROCESSA36:
-#incbin ".TextEntries\text_buildfileHardinDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCamusDesc.fetxt.dmp"
 setText($A36, __TEXTPROCESSA36)
 
 __TEXTPROCESSA37:
-#incbin ".TextEntries\text_buildfileRosheaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMinervaDesc.fetxt.dmp"
 setText($A37, __TEXTPROCESSA37)
 
 __TEXTPROCESSA38:
-#incbin ".TextEntries\text_buildfileWolfDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfilePallaDesc.fetxt.dmp"
 setText($A38, __TEXTPROCESSA38)
 
 __TEXTPROCESSA39:
-#incbin ".TextEntries\text_buildfileFrostDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCatriaDesc.fetxt.dmp"
 setText($A39, __TEXTPROCESSA39)
 
 __TEXTPROCESSA3A:
-#incbin ".TextEntries\text_buildfileRickardDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileEstDesc.fetxt.dmp"
 setText($A3A, __TEXTPROCESSA3A)
 
 __TEXTPROCESSA3B:
-#incbin ".TextEntries\text_buildfileLenaDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileHardinDesc.fetxt.dmp"
 setText($A3B, __TEXTPROCESSA3B)
 
 __TEXTPROCESSA3C:
-#incbin ".TextEntries\text_buildfileNavarreDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRosheaDesc.fetxt.dmp"
 setText($A3C, __TEXTPROCESSA3C)
 
 __TEXTPROCESSA3D:
-#incbin ".TextEntries\text_buildfileCastorDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWolfDesc.fetxt.dmp"
 setText($A3D, __TEXTPROCESSA3D)
 
 __TEXTPROCESSA3E:
-#incbin ".TextEntries\text_buildfileDiceDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileFrostDesc.fetxt.dmp"
 setText($A3E, __TEXTPROCESSA3E)
 
 __TEXTPROCESSA3F:
-#incbin ".TextEntries\text_buildfileMaliceDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRickardDesc.fetxt.dmp"
 setText($A3F, __TEXTPROCESSA3F)
 
 __TEXTPROCESSA40:
-#incbin ".TextEntries\text_buildfileRobertoDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLenaDesc.fetxt.dmp"
 setText($A40, __TEXTPROCESSA40)
 
 __TEXTPROCESSA41:
-#incbin ".TextEntries\text_buildfileReidenDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileNavarreDesc.fetxt.dmp"
 setText($A41, __TEXTPROCESSA41)
 
 __TEXTPROCESSA42:
-#incbin ".TextEntries\text_buildfileBelfDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileCastorDesc.fetxt.dmp"
 setText($A42, __TEXTPROCESSA42)
 
 __TEXTPROCESSA43:
-#incbin ".TextEntries\text_buildfileVergilDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileDiceDesc.fetxt.dmp"
 setText($A43, __TEXTPROCESSA43)
 
 __TEXTPROCESSA44:
-#incbin ".TextEntries\text_buildfileBowgunName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMaliceDesc.fetxt.dmp"
 setText($A44, __TEXTPROCESSA44)
 
 __TEXTPROCESSA45:
-#incbin ".TextEntries\text_buildfileBowgunDesc.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRobertoDesc.fetxt.dmp"
 setText($A45, __TEXTPROCESSA45)
 
 __TEXTPROCESSA46:
-#incbin ".TextEntries\text_buildfileLevinSwordName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileReidenDesc.fetxt.dmp"
 setText($A46, __TEXTPROCESSA46)
 
 __TEXTPROCESSA47:
-#incbin ".TextEntries\text_buildfileMercuriusName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBelfDesc.fetxt.dmp"
 setText($A47, __TEXTPROCESSA47)
 
 __TEXTPROCESSA48:
-#incbin ".TextEntries\text_buildfileLadySwordName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileVergilDesc.fetxt.dmp"
 setText($A48, __TEXTPROCESSA48)
 
 __TEXTPROCESSA49:
-#incbin ".TextEntries\text_buildfileWoDaoName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBowgunName.fetxt.dmp"
 setText($A49, __TEXTPROCESSA49)
 
 __TEXTPROCESSA4A:
-#incbin ".TextEntries\text_buildfileRidersbaneName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileBowgunDesc.fetxt.dmp"
 setText($A4A, __TEXTPROCESSA4A)
 
 __TEXTPROCESSA4B:
-#incbin ".TextEntries\text_buildfileDragonpikeName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLevinSwordName.fetxt.dmp"
 setText($A4B, __TEXTPROCESSA4B)
 
 __TEXTPROCESSA4C:
-#incbin ".TextEntries\text_buildfileGradivusName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileMercuriusName.fetxt.dmp"
 setText($A4C, __TEXTPROCESSA4C)
 
 __TEXTPROCESSA4D:
-#incbin ".TextEntries\text_buildfilePoleaxName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileLadySwordName.fetxt.dmp"
 setText($A4D, __TEXTPROCESSA4D)
 
 __TEXTPROCESSA4E:
-#incbin ".TextEntries\text_buildfileHauteclereName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileWoDaoName.fetxt.dmp"
 setText($A4E, __TEXTPROCESSA4E)
 
 __TEXTPROCESSA4F:
-#incbin ".TextEntries\text_buildfileBlizzardName.fetxt.dmp"
+#incbin ".TextEntries\text_buildfileRidersbaneName.fetxt.dmp"
 setText($A4F, __TEXTPROCESSA4F)
+
+__TEXTPROCESSA50:
+#incbin ".TextEntries\text_buildfileDragonpikeName.fetxt.dmp"
+setText($A50, __TEXTPROCESSA50)
+
+__TEXTPROCESSA51:
+#incbin ".TextEntries\text_buildfileGradivusName.fetxt.dmp"
+setText($A51, __TEXTPROCESSA51)
+
+__TEXTPROCESSA52:
+#incbin ".TextEntries\text_buildfilePoleaxName.fetxt.dmp"
+setText($A52, __TEXTPROCESSA52)
+
+__TEXTPROCESSA53:
+#incbin ".TextEntries\text_buildfileHauteclereName.fetxt.dmp"
+setText($A53, __TEXTPROCESSA53)
+
+__TEXTPROCESSA54:
+#incbin ".TextEntries\text_buildfileBlizzardName.fetxt.dmp"
+setText($A54, __TEXTPROCESSA54)
 
 }
 

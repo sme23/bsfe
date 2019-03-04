@@ -76,3 +76,10 @@ ally.[X]
 
 ##UM_ResetSRAM
  Reset SRAM[X]
+ 
+## UMText_Win
+Win[X]
+
+## UMDesc_Win
+This is your win button.[X]
+

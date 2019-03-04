@@ -173,15 +173,37 @@ ENDA
 ALIGN 4
 
 EndingScene:
-Text(Castle,ch3ending1)
-Text(Castle,ch3ending2)
-Text(3,ch3ending3)
+SetBackground(Castle)
 
+Text(ch3ending1)
+Text(ch3ending2)
+SetBackground(0x33)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch3ending2point5
+TEXTEND
+SetBackground(Castle)
+Text(ch3ending2point7)
+
+SetBackground(3)
+Text(ch3ending3)
+SetBackground(0x34)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch3ending3point5
+TEXTEND
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch3ending3point7
+TEXTEND
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch3ending3point9
+TEXTEND
+
+MUSC 0x1E
 SetBackground(Desert)
-CenterTutorialTextBox
+SETVAL 0xB 0x00660009
 TUTORIALTEXTBOXSTART
 TEXTSHOW ch3scrollend
 TEXTEND
+FADI 10
 DISA Rickard
 DISA Lena
 DISA Castor

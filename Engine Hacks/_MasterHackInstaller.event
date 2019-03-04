@@ -152,6 +152,21 @@ POP
   #include "IconRework/IconRework.event"   // Allows using standard Icon routines to draw skill icons
   // #include "PopupRework/PopupRework.event" // Allows to expand on vanilla popups by adding components
 
+  
+  ALIGN 4
+  Win_Usability:
+  #incbin "winbuttonusability.dmp"
+  
+  ALIGN 4
+  Win_Effect:
+  #incbin "winbutton.dmp"
+  POIN Offscreen_Levelup
+  
+  ALIGN 4
+  Offscreen_Levelup:
+  #incbin "autolevel.dmp"
+  
+  
 ALIGN 4
 
 
@@ -179,6 +194,9 @@ ALIGN 4
   POP
 
   UM_Seize
+  #ifdef __DEBUG__
+    MenuCommand(UMText_Win, UMDesc_Win, GreenText,$22F35, Win_Effect)
+  #endif
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
   MenuCommand(0x67b, 0x6c0, NormalText, $249ac, AttackEffect, $22c31, $22c99) //to clear flags
