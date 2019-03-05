@@ -67,10 +67,10 @@ UNIT
 ALIGN 4
 
 TurnBasedEvents:
-TurnEventPlayer(0,EndPlayerPhase1,1)
-TurnEventPlayer(0,EndPlayerPhase4,4)
-TurnEventEnemy(0,ActivateHardinTalk,3)
-TurnEventEnemy(0,DoTheReinforcements,5,6)
+TurnEventPlayer(0,EndPlayerPhase1,2)
+TurnEventPlayer(0,EndPlayerPhase4,5)
+TurnEventEnemy(0,ActivateHardinTalk,4)
+TurnEventEnemy(0,DoTheReinforcements,6,7)
 END_MAIN
 
 ALIGN 4
@@ -115,39 +115,80 @@ ALIGN 4
 
 BeginningScene:
 ENUT 12
-Text(Town_Day,ch2opening1)
-REMA
-Text(Town_Day,ch2opening2)
-REMA
-Text(Town_Day,ch2opening3)
-REMA
+MUSC 0x26
+SetBackground(Town_Day)
+Text(ch2opening1)
+SetBackground(0x11)
+STAL 120
+SetBackground(Town_Day)
+Text(ch2opening2)
+Text(ch2opening3)
+SetBackground(0x10)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch2opening3point5
+TEXTEND
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch2opening3point7
+TEXTEND
+SetBackground(3)
+Text(ch2opening3point9)
+SetBackground(0x12)
+WORD 0x1A22
+TEXTSHOW ch2opening99
+TEXTEND
+WORD 0x1A22
+TEXTSHOW ch2opening990
+TEXTEND
+WORD 0x1A22
+TEXTSHOW ch2opening991
+TEXTEND
+SetBackground(3)
+Text(ch2opening992)
+
+FADI 10
+ClearBackground
 LOAD1 0x1 PlayerUnits
 LOAD1 0x1 EnemyUnits
+ENUN
+FADU 10
 CAM1 Ruben
 CUMO Ruben
 STAL 40
 CURE
 Text(ch2opening4)
-CAM1 [15,0]
+CAM1 Minerva
 CUMO Minerva
 STAL 40
 CURE
 Text(ch2opening5)
+
+
 NoFade
 ENDA
 
 ALIGN 4
 
 EndingScene:
-Text(Castle_Hall,ch2ending1)
-Text(Castle_Hall,ch2ending2)
+MUSC Victory
+SetBackground(Castle_Hall)
+Text(ch2ending1)
+
+SetBackground(0x13)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch2ending3
+TEXTEND
+SetBackground(Castle_Hall)
+Text(ch2ending4)
+Text(ch2ending2)
+
 SetBackground(Desert)
-CenterTutorialTextBox
+MUSC 0x1E
+SETVAL 0xB 0x00620018
 TUTORIALTEXTBOXSTART
 TEXTSHOW ch2endingscroll
 TEXTEND
-FADI 100
-STAL 20
+FADI 1
+STAL 80
 EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade

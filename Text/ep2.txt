@@ -27,6 +27,7 @@ Shut yer trap![A]
 [OpenMidRight]
 Nngaaah![A][ClearFace][....][X]
 
+
 ##ch2opening2
 [OpenMidRight][LoadMinerva][OpenMidLeft][LoadMan]
 Aiyee! The Macedonian[NL]
@@ -36,7 +37,7 @@ Wait, what's going on here?[NL]
 What are those men doing?[A]
 [OpenMidLeft]
 Ehh?[NL]
-You ain't on their side?[A][2NL] 
+You ain't on their side?[A][2NL]
 In that case, I beg o' you![NL]
 Please drive those foul demons away.[A][2NL]
 They kidnap women, loot everythin',[NL]
@@ -72,12 +73,19 @@ Your vile deeds[ToggleMouthMove]...[ToggleMouthMove][NL]
 cannot be overlooked.[A]
 [OpenMidRight]
 T-these guys[ToggleMouthMove]...[ToggleMouthMove][NL]
-Damn you[ToggleMouthMove]...[ToggleMouthMove] We'll remember this![A]
-[ClearFace][LoadMinerva]
-Sir, what is your name?[A]
-[OpenMidLeft]
-I have no name worthy of note.[A]
-[OpenMidRight]
+Damn you[ToggleMouthMove]...[ToggleMouthMove] We'll remember this![A][X]
+
+##ch2opening3point5
+[SetName]Minerva [NL]
+Sir, what is your name?[A][X]
+
+##ch2opening3point7
+[SetName]Hardin[NL]
+I have no name worthy of note.[A][X]
+
+##ch2opening3point9
+[OpenMidLeft][LoadHardin]
+[OpenMidRight][LoadMinerva]
 Bah[ToggleMouthMove]...[ToggleMouthMove] I see.[A][2NL]
 Well, fair enough.[NL]
 The actions of those men offended me, too,[A][NL]
@@ -140,21 +148,30 @@ with Catria and Est.[A][2NL]
 You are to go ahead to the[NL]
 castle and bring reinforcements.[A]
 [OpenMidLeft]
-Yes, understood.[NL]
-The castle isn't far from here.[A][2NL]
+Yes, understood.[A][X]
+
+##ch2opening99
+[SetName]Palla [NL]
+The castle isn't far from here.[A][NL]
 I shall return as soon as I can,[NL]
-so please don't push yourselves.[A][2NL]
-[OpenMidRight][ClearFace][LoadCatria][OpenMidLeft]
+so please don't push yourselves.[A][NL]
 Catria, Est.[NL]
-Take care of the commander.[A]
-[OpenMidRight]
-Yes, sister.[A]
-[ClearFace][LoadEst]
-Leave it to us![A]
-[ClearFace][LoadMinerva][OpenMidLeft][ClearFace][LoadCatria][OpenMidRight]
+Take care of the commander.[A][X]
+
+##ch2opening990
+[SetName]Catria[NL]
+Yes, sister.[A][X]
+
+##ch2opening991
+[SetName]Est [NL]
+Leave it to us![A][X]
+
+##ch2opening992
+[OpenMidRight][LoadCatria][OpenMidLeft][LoadMinerva]
+[OpenMidLeft]
 Catria, Est, let's[NL]
 follow them at once.[A]
-[OpenMidLeft]
+[OpenMidRight]
 Understood![A][X]
 
 ##ch2opening4
@@ -462,12 +479,19 @@ But, Princess, there's something[NL]
 important[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 Isn't that knight Hardin of Aurelis?[A]
 [OpenMidLeft]
-What do you mean?[A]
-[OpenMidRight]
-Why, he's the spitting image of the[NL]
-infamous Coyote, leader of the rebel army.[A][2NL]
-Should we capture and interrogate him[ToggleMouthMove]...?[ToggleMouthMove][A]
-[OpenMidLeft]
+What do you mean?[A][X]
+
+##ch2ending3
+[SetName]Soldier [NL]
+Why, he's the spitting image of[NL]
+the infamous Coyote,[A] leader of[NL]
+the rebel army.[A][NL]
+Should we capture and[NL]
+interrogate him[ToggleMouthMove]...?[ToggleMouthMove][A][X]
+
+##ch2ending4
+[OpenMidRight][LoadSoldier]
+[OpenMidLeft][LoadMinerva]
 [ToggleMouthMove]...[ToggleMouthMove]Nonsense.[A][NL]
 There is no way that man is Hardin.[A]
 [OpenMidRight]
@@ -496,7 +520,7 @@ Let's go.[A]
 Understood.[A][X]
 
 ##ch2endingscroll
-Princess Minerva of Macedon.[A][2NL]
+Princess Minerva of Macedon.[A][NL]
 Filled with awe and respect, the people[NL]
 called her the "Crimson Dragoon."[A][X]
 

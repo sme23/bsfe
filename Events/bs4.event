@@ -124,13 +124,52 @@ ALIGN 4
 
 BeginningScene:
 ENUT 8
-Text(Castle_Room,ch4opening1)
-Text(Castle_Hall,ch4opening2)
-Text(Woodland,ch4opening3)
+MUSC LyonTheme
+SetBackground(0x20)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening11
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening12
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening13
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening14
+TEXTEND 
+
+MUSC 0x26
+SetBackground(Castle_Hall)
+Text(ch4opening21)
+SetBackground(0x21)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening22
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening23
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening24
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening25
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4opening26
+TEXTEND 
+
+SetBackground(Castle_Hall)
+Text(ch4opening27)
+SetBackground(Woodland)
+Text(ch4opening3)
+FADI 10
 LOAD1 0x1 PlayerUnits
 LOAD1 0x1 InitialEnemies
 LOAD1 0x1 BanditEnemies
 LOAD1 0x1 ThisPostMadeByThiefGang
+ClearBackground
+FADU 10
 CAM1 Bulzark
 Text(ch4opening4)
 CAM1 Nyna
@@ -161,13 +200,12 @@ CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
 TEXTSHOW ch4endingscrolltext
 TEXTEND
-FADI 100
-STAL 20
+FADI 1
+STAL 80
 EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade
 ENDA 
-
 BulzarkOpeningEvent:
 MUSS Tension
 CAM1 Bulzark

@@ -215,13 +215,12 @@ SETVAL 0xB 0x00660009
 TUTORIALTEXTBOXSTART
 TEXTSHOW ch3scrollend
 TEXTEND
-FADI 10
-FADI 100
-STAL 20
+FADI 1
+STAL 80
 EVBIT_F 0x2
 MNTS 0x1 //return to title screen
 NoFade
-ENDA
+ENDA 
 
 DiceMaliceTextStuff:
 Text(ch3turn1)

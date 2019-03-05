@@ -13,6 +13,12 @@ HP Bars[.][X]
 # 0x00B2
 Set health bar display[X]
 
+# 0x2CE
+Dracoknight[X]
+
+# 0x2CF
+Dracomaster[X]
+
 #0x3A LearnedSkillText
 #first text ID in the free block
 Learned  [X]

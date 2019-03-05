@@ -1,8 +1,10 @@
 setMugEntry(0x4D, GazzakPortrait, 3, 4, 3, 2)
-setMugEntry(0x30, EmereusPortrait, 2, 5, 2, 3)
+setMugEntry(0x30, EmereusPortrait, 2, 5, 3, 3)
 setMugEntry(0x09, CamusPortrait, 3, 5, 2, 3)
 setMugEntry(Medeus,MedeusPortrait, 4, 6, 4, 4)
-setMugEntry(Gharnef,MerachPortrait, 0, 0, 0, 0)
+setMugEntry(0x47,MerachPortrait, 3, 5, 3, 3)
+setMugEntry(0xA,HarmeinPortrait, 3, 2, 3, 4)
+setMugEntry(0x48,VolzhinPortrait, 3, 2, 3, 4)
 
 GazzakPortrait:
 #incext HalfbodyFormatter "Gazzak.png"
@@ -18,3 +20,9 @@ MedeusPortrait:
 
 MerachPortrait:
 #incext HalfbodyFormatter "Merach.png"
+
+HarmeinPortrait:
+#incext HalfbodyFormatter "Harmein.png"
+
+VolzhinPortrait:
+#incext HalfbodyFormatter "Volzhin.png"

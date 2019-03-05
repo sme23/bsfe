@@ -31,7 +31,12 @@ ALIGN 4
 {
 #include "Dragonstone Installer.event"
 }
-
+{
+#include "WyvernAxe Installer.event"
+}
+{
+#include "WyvernHandaxe Installer.event"
+}
 
 //////////////////////////////////////////////
 
@@ -52,8 +57,13 @@ ALIGN 4
 
 ///////////////////////////////////////////////
 
-
-
+DracolordAnim:
+SwordAnim(0x5C)
+LanceAnim(0x5D)
+AxeAnim(0xBF)
+HandAxeAnim(0xC0)
+UnarmedAnim(0x5E)
+WORD 0x0
 
 
 ///////////////////////////////////////////////
@@ -82,3 +92,6 @@ HunterStandingMapSprite:
 ALIGN 4
 HunterMovingMapSprite:
 #incext Png2Dmp "Hunter (Deranger) M M.png" --lz77
+
+
+

@@ -11,22 +11,29 @@ Medeus lost his patience with Camus[NL]
 and ordered his men to take Nyna captive.[A][X]
 
 
-##ch4opening1
-[OpenMidRight][LoadBulzark][OpenMidLeft][LoadMedeus]
+##ch4opening11
+[SetName]Medeus[NL]
 Do you understand, Bulzark?[A][NL]
-I must have Nyna without fail.[NL]
-Capture her and bring her to me, alive.[A]
-[OpenMidRight]
+I must have Nyna without fail.[A][NL]
+Capture her and bring her to[NL]
+me, alive.[A][X]
+
+##ch4opening12
+[SetName]Bulzark [NL]
 Please leave it to me, my lord.[A][NL]
 However, what are my orders,[NL]
-should General Camus betray us?[A]
-[OpenMidLeft]
-If he resists, you may kill him.[A][NL]
-I care not for him any longer.[A]
-[OpenMidRight]
-As you wish[ToggleMouthMove]...[ToggleMouthMove][A][X]
+should General Camus betray us?[A][X]
 
-##ch4opening2
+##ch4opening13
+[SetName]Medeus[NL]
+If he resists, you may kill him.[A][NL]
+I care not for him any longer.[A][X]
+
+##ch4opening14
+[SetName]Bulzark [NL]
+As you wish...[A][X]
+
+##ch4opening21
 [OpenMidRight][LoadCamus][OpenMidLeft][LoadSoldier]
 General Camus![A][NL]
 We have recieved news that General[NL]
@@ -80,34 +87,48 @@ Heh.[A][NL]
 It's too late[NL]
 to waver[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
 I've known this was coming[NL]
-for me, for a long time already.[A]
-[OpenMidLeft]
-Then, you have made your decision?[A][2NL]
+for me, for a long time already.[A][X]
+
+##ch4opening22
+[SetName]Nyna[NL]
+Then, you have made your decision?[A][NL]
 Camus, if you're going to abandon[NL]
-your country, then I[ToggleMouthMove]...![ToggleMouthMove][A]
-[OpenMidRight]
+your country, then I...![A][X]
+
+##ch4opening23
+[SetName]Camus [NL]
 Nyna, you're mistaken.[A][2NL]
 I don't fear Dolhr or Medeus,[A][NL]
 but the Kingdom of Grust[NL]
 means everything to me.[A][NL]
-I cannot betray it.[A]
-[OpenMidLeft]
-But, then[ToggleMouthMove]...[ToggleMouthMove][NL][......]
-Why are you[ToggleMouthMove]...?[ToggleMouthMove][......][A][2NL]
+I cannot betray it.[A][X]
+
+##ch4opening24
+[SetName]Nyna[NL]
+But, then...[......][NL]
+Why are you...?[......][A][NL]
 If you help me, you'll be a criminal.[A][NL]
-And yet, you say you'll remain in Grust?[NL]
-They'll kill you![A]
-[OpenMidRight]
+And yet, you say you'll remain[NL]
+in Grust?[A][NL]
+They'll kill you![A][X]
+
+##ch4opening25
+[SetName]Camus [NL]
 I remember telling you, Princess.[A][NL]
-That you could have[NL]
-my life anytime.[A][NL]
-Well, that time has come.[A]
-[OpenMidLeft]
-Camus[ToggleMouthMove]...![ToggleMouthMove][......][NL]
+That you could have my life[NL]
+anytime.[A][NL]
+Well, that time has come.[A][X]
+
+##ch4opening26
+[SetName]Nyna[NL]
+Camus...![......][NL]
 I refuse![A][NL]
 I don't want to be saved if[NL]
-you are sacrificed in exchange![A]
-[OpenMidRight]
+you are sacrificed in exchange![A][X]
+
+##ch4opening27
+[OpenMidLeft][LoadNyna]
+[OpenMidRight][LoadCamus]
 Haha, you're still a child, Nyna.[A][2NL]
 It reminds me of when we[NL]
 first met, two years ago.[A][NL]
