@@ -203,7 +203,7 @@ ALIGN 4
 
   UM_Seize
   #ifdef __DEBUG__
-    MenuCommand(UMText_Win, UMDesc_Win, GreenText,$22F35, Win_Effect)
+    //MenuCommand(UMText_Win, UMDesc_Win, GreenText,$22F35, Win_Effect)
   #endif
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack
@@ -248,9 +248,9 @@ ALIGN 4
   MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
   MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
   
-  UM_Rescue
-  UM_Give
-  UM_Take
+  //UM_Rescue
+  //UM_Give
+  //UM_Take
   // MenuCommand(0x689, 0x6c5, 0, 0x228a4, RescueEffect) //rescue
   // MenuCommand(UMText_Transfer,UMText_TransferDesc,GreenText,TransferUsability,TransferTarget) //transfer
   // MenuCommand(UMText_Switch,UMText_SwitchDesc,GreenText,SwitchUsability,SwitchCommand)   //switch
@@ -258,7 +258,7 @@ ALIGN 4
 
   UM_Item
   UM_Trade
-  UM_Supply
+  //UM_Supply
   UM_Wait
   UM_Separator 
 

@@ -508,8 +508,9 @@ I lose[ToggleMouthMove]...[ToggleMouthMove][NL]
 huh[ToggleMouthMove]...?[ToggleMouthMove][A][X]
 
 ##ch3rickarddeathquote
-[OpenMidRight][LoadRickard]
-Oof[A][X]
+[OpenMidRight][LoadRickard][CloseEyes]
+Everyone[ToggleMouthMove]...[ToggleMouthMove][NL]
+I'm sorry[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
 ##ch3malicedeathquoteenemy
 [OpenMidLeft][LoadMalice]
