@@ -243,7 +243,7 @@ So, where are they headed?[A]
 [OpenMidRight]
 They are headed straight north.[A]
 [OpenMidLeft]
-Aurelis, huh?
+Aurelis, huh?[NL]
 Very well.[A][NL]
 Tell the entire army to march north![A][NL]
 Strike them down as[NL]

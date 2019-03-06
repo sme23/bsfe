@@ -203,7 +203,7 @@ ALIGN 4
 
   UM_Seize
   #ifdef __DEBUG__
-    //MenuCommand(UMText_Win, UMDesc_Win, GreenText,$22F35, Win_Effect)
+    MenuCommand(UMText_Win, UMDesc_Win, GreenText,$22F35, Win_Effect)
   #endif
   MenuCommand(UMText_DV, UMText_DVDesc, GreenText, VeinUsability, VeinEffect)
   // UM_Attack

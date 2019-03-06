@@ -1,5 +1,6 @@
-Incomplete but playable remake of BS Fire Emblem in Fire Emblem: The Sacred Stones.
+Remake of BS Fire Emblem Akenia Saga in Fire Emblem: The Sacred Stones.
 
+Big special thanks to Card for title screen, pointing me to the CGs, and general motivation
 
 Halfbody credits:
 
@@ -32,7 +33,6 @@ Ruben/Harmein by DerTheVaporeon
 Vaam/Gomer by Blaze
 Bulzark/Volzhin by Frigid, Blueeyedman, Blaze
 Medeus by Frigid
-Villager Boy by Sme, WDIMTA
 Villager Girl by Nobody
 Generic Soldier by Backer
 Bandit/Gazzak by FEier, Blueeyedman, Nickt
