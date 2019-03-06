@@ -172,8 +172,29 @@ Bulzark[X]
 ##BulzarkDesc
 BulzarkDesc[X]
 
+##DolhrName
+Dolhr[X]
 
+##DolhrDesc
+DolhrDesc[X]
 
+##GrustName
+Grust[X]
+
+##GrustDesc
+GrustDesc[X]
+
+##MacedonName
+Macedon[X]
+
+##MacedonDesc
+MacedonDesc[X]
+
+##BanditName
+Bandit[X]
+
+##BanditDesc
+BanditDesc[X]
 
 
 

@@ -30,24 +30,24 @@ UNIT
 ALIGN 4
 
 EnemyUnits:
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [15,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [17,12] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [9,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [9,9] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [9,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [6,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [15,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [17,7] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,4] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [19,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,4] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
-UNIT Dolhr Knight 0 Level(3,Enemy,1) [21,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [15,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [17,12] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [9,14] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [9,9] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [9,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [6,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [15,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [17,7] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [19,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [19,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [19,4] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [19,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [19,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [21,2] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [21,3] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [21,4] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [21,5] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
+UNIT 101 Knight 0 Level(3,Enemy,1) [21,6] 0x0 0x0 0x0 0x1 [IronLance] AttackInRangeAI
 UNIT
 
 EnemyUnits2:
@@ -109,6 +109,7 @@ ALIGN 4
 MiscBasedEvents:
 CauseGameOverIfLordDies
 AFEV 10 MaliceRecruitUnlock 0
+DefeatAll(EndingScene)
 END_MAIN
 
 ALIGN 4
@@ -278,6 +279,11 @@ LABEL 2
 NoFade
 ENDA
 
+EscapePointPointerTable(3, Ch3EscapePoint)
+
+Ch3EscapePoint:
+EscapePoint(0, 21, MoveLeft)
+EscapePointEnd
 
 
 

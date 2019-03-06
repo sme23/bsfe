@@ -135,29 +135,39 @@ Town Whose Name Was Stolen[X]
 ##TaleSelectThemeName
 Tale Select[X]
 
+##FootstepsOfFateThemeName
+Footsteps of Fate[X]
+
+##ForLibertyThemeName
+For Liberty[X]
+
+##EndlessBattleThemeName
+Endless Battle[X]
+
+##Episode4GoalText
+Nyna Arrives[X]
+
+##GradivusDesc
+GradivusDesc[X]
+
 ##Ep1Hint
 [OpenMidLeft][LoadAnna]
 Hole up in the nearby[NL]
 treasure room.[A][NL]
-When the coast is clear,[NL]
-approach Gouber.[A][X]
+The chest contents[NL]
+will help you.[A][X]
 
 ##Ep2Hint
 [OpenMidLeft][LoadAnna]
-Approach moderately,[NL]
-Try to keep your units alive.[A][X]
+Ep2Hint[A][X]
 
 ##Ep3Hint
 [OpenMidLeft][LoadAnna]
-Start by avoiding enemies,[A][NL]
-then take them on[NL]
-as you are ready.[A][X]
+Ep3Hint[A][X]
 
 ##Ep4Hint
 [OpenMidLeft][LoadAnna]
-Nyna needs to avoid enemies.[A][NL]
-Camus can live through[NL]
-more than you think.[A][X]
+Ep4Hint[A][X]
 
 #include "skilldesc_text.txt"
 

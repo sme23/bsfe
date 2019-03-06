@@ -65,3 +65,15 @@ SongTable(0x1F,bstown,MapMusicGroup)
 
 SongTable(0x1E,taleselect,MapMusicGroup)
 #include "taleselect.event"
+
+SongTable(0x14,FootstepsOfFate,MapMusicGroup)
+#include "FootstepsOfFate.event"
+
+SongTable(0x11,ForLiberty,MapMusicGroup)
+#include "ForLiberty.event"
+
+SongTable(0x12,EndlessBattle,MapMusicGroup)
+#include "EndlessBattle.event"
+
+
+

@@ -28,8 +28,8 @@ Roberto by |NOT YET DONE|
 Reiden by |NOT YET DONE|
 Belf by |NOT YET DONE|
 Gouber/Emereus by DerTheVaporeon, Nickt
-Ruben/Merach by DerTheVaporeon
-Vaam/Harmein by DerTheVaporeon
+Ruben/Harmein by DerTheVaporeon
+Vaam/Gomer by Blaze
 Bulzark/Volzhin by Frigid, Blueeyedman, Blaze
 Medeus by Frigid
 Villager Boy by Sme, WDIMTA
@@ -47,7 +47,9 @@ Halfbody system by Kirb
 
 Skill System credits:
 
+Colorz
 Circleseverywhere
 Monkeybard & Black Mage for most of the skill icons; Blaze for Stances skill icons
 Tequila, Rossendale, StanH, Leonarth, Teraspark, sd9k, Kao, blademaster, Snakey1 for skills
+
 
