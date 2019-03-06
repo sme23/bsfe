@@ -38,57 +38,5 @@ Should you surrender peacefully,[NL]
 
 we could spare you the worst.[A][NL]
 
-Give up.[A]
-
-[OpenMidRight]
-
-[ToggleMouthMove]...[ToggleMouthMove][.....]Very well.[A][NL]
-
-Do as you wish.[NL]
-
-[ToggleMouthMove]...[ToggleMouthMove][......]I have fulfilled my duty[ToggleMouthMove]...[ToggleMouthMove][A]
-
-[OpenMidLeft]
-
-Men, seize him![A]
-
-[OpenMidRight][ClearFace][LoadSoldier]
-
-Yes, sir![A]
-
-[ClearFace][OpenMidLeft]
-
-We have him now.[A][NL]
-
-Put him in a cage,[NL]
-
-and drag it behind the carriage.[A][NL]
-
-He'll prove a fine example of the[NL]
-
-fate that awaits those who oppose Dolhr.[A][NL]
-
-Strip him![A][NL]
-
-Give him only enough food to keep him alive.[A][NL]
-
-Everyone shall lauch at the misery[NL]
-
-of their once great hero,[....] Camus![A][NL]
-
-Bwahahahahaha![A][NL]
-
-[OpenMidRight][LoadCamus]
-
-Nyna[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
-
-Did you reach Aurelis safely?[A][NL]
-
-Forgive me[ToggleMouthMove]...[ToggleMouthMove][.....][NL]
-
-For my cowardice.[A][NL]
-
-Nyna[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
-
-I[ToggleMouthMove]...[ToggleMouthMove][.......][A][X]
+Give up.[A][X]
 

@@ -148,9 +148,29 @@ BelfDesc[X]
 ##VergilDesc
 VergilDesc[X]
 
+##GouberName
+Gouber[X]
 
+##GouberDesc
+GouberDesc[X]
 
+##RubenName
+Ruben[X]
 
+##RubenDesc
+RubenDesc[X]
+
+##VaamName
+Vaam[X]
+
+##VaamDesc
+VaamDesc[X]
+
+##BulzarkName
+Bulzark[X]
+
+##BulzarkDesc
+BulzarkDesc[X]
 
 
 

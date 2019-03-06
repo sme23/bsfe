@@ -52,53 +52,5 @@ I've reached my limit[ToggleMouthMove]...[ToggleMouthMove][.......][A]
 
 All hope turns in fear before me[ToggleMouthMove]...[ToggleMouthMove][.....][A][NL]
 
-Give up.[.....] Surrender quickly.[A]
-
-[OpenMidRight]
-
-[ToggleMouthMove]...[ToggleMouthMove][.....]Very well.[A][NL]
-
-As you wish.[NL]
-
-[ToggleMouthMove]...[ToggleMouthMove][......]I have fulfilled my duty[ToggleMouthMove]...[ToggleMouthMove][A]
-
-[OpenMidLeft]
-
-Men, seize him![A]
-
-[OpenMidRight][LoadSoldier]
-
-Yes sir![A]
-
-[ClearFace][OpenMidLeft]
-
-Throw him in a cage,[NL]
-
-and drag it behind the carriage.[A][NL]
-
-He'll prove a fine example of the[NL]
-
-fate that awaits those who oppose Dolhr.[A][NL]
-
-Strip him![A][NL]
-
-Give him only enough food to keep him alive.[A][NL]
-
-Everyone shall laugh at the misery of[NL]
-
-their once great hero, Camus[ToggleMouthMove]...[ToggleMouthMove][A]
-
-[OpenMidRight][LoadCamus]
-
-Nyna[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
-
-Did you reach Aurelis safely?[A][NL]
-
-Forgive me[ToggleMouthMove]...[ToggleMouthMove][.....][NL]
-
-For my cowardice.[A][NL]
-
-Nyna[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
-
-I[ToggleMouthMove]...[ToggleMouthMove][.......][A][X]
+Give up.[.....] Surrender quickly.[A][X]
 

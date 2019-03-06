@@ -423,12 +423,12 @@ Fighting alongside you[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 was an honor[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 General Camus[ToggleMouthMove]...[ToggleMouthMove][A][X]
 
-##ch4ending1
+##ch4ending11
 [OpenMidLeft][LoadHardin]
 [ToggleMouthMove]...[ToggleMouthMove]Good, it seems we're in time.[A][NL]
 All hands, engage the Dolhrian army![A][NL]
 I shall save Princess Nyna myself![A]
-[OpenMidRight][LoadNyna][OpenMidLeft]
+[OpenMidRight][LoadNyna][OpenMidLeft][NL]
 Princess Nyna, I presume?[A][NL]
 I am Hardin, younger[NL]
 brother of King Aurelis.[A][NL]
@@ -441,10 +441,12 @@ even at the cost of my life.[A]
 So you are[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
 Sir Hardin of[ToggleMouthMove]...[ToggleMouthMove][.......]Aurelis.[A][NL]
 I am Nyna[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
-I'm pleased[ToggleMouthMove]...[ToggleMouthMove][.......] to meet[ToggleMouthMove]...[ToggleMouthMove][.......][A][NL]
-[ClearFace][OpenMidLeft]
+I'm pleased[ToggleMouthMove]...[ToggleMouthMove][.......] to meet[ToggleMouthMove]...[ToggleMouthMove][.......][A][X]
+
+##ch4ending12
+[SetName]Hardin[NL]
 Princess![....] Pull yourself together![A][NL]
-Someone,[....] bring a bishop here![N]
+Someone,[....] bring a bishop here![NL]
 And water![....] Quickly![....] Hurry![A][X]
 
 ##ch4ending2bossalive
@@ -468,16 +470,24 @@ I've reached my limit[ToggleMouthMove]...[ToggleMouthMove][.......][A]
 [OpenMidLeft]
 Should you surrender peacefully,[NL]
 we could spare you the worst.[A][NL]
-Give up.[A]
-[OpenMidRight]
-[ToggleMouthMove]...[ToggleMouthMove][.....]Very well.[A][NL]
+Give up.[A][X]
+
+##ch4ending2bossalive1
+[SetName]Camus [NL]
+...[.....]Very well.[A][NL]
 Do as you wish.[NL]
-[ToggleMouthMove]...[ToggleMouthMove][......]I have fulfilled my duty[ToggleMouthMove]...[ToggleMouthMove][A]
-[OpenMidLeft]
-Men, seize him![A]
-[OpenMidRight][ClearFace][LoadSoldier]
-Yes, sir![A]
-[ClearFace][OpenMidLeft]
+...[......]I have fulfilled my duty...[A][X]
+
+##ch4ending2bossalive2
+[SetName]Bulzark [NL]
+Men, seize him![A][X]
+
+##ch4ending2bossalive3
+[SetName]Soldier [NL]
+Yes, sir![A][X]
+
+##ch4ending2bossalive4
+[OpenMidLeft][LoadBulzark]
 We have him now.[A][NL]
 Put him in a cage,[NL]
 and drag it behind the carriage.[A][NL]
@@ -525,16 +535,24 @@ It seems[ToggleMouthMove]...[ToggleMouthMove][.......][NL]
 I've reached my limit[ToggleMouthMove]...[ToggleMouthMove][.......][A]
 [OpenMidLeft]
 All hope turns in fear before me[ToggleMouthMove]...[ToggleMouthMove][.....][A][NL]
-Give up.[.....] Surrender quickly.[A]
-[OpenMidRight]
-[ToggleMouthMove]...[ToggleMouthMove][.....]Very well.[A][NL]
+Give up.[.....] Surrender quickly.[A][X]
+
+##ch4ending2bossdead1
+[SetName]Camus [NL]
+...[.....]Very well.[A][NL]
 As you wish.[NL]
-[ToggleMouthMove]...[ToggleMouthMove][......]I have fulfilled my duty[ToggleMouthMove]...[ToggleMouthMove][A]
-[OpenMidLeft]
-Men, seize him![A]
-[OpenMidRight][LoadSoldier]
-Yes sir![A]
-[ClearFace][OpenMidLeft]
+...[......]I have fulfilled my duty...[A][X]
+
+##ch4ending2bossdead2
+[SetName]Medeus[NL]
+Men, seize him![A][X]
+
+##ch4ending2bossdead3
+[SetName]Soldier [NL]
+Yes sir![A][X]
+
+##ch4ending2bossdead4
+[OpenMidLeft][LoadMedeus]
 Throw him in a cage,[NL]
 and drag it behind the carriage.[A][NL]
 He'll prove a fine example of the[NL]

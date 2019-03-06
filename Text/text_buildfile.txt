@@ -26,6 +26,9 @@ Learned  [X]
 #0x208
 Enemies[X]
 
+#0x448
+Stone infused with power.[X]
+
 #include "statscreen_text.txt"
 
 #include "unitmenu_text.txt"

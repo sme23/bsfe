@@ -184,17 +184,56 @@ ENDA
 ALIGN 4
 
 EndingScene:
-MUSC Victory
-Text(Fort_Outside,ch4ending1)
 MUSC Into_the_Shadow_of_Victory
+SetBackground(Fort_Outside)
+Text(ch4ending11)
+SetBackground(0x22)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending12
+TEXTEND 
+
+SetBackground(Plain)
+MUSC Lost_Heart
 CHECK_ALIVE Bulzark
 SVAL 1 1
 BNE 1 1 0xC
-Text(Plain,ch4ending2bossalive)
+
+
+Text(ch4ending2bossalive)
+SetBackground(0x24)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending2bossalive1
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending2bossalive2
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending2bossalive3
+TEXTEND 
+SetBackground(Plain)
+Text(ch4ending2bossalive4)
+
 GOTO 2
 LABEL 1
-Text(Plain,ch4ending2bossdead)
+
+
+Text(ch4ending2bossdead)
+SetBackground(0x24)
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending2bossdead1
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending2bossdead2
+TEXTEND 
+WORD 0x1A22 // switch to cg text mode
+TEXTSHOW ch4ending2bossdead3
+TEXTEND 
+SetBackground(Plain)
+Text(ch4ending2bossdead4)
+
+
 LABEL 2
+MUSC 0x1E
 SetBackground(Desert)
 CenterTutorialTextBox
 TUTORIALTEXTBOXSTART
@@ -270,3 +309,4 @@ MountainVillageEvent:
 VillageEventItem(ch4villagetext,Town_Day,Boots)
 NoFade
 ENDA
+
