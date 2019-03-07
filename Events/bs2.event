@@ -87,7 +87,7 @@ ALIGN 4
 LocationBasedEvents:
 Village(10,Village1,28,2)
 Village(11,Village2,13,1)
-Seize(4,7)
+Seize(2,7)
 END_MAIN
 
 ALIGN 4

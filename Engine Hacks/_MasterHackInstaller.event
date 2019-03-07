@@ -186,6 +186,10 @@ ALIGN 4
     MenuBox($01, $02, $08, 0, 0, MainMenuTable)
   POP
 
+  NewSeizeCheck:
+  #incbin "SmeHax/NewSeizeCheck.dmp"
+  
+  
   ALIGN 4         //Insert new commands where you want them to appear in the menu
   UnitMenuTable:
   //Use the macro MenuCommand(name,description,colour,usability,effect)
@@ -201,7 +205,10 @@ ALIGN 4
     BYTE $14 //right x coord
   POP
 
-  UM_Seize
+
+  
+  MenuCommand($67A,$6CC,BlueText,NewSeizeCheck,$08023021)
+  
   #ifdef __DEBUG__
     MenuCommand(UMText_Win, UMDesc_Win, GreenText,$22F35, Win_Effect)
   #endif
