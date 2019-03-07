@@ -50,6 +50,8 @@ Skill System credits:
 Colorz
 Circleseverywhere
 Monkeybard & Black Mage for most of the skill icons; Blaze for Stances skill icons
-Tequila, Rossendale, StanH, Leonarth, Teraspark, sd9k, Kao, blademaster, Snakey1 for skills
+Tequila, Rossendale, StanH, Leonarth, Teraspark, SD9k, Kao, blademaster, Snakey1 for skills
+
+Agro for the FE12 script translation used as the basis for the script here
 
 
