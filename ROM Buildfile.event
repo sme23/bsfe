@@ -18,6 +18,7 @@
 	#include "Portraits/_Master Portrait Installer.event"
 	#include "Graphics/Animation Installer.event"
 	#include "Graphics/Background Installer.event"
+	#include "Graphics/Menu Graphics Installer.event"
 	
 	DragonstoneStatBoosts:
 	StatBoosts(0,8,4,4,9,4,0,0,0)

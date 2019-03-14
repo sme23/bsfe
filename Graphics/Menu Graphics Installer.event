@@ -1,0 +1,52 @@
+PUSH
+ORG $4E130
+POIN MenuStyleGraphicsTable
+ORG $4E1B4
+POIN MenuStyleGraphicsTable
+ORG $4E0D0
+POIN MenuStylePaletteTable
+POP
+
+ALIGN 4
+MenuStyleGraphicsTable:
+POIN FE3MenuTilesGraphics
+POIN FE1MenuTilesGraphics
+POIN FE11MenuTilesGraphics
+POIN FE8MenuTilesGraphics
+
+MenuStylePaletteTable:
+POIN FE3MenuTilesPalette
+POIN FE1MenuTilesPalette
+POIN FE11MenuTilesPalette
+POIN FE8MenuTilesPalette
+
+
+FE11MenuTilesGraphics:
+#incext Png2Dmp "FE11_MenuTiles.png" --lz77
+
+FE11FrameTilesGraphics:
+#incext Png2Dmp "FE11_FrameTiles.png" --lz77
+
+FE11MenuTilesPalette:
+#incext Png2Dmp "FE11_MenuTiles.png" --palette-only
+
+FE1MenuTilesGraphics:
+#incext Png2Dmp "FE1_MenuTiles.png" --lz77
+
+FE1MenuTilesPalette:
+#incext Png2Dmp "FE1_MenuTiles.png" --palette-only
+
+FE3MenuTilesGraphics:
+#incext Png2Dmp "FE3_MenuTiles.png" --lz77
+
+FE3MenuTilesPalette:
+#incext Png2Dmp "FE3_MenuTiles.png" --palette-only
+
+FE8MenuTilesGraphics:
+#incext Png2Dmp "FE8_MenuTiles.png" --lz77
+
+FE8MenuTilesPalette:
+#incext Png2Dmp "FE8_MenuTiles.png" --palette-only
+
+
+ALIGN 4
