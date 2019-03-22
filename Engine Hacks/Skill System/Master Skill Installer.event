@@ -123,8 +123,8 @@ ORG $1538C
 jumpToHack(ArmorMarchSkill) //set or unest a bit in the debuff entries to give mov to units
 
 //Shadowgift and friends (only Lumina for now)
-ORG $16738
-jumpToHack(Shadowgift)
+//ORG $16738
+//jumpToHack(Shadowgift)
 
 POP
 

@@ -144,7 +144,8 @@ POP
   FreezeAllASMC:
   #incbin "ASM/freezeall.dmp"
 
-
+  ALIGN 4
+  #include "WeaponLockEx/WeaponLockEx.event"
 
   ALIGN 4
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
