@@ -1,9 +1,0 @@
-
-C:\Users\Ethan\Desktop\bad rats\Music>pause
-Press any key to continue . . . 
-
-C:\Users\Ethan\Desktop\bad rats\Music>dir *.mid /b  1>mid.txt 
-
-C:\Users\Ethan\Desktop\bad rats\Music>pause
-Press any key to continue . . . 
-C:\Users\Ethan\Desktop\bad rats\Music>for /f "tokens=*.mid" %m in mid.txt do mid2agb %m -V085
