@@ -46,7 +46,7 @@ setMugEntry(Michalis,BelfPortrait, 4, 6, 4, 4)
 setMugEntry(0x6,BoahPortrait, 3, 5, 3, 3)
 setMugEntry(0x8,DolphPortrait, 2, 4, 2, 2)
 setMugEntry(0x7,MacellanPortrait, 2, 5, 2, 2)
-setMugEntry(0x32,CatriaPortrait, 2, 6, 2, 4)
+setMugEntry(0x32,CatriaPortrait, 3, 6, 3, 4)
 
 MarfPortrait:
 #incext HalfbodyFormatter "Marf.png"

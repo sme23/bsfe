@@ -12,7 +12,7 @@ Macellan by StairFacts, Nickt
 Tomas by Yang Kai, Blueeyedman, Blaze
 Minerva by Zelkami, Nickt
 Palla by Backer
-Catria by |NOT YET DONE|
+Catria by Nobody
 Est by Frigid
 Hardin by Nickt
 Wolf by DerTheVaporeon, Nickt

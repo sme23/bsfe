@@ -1,10 +1,10 @@
 -polish ch4 map
 -find source of lag when selecting a unit
+-HALFBODY CONFLICTS!!!!
 
 No halfbody:
 -Dice
 -Frost
--Catria
 -Male Villager
 -Reiden
 -Roberto
