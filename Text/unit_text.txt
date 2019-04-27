@@ -73,6 +73,9 @@ Belf[X]
 ##VergilName
 Vergil[X]
 
+##BergName
+Berg[X]
+
 ##NynaDesc
 NynaDesc[X]
 
@@ -145,8 +148,7 @@ ReidenDesc[X]
 ##BelfDesc
 BelfDesc[X]
 
-##VergilDesc
-VergilDesc[X]
+
 
 ##GouberName
 Gouber[X]

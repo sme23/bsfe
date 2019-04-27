@@ -298,3 +298,9 @@ MM_Separator
 #include "ModularMinimugBox\MMB Installer GFE1R.event"
 
 #include "SmeHax/HintEffect.event"
+
+//infintie warp range
+PUSH
+ORG 0x01E380
+BYTE 0xF7 0x20 0x00 0x00
+POP

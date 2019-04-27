@@ -64,7 +64,7 @@ for one turn[X]
 Belf[X]
 
 ## nameSirius
-Belf[X]
+Berg[X]
 
 ## nameZeke
 Vergil[X]
