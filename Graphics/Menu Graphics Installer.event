@@ -9,16 +9,17 @@ POP
 
 ALIGN 4
 MenuStyleGraphicsTable:
+POIN FE8MenuTilesGraphics
 POIN FE3MenuTilesGraphics
 POIN FE1MenuTilesGraphics
 POIN FE11MenuTilesGraphics
-POIN FE8MenuTilesGraphics
 
 MenuStylePaletteTable:
+POIN FE8MenuTilesPalette
 POIN FE3MenuTilesPalette
 POIN FE1MenuTilesPalette
 POIN FE11MenuTilesPalette
-POIN FE8MenuTilesPalette
+
 
 
 FE11MenuTilesGraphics:

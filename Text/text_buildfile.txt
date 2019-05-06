@@ -169,6 +169,18 @@ Ep3Hint[A][X]
 [OpenMidLeft][LoadAnna]
 Ep4Hint[A][X]
 
+##HubOption5
+Sell the artifact to Arcanae
+[X]
+
+##HubOption6
+Sell the artifact to Cesaria
+[X]
+
+##HubOption7
+Join the battle in Smash
+[X]
+
 #include "skilldesc_text.txt"
 
 #include "ep1.txt"
