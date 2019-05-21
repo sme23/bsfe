@@ -317,7 +317,7 @@
     ALIGN 4
     IdentityProblemsMugs: //List of mugs that identity problems can be randomized to (the list is 3 entries)
     //This list is also used for the [0xE0][0xFF] text command
-    BYTE Michalis Michalis Michalis
+    BYTE 0x0c 0x09 0x0a
     ALIGN 2
     IdentityProblemsNames: //Make sure the names match the mugs from the list above and whatnot
     SHORT nameCamus nameZeke nameSirius
