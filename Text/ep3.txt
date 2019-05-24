@@ -395,7 +395,7 @@ But, employing both of us[NL]
 for a measly 250 gold[ToggleMouthMove]...[ToggleMouthMove][A][NL]
 They're just taking advantage of us.[A]
 [OpenMidLeft]
-Damn straight.
+Damn straight.[A][NL]
 If only someone would pay us 500,[NL]
 I'd work for them in a heartbeat[ToggleMouthMove]...[ToggleMouthMove][A]
 [OpenMidRight]

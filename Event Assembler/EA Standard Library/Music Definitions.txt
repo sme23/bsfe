@@ -458,7 +458,6 @@
 
 
 #ifdef _FE8_
-#ifndef __NewMusicDefs__
 
 #define Nothing 0x00
 #define The_Valiant 0x01
@@ -534,5 +533,4 @@
 
 #define Silent 0x7FFF
 
-#endif
 #endif
