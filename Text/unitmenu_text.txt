@@ -65,26 +65,9 @@ unit's opposite side.[X]
 Swap positions with adjacent[N]
 ally.[X]
 
-##UM_Debug
- Debug[X]
- 
-##UM_BootNormal
- Boot Normally[X]
+## UM_Capture
+ Capture[X]
 
-##UM_ResumeChp
- Resume Chapter[X]
-
-##UM_ResetSRAM
- Reset SRAM[X]
- 
-## UMText_Win
- Win[X]
-
-## UMDesc_Win
-This is your win button.[X]
-
-##UM_Help
- Help[X]
-
-##UM_HelpDesc
-Get a hint.[X]
+## UM_CaptureDesc
+Strike a fatal blow with reduced[N]
+stats to capture an enemy.[X]

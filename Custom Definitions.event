@@ -9,10 +9,13 @@
 #endif
 #ifndef DebuffTable
     #define DebuffTable 0x203F100
+	#define DebuffTableSize 0x00000900
 #endif
 
 #define LunarBrace MoonBracelet
 #define SolarBrace SunBracelet
+
+#include "Engine Hacks/SkillSystem/skill_definitions.event"
 
 // #define __DEBUG__ // Uncomment to get the Debug startup menu :p
 

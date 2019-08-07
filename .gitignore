@@ -17,10 +17,13 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-#rom stuff
+# rom stuff
 *.gba
 *.sav
 *.sgm
+
+# python cache
+__pycache__
 
 # =========================
 # Operating System Files
@@ -50,4 +53,3 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
-

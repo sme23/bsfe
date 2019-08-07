@@ -1,26 +1,72 @@
-cd %~dp0
+@echo off
 
-copy FE8_clean.gba BSFE.gba
+@rem USAGE: "MAKE HACK_full.cmd" [quick]
+@rem If first argument is "quick", then this will not update text, tables, or generate a patch
+@rem "MACK HACK_quick.cmd" simply calls this but with the quick argument, for convenience
 
-cd "%~dp0Tables"
+@rem defining buildfile config
 
-echo: | (c2ea "%~dp0FE8_clean.gba")
+set "source_rom=%~dp0FE8_clean.gba"
 
-cd "%~dp0Text"
+set "main_event=%~dp0ROM Buildfile.event"
 
-echo: | (text-process-classic text_buildfile.txt --parser-exe "%~dp0Event Assembler/Tools/ParseFile.exe")
+set "target_rom=%~dp0BSFE.gba"
+set "target_ups=%~dp0BSFE.ups"
 
-cd "%~dp0Maps"
+@rem defining tools
 
-echo: | (tmx2ea -s)
+set "c2ea=%~dp0Tools\C2EA\c2ea"
+set "textprocess=%~dp0Tools\TextProcess\text-process-classic"
+set "ups=%~dp0Tools\ups\ups"
+set "parsefile=%~dp0Event Assembler\Tools\ParseFile.exe"
 
-cd "%~dp0Event Assembler"
+@rem set %~dp0 into a variable because batch is stupid and messes with it when using conditionals?
 
-Core A FE8 "-output:%~dp0BSFE.gba" "-input:%~dp0ROM Buildfile.event"
+set "base_dir=%~dp0"
 
-if exist "%~dp0ups/ups.exe" (
-    cd "%~dp0ups"
-    ups diff -b "%~dp0FE8_clean.gba" -m "%~dp0BSFE.gba" -o "%~dp0BSFE.ups"
+@rem do the actual building
+
+echo Copying ROM
+
+copy "%source_rom%" "%target_rom%"
+
+if /I not [%1]==[quick] (
+
+  @rem only do the following if this isn't a make hack quick
+
+  echo:
+  echo Processing tables
+
+  cd "%base_dir%Tables"
+  echo: | ("%c2ea%" "%source_rom%")
+
+  echo:
+  echo Processing text
+
+  cd "%base_dir%Text"
+  echo: | ("%textprocess%" text_buildfile.txt --parser-exe "%parsefile%")
+
 )
+
+echo:
+echo Assembling
+
+cd "%base_dir%Event Assembler"
+ColorzCore A FE8 "-output:%target_rom%" "-input:%main_event%"
+
+if /I not [%1]==[quick] (
+
+  @rem only do the following if this isn't a make hack quick
+
+  echo:
+  echo Generating patch
+
+  cd "%base_dir%"
+  "%ups%" diff -b "%source_rom%" -m "%target_rom%" -o "%target_ups%"
+
+)
+
+echo:
+echo Done!
 
 pause
