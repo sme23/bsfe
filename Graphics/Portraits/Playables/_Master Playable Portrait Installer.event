@@ -1,0 +1,195 @@
+//setMugEntry(Marth, MarfPortrait, 3, 6, 3, 4)
+//setMugEntry(Marth, MarfPortrait, 4, 11, 4, 9)
+//setMugEntry(Jagen, JagenPortrait, 3, 5, 3, 2)
+//setMugEntry(Caeda, CaedaPortrait, 3, 6, 3, 4)
+//setMugEntry(Abel, AbelPortrait, 3, 5, 3, 3)
+//setMugEntry(Cain, CainPortrait, 3, 5, 3, 3)
+//setMugEntry(Gordin, GordinPortrait, 2, 7, 2, 5)
+//setMugEntry(Draug, DraugPortrait, 3, 5, 3, 3)
+//setMugEntry(Norne, NornePortrait, 3, 5, 3, 3)
+//setMugEntry(MyUnitMale, MyUnitMalePortrait, 3, 7, 3, 5)
+//setMugEntry(MyUnitFemale, MyUnitFemalePortrait, 4, 6, 3, 4)
+//setMugEntry(Wrys, WrysPortrait, 2, 5, 2, 3)
+//setMugEntry(Ogma, OgmaPortrait, 1, 5, 1, 3)
+//setMugEntry(Barst, BarstPortrait, 5, 5, 5, 3)
+//setMugEntry(Bord, BordPortrait, 3, 6, 3, 3)
+//setMugEntry(Cord, CordPortrait, 2, 5, 2, 3)
+//setMugEntry(Darros, DarrosPortrait, 3, 4, 3, 2)
+setMugEntry(0x12, CastorPortrait, 4, 6, 4, 4)
+//setMugEntry(Julian, JulianPortrait, 3, 5, 3, 3)
+setMugEntry(0x14, LenaPortrait, 3, 6, 3, 4)
+setMugEntry(0x15, NavarrePortrait, 4, 5, 4, 3)
+//setMugEntry(Merric, MerricPortrait, 3, 6, 3, 4)
+//setMugEntry(Matthis, MatthisPortrait, 3, 6, 3, 4)
+setMugEntry(0x18, HardinPortrait, 3, 5, 2, 3)
+setMugEntry(0x1A, WolfPortrait, 3, 5, 3, 3)
+//setMugEntry(Sedgar, SedgarPortrait, 2, 5, 3, 3)
+setMugEntry(0x1C, RosheaPortrait, 2, 5, 2, 3)
+//setMugEntry(Vyland, VylandPortrait, 3, 5, 3, 3)
+//setMugEntry(Wendell, WendellPortrait, 3, 6, 3, 4)
+setMugEntry(0x1E, RickardPortrait, 3, 6, 4, 4)
+//setMugEntry(Athena, AthenaPortrait, 3, 5, 3, 3)
+setMugEntry(0x26, MinervaPortrait, 3, 5, 3, 3)
+//setMugEntry(Linde, LindePortrait, 3, 6, 3, 4)
+//setMugEntry(Astram, AstramPortrait, 3, 5, 3, 3)
+setMugEntry(0x31, PallaPortrait, 3, 6, 3, 4)
+setMugEntry(0x2, NynaPortrait, 3, 5, 3, 3)
+setMugEntry(0x37,EstPortrait, 3, 6, 4, 4)
+setMugEntry(0x4,MidiaPortrait, 3, 5, 2, 3)
+setMugEntry(0x5,TomasPortrait, 3, 6, 3, 4)
+setMugEntry(Orridyon,RobertoPortrait, 2, 5, 3, 3)
+setMugEntry(Larissa,ReidenPortrait, 2, 5, 3, 3)
+setMugEntry(0x13,MalicePortrait, 4, 5, 4, 3)
+setMugEntry(0x29,FrostPortrait, 2, 5, 2, 3)
+setMugEntry(0xB,DicePortrait, 2, 5, 3, 3)
+setMugEntry(Michalis,BelfPortrait, 3, 5, 3, 3)
+setMugEntry(0x6,BoahPortrait, 4, 5, 4, 3)
+setMugEntry(0x8,DolphPortrait, 2, 4, 2, 2)
+setMugEntry(0x7,MacellanPortrait, 3, 6, 3, 3)
+setMugEntry(0x32,CatriaPortrait, 3, 5, 3, 3)
+
+MarfPortrait:
+#incext PortraitFormatter "Marf.png"
+//#incext PortraitFormatter "Arch.png"
+
+JagenPortrait:
+#incext PortraitFormatter "Jagen.png"
+
+CaedaPortrait:
+#incext PortraitFormatter "Caeda.png"
+
+AbelPortrait:
+#incext PortraitFormatter "Abel.png"
+
+CainPortrait:
+#incext PortraitFormatter "Cain.png"
+
+GordinPortrait:
+#incext PortraitFormatter "Gordin.png"
+
+DraugPortrait:
+#incext PortraitFormatter "Draug.png"
+
+NornePortrait:
+#incext PortraitFormatter "Norne.png"
+
+MyUnitMalePortrait:
+#incext PortraitFormatter "MaleMU.png"
+
+MyUnitFemalePortrait:
+#incext PortraitFormatter "FemaleMU.png"
+
+WrysPortrait:
+#incext PortraitFormatter "Wrys.png"
+
+OgmaPortrait:
+#incext PortraitFormatter "Ogma.png"
+
+BarstPortrait:
+#incext PortraitFormatter "Barst.png"
+
+BordPortrait:
+#incext PortraitFormatter "Bord.png"
+
+CordPortrait:
+#incext PortraitFormatter "Cord.png"
+
+DarrosPortrait:
+#incext PortraitFormatter "Darros.png"
+
+CastorPortrait:
+#incext PortraitFormatter "Castor.png"
+
+JulianPortrait:
+#incext PortraitFormatter "Julian.png"
+
+LenaPortrait:
+#incext PortraitFormatter "Lena.png"
+
+NavarrePortrait:
+#incext PortraitFormatter "Navarre.png"
+
+MerricPortrait:
+#incext PortraitFormatter "Merric.png"
+
+MatthisPortrait:
+#incext PortraitFormatter "Matthis.png"
+
+HardinPortrait:
+#incext PortraitFormatter "Hardin.png"
+
+WolfPortrait:
+#incext PortraitFormatter "Wolf.png"
+
+SedgarPortrait:
+#incext PortraitFormatter "Sedgar.png"
+
+RosheaPortrait:
+#incext PortraitFormatter "Roshea.png"
+
+VylandPortrait:
+#incext PortraitFormatter "Vyland.png"
+
+WendellPortrait:
+#incext PortraitFormatter "Wendell.png"
+
+RickardPortrait:
+#incext PortraitFormatter "Rickard.png"
+
+AthenaPortrait:
+#incext PortraitFormatter "Athena.png"
+
+MinervaPortrait:
+#incext PortraitFormatter "Minerva.png"
+
+LindePortrait:
+#incext PortraitFormatter "Linde.png"
+
+AstramPortrait:
+#incext PortraitFormatter "Astram.png"
+
+PallaPortrait:
+#incext PortraitFormatter "Palla.png"
+
+NynaPortrait:
+#incext PortraitFormatter "Nyna.png"
+
+EstPortrait:
+#incext PortraitFormatter "Est.png"
+
+MidiaPortrait:
+#incext PortraitFormatter "Midia.png"
+
+TomasPortrait:
+#incext PortraitFormatter "Tomas.png"
+
+RobertoPortrait:
+#incext PortraitFormatter "Roberto.png"
+
+ReidenPortrait:
+#incext PortraitFormatter "Reiden.png"
+
+MalicePortrait:
+#incext PortraitFormatter "Malice.png"
+
+FrostPortrait:
+#incext PortraitFormatter "Frost.png"
+
+DicePortrait:
+#incext PortraitFormatter "Dice.png"
+
+BelfPortrait:
+#incext PortraitFormatter "Belf.png"
+
+BoahPortrait:
+#incext PortraitFormatter "Boah.png"
+
+DolphPortrait:
+#incext PortraitFormatter "Dolph.png"
+
+MacellanPortrait:
+#incext PortraitFormatter "Macellan.png"
+
+CatriaPortrait:
+#incext PortraitFormatter "Catria.png"
+

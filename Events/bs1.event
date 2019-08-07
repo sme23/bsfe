@@ -104,7 +104,6 @@ ALIGN 4
 
 BeginningScene:
 //Scroll text (actually this is a different event buuuuut) BROWNBOXTEXT *Text ID* [Text position X, Text position Y] 
-FADI 5
 ENUT 8
 ENUT 9
 ENUT 0xA

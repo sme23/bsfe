@@ -285,5 +285,27 @@ Ch3EscapePoint:
 EscapePoint(0, 21, MoveLeft)
 EscapePointEnd
 
+PUSH
+ORG $591FA8
+{
+    // s3 is item id or gold amt
 
+    EVBIT_MODIFY 1
+    TILECHANGE 0xFFFD
+
+    SVAL 0x7 0xC0 // <----
+
+    BGT 0 0x3 0x7
+
+    GIVEITEMTO 0xFFFF
+
+    GOTO 1
+
+LABEL 0
+    GIVEITEMTOMAIN 0xFFFF
+
+LABEL 1
+    ENDA
+}
+POP
 

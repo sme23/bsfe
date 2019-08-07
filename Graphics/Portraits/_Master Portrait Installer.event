@@ -1,0 +1,28 @@
+
+ALIGN 4
+//Playables
+#include "Playables/_Master Playable Portrait Installer.event"
+
+//Enemies
+#include "Bosses/_Master Bosses Portrait Installer.event"
+
+
+//Non-Playables
+//setMugEntry(0x64, AnnaPortrait, 4, 5, 4, 3)
+setMugEntry(0x5C,VillagerBoyPortrait, 2, 5, 3, 3)
+setMugEntry(0x58,VillagerBoyPortrait, 2, 5, 3, 3)
+setMugEntry(0x62,VillagerGirlPortrait, 3, 8, 3, 6)
+setMugEntry(0x6B,SoldierPortrait, 3, 6, 3, 3)
+
+
+AnnaPortrait:
+#incext PortraitFormatter "Anna.png"
+
+VillagerBoyPortrait:
+#incext PortraitFormatter "VillagerBoy.png"
+
+VillagerGirlPortrait:
+#incext PortraitFormatter "VillagerGirl.png"
+
+SoldierPortrait:
+#incext PortraitFormatter "Soldier.png"

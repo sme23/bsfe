@@ -2097,7 +2097,7 @@ Music and sound
   FE8:
    MURE *Fade out speed* 
 
-   Returns to previous music after MUSS.
+   Returns to previous music after MUS2.
 
    Parameters:
     Fade out speed = Speed to fade out in. Larger values are slower.
