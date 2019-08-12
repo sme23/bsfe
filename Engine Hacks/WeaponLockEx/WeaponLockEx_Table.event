@@ -1,5 +1,0 @@
-#define WeaponLockEntry(itemID,unitID,classID,level,flag) "BYTE itemID unitID classID level; SHORT flag 0"
-
-WeaponLockEx_Table:
-WeaponLockEntry(BraveSword,Malice,0,0,0)
-WeaponLockEntry(0,0,0,0,0)

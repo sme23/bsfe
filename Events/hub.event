@@ -56,6 +56,7 @@ END_MAIN
 ALIGN 4
 
 BeginningScene:
+EVBIT_MODIFY 1
 ENUT 0x127
 MUSC 0x1E
 //LOAD1 0x1 PlayerUnits
