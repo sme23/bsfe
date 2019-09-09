@@ -19,7 +19,7 @@ Wolf by DerTheVaporeon, Nickt
 Roshea by Alusq, DerTheVaporeon, Nickt
 Frost by DerTheVaporeon
 Rickard by Nickt
-Lena by MageKnight404, Nickt
+Lena by Blade
 Navarre by Xenith, Card, FEier, Blueeyedman, Nickt
 Castor by flingleforp, Nickt
 Dice by Blueyyedman
