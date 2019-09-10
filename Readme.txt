@@ -27,7 +27,7 @@ Malice by luminescentblade
 Camus by Nickt
 Roberto by DerTheVaporeon
 Reiden by Soh
-Belf by |NOT YET DONE| //whoever did arch's mug
+Belf by Astelaine
 Gouber/Emereus by DerTheVaporeon, Nickt
 Ruben/Harmein by DerTheVaporeon
 Vaam/Gomer by Blaze
@@ -48,6 +48,7 @@ Circleseverywhere
 Colorz
 Monkeybard & Black Mage for most of the skill icons; Blaze for Stances skill icons; vlak for Drive skill icons; Pikmin1211 for miscellaneous icons
 Tequila, Rossendale, StanH, Leonarth, Teraspark, SD9k, Kao, blademaster, Snakey1, Sme for skills
+
 
 Agro for the FE12 script translation used as the basis for the script here
 
