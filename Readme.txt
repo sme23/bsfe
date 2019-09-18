@@ -43,6 +43,7 @@ Assembly credits:
 
 Halfbody system by Kirb
 256-color title screen by Leonarth
+Item Effect Revamp by Teraspark
 
 
 Skill System credits:
