@@ -21,7 +21,7 @@ taleselect_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 150*taleselect_tbs/2
 	.byte		VOICE , 75
-	.byte		PAN   , c_v+31
+	.byte		PAN   , c_v-29
 	.byte		VOL   , 95*taleselect_mvl/mxv
 	.byte	W24
 	.byte		N04   , En4 , v088
@@ -180,7 +180,7 @@ taleselect_2:
 taleselect_2_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 61
-	.byte		PAN   , c_v+31
+	.byte		PAN   , c_v+11
 	.byte		VOL   , 127*taleselect_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
@@ -272,7 +272,7 @@ taleselect_3:
 taleselect_3_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 10
-	.byte		PAN   , c_v+12
+	.byte		PAN   , c_v-25
 	.byte		VOL   , 105*taleselect_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------
@@ -387,7 +387,7 @@ taleselect_4:
 taleselect_4_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 75
-	.byte		PAN   , c_v+47
+	.byte		PAN   , c_v+2
 	.byte		VOL   , 95*taleselect_mvl/mxv
 	.byte		TIE   , An3 , v064
 	.byte	W96
@@ -486,7 +486,7 @@ taleselect_5:
 taleselect_5_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 49
-	.byte		PAN   , c_v+31
+	.byte		PAN   , c_v-15
 	.byte		VOL   , 90*taleselect_mvl/mxv
 	.byte	W96
 @ 001   ----------------------------------------

@@ -617,7 +617,6 @@ EnemyBattle1_1_B1:
 	.byte	W01
 	.byte	W03
 	.byte	W05
-	.byte		VOICE , 3
 	.byte		VOL   , 100*EnemyBattle1_mvl/mxv
 	.byte		PAN   , c_v+10
 	.byte		TIE   , Fn2 , v084
@@ -4204,14 +4203,14 @@ EnemyBattle1_7_B1:
 	.byte		        Cn1 , v124
 	.byte		N06   , An1 
 	.byte	W06
-	.byte		        En1 , v127
+	.byte		        Dn1 , v127
 	.byte		N05   , Gn2 , v048
 	.byte	W06
 	.byte		N06   , Dn1 , v127
 	.byte		N05   , Cs2 , v048
 	.byte	W06
 	.byte		N06   , Cn1 , v124
-	.byte		N06   , En1 , v127
+	.byte		N06   , Dn1 , v127
 	.byte		N05   , Gn2 , v048
 	.byte	W06
 	.byte		N06   , Cn1 , v124
@@ -4343,7 +4342,7 @@ EnemyBattle1_7_B1:
 	.byte		        Cn1 , v124
 	.byte		N06   , An1 
 	.byte	W06
-	.byte		        En1 , v127
+	.byte		        Dn1 , v127
 	.byte		N05   , Gn2 , v048
 	.byte	W06
 @ 007   ----------------------------------------
@@ -4351,7 +4350,7 @@ EnemyBattle1_7_B1:
 	.byte		N05   , Cs2 , v048
 	.byte	W06
 	.byte		N06   , Cn1 , v124
-	.byte		N06   , En1 , v127
+	.byte		N06   , Dn1 , v127
 	.byte		N05   , Gn2 , v048
 	.byte	W06
 	.byte		N06   , Cn1 , v124
@@ -4454,14 +4453,14 @@ EnemyBattle1_7_B1:
 @ 011   ----------------------------------------
 	.byte		        Fn1 , v120
 	.byte	W12
-	.byte		N02   , En1 , v112
+	.byte		N02   , Dn1 , v112
 	.byte		N06   , Cn2 , v120
 	.byte	W03
 	.byte		N02   , Dn1 , v112
 	.byte	W03
-	.byte		        En1 
+	.byte		N02   
 	.byte	W03
-	.byte		        Dn1 
+	.byte		N02   
 	.byte	W03
 	.byte		N06   , Cn1 , v124
 	.byte		N02   , Fs1 , v112
@@ -4596,13 +4595,13 @@ EnemyBattle1_7_B1:
 	.byte		N02   , Cs1 , v092
 	.byte		N06   , An1 , v124
 	.byte	W06
-	.byte		        En1 , v127
+	.byte		        Dn1 , v127
 	.byte		N05   , Gn2 , v048
 	.byte	W06
 	.byte		N06   , Dn1 , v127
 	.byte		N05   , Cs2 , v040
 	.byte	W06
-	.byte		N06   , En1 , v127
+	.byte		N06   , Dn1 , v127
 	.byte		N05   , Gn2 , v056
 	.byte	W06
 @ 015   ----------------------------------------
@@ -4730,13 +4729,13 @@ EnemyBattle1_7_B1:
 	.byte		N02   , Fs1 , v092
 	.byte		N06   , An1 , v124
 	.byte	W06
-	.byte		N05   , En1 , v127
+	.byte		N05   , Dn1 , v127
 	.byte		N05   , Gn2 , v064
 	.byte	W06
 	.byte		        Dn1 , v127
 	.byte		N05   , Cs2 , v056
 	.byte	W06
-	.byte		        En1 , v127
+	.byte		        Dn1 , v127
 	.byte		N05   , Gn2 , v072
 	.byte	W06
 	.byte		N06   , Cn1 , v124
@@ -4840,13 +4839,13 @@ EnemyBattle1_7_B1:
 	.byte		N06   , Fn1 , v120
 	.byte	W12
 	.byte		        Cn1 , v124
-	.byte		N02   , En1 , v112
+	.byte		N02   , Dn1 , v112
 	.byte	W03
-	.byte		        Dn1 
+	.byte		N02   
 	.byte	W03
-	.byte		        En1 
+	.byte		N02   
 	.byte	W03
-	.byte		        Dn1 
+	.byte		N02   
 	.byte	W03
 	.byte		N06   , Cn1 , v124
 	.byte		N02   , Fs1 , v112

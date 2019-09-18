@@ -670,11 +670,11 @@ TogetherWeRide_2:
 	.byte	W24
 	.byte		N05   , Cn1 , v124
 	.byte	W12
-	.byte		N11   , En1 , v127
+	.byte		N11   , Dn1 , v127
 	.byte	W12
 	.byte		N05   , Dn1 , v068
 	.byte	W06
-	.byte		N01   , En1 , v092
+	.byte		N01   , Dn1 , v092
 	.byte	W02
 TogetherWeRide_2_B1:
 @ 001   ----------------------------------------
@@ -1554,11 +1554,11 @@ TogetherWeRide_5:
 	.byte	W24
 	.byte		N05   , Cn1 , v124
 	.byte	W12
-	.byte		N11   , En1 , v127
+	.byte		N11   , Dn1 , v127
 	.byte	W12
 	.byte		N05   , Dn1 , v076
 	.byte	W06
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W06
 TogetherWeRide_5_B1:
 @ 001   ----------------------------------------
@@ -1567,7 +1567,7 @@ TogetherWeRide_5_B1:
 	.byte	W12
 	.byte		N06   , Cn1 , v104
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v060
 	.byte	W06
 	.byte		        Fs1 , v044
@@ -1586,7 +1586,7 @@ TogetherWeRide_5_B1:
 	.byte	W06
 	.byte		        Fs1 , v048
 	.byte	W06
-	.byte		N12   , En1 , v116
+	.byte		N12   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -1607,7 +1607,7 @@ TogetherWeRide_5_002:
 	.byte	W06
 	.byte		        Fs1 , v044
 	.byte	W06
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v052
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -1626,7 +1626,7 @@ TogetherWeRide_5_002:
 	.byte	W06
 	.byte		        Fs1 , v044
 	.byte	W06
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -1649,7 +1649,7 @@ TogetherWeRide_5_003:
 	.byte	W06
 	.byte		        Fs1 , v040
 	.byte	W06
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v052
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -1668,7 +1668,7 @@ TogetherWeRide_5_003:
 	.byte	W06
 	.byte		        Fs1 , v044
 	.byte	W06
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -1690,7 +1690,7 @@ TogetherWeRide_5_003:
 	.byte		        Fs1 , v044
 	.byte	W06
 	.byte		N05   , Cn1 , v112
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v048
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -1710,7 +1710,7 @@ TogetherWeRide_5_003:
 	.byte		        Fs1 , v044
 	.byte	W06
 	.byte		N03   , Cn1 
-	.byte		N03   , En1 , v116
+	.byte		N03   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W04
 	.byte		N03   , Cn1 , v060
@@ -1785,20 +1785,20 @@ TogetherWeRide_5_003:
 	.byte		N06   , Cn1 , v124
 	.byte		N04   , Fn1 , v112
 	.byte	W06
-	.byte		N05   , En1 , v056
+	.byte		N05   , Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v072
 	.byte	W06
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W06
 	.byte		N06   , Cn1 , v124
 	.byte		N05   , Dn1 , v108
 	.byte	W06
-	.byte		        En1 , v104
+	.byte		        Dn1 , v104
 	.byte	W06
 	.byte		        Dn1 , v124
 	.byte	W06
-	.byte		        En1 , v127
+	.byte		        Dn1 , v127
 	.byte	W06
 @ 007   ----------------------------------------
 TogetherWeRide_5_007:
@@ -1807,7 +1807,7 @@ TogetherWeRide_5_007:
 	.byte	W12
 	.byte		N06   , Cn1 , v104
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v076
 	.byte	W12
 	.byte		N04   , Cn1 , v124
@@ -1818,7 +1818,7 @@ TogetherWeRide_5_007:
 	.byte		N05   , Cn1 , v124
 	.byte		N12   , As1 , v068
 	.byte	W12
-	.byte		        En1 , v116
+	.byte		        Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W12
 	.byte		        As1 , v060
@@ -1832,7 +1832,7 @@ TogetherWeRide_5_008:
 	.byte		N06   , Cn1 , v108
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v068
 	.byte	W12
 	.byte		N05   , Cn1 , v124
@@ -1843,7 +1843,7 @@ TogetherWeRide_5_008:
 	.byte		N05   , Cn1 , v124
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W12
 	.byte		N03   , Cn1 , v120
@@ -1858,7 +1858,7 @@ TogetherWeRide_5_009:
 	.byte		N06   , Cn1 , v104
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v068
 	.byte	W12
 	.byte		N04   , Cn1 , v124
@@ -1869,7 +1869,7 @@ TogetherWeRide_5_009:
 	.byte		N04   , Cn1 , v124
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W12
 	.byte		N06   , Cn1 , v124
@@ -1883,7 +1883,7 @@ TogetherWeRide_5_009:
 	.byte		N12   , As1 , v060
 	.byte	W12
 	.byte		N05   , Cn1 , v112
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v064
 	.byte	W12
 	.byte		N05   , Cn1 , v124
@@ -1894,7 +1894,7 @@ TogetherWeRide_5_009:
 	.byte		N05   , Cn1 , v124
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W12
 	.byte		N04   , Cn1 , v120
@@ -1911,34 +1911,34 @@ TogetherWeRide_5_009:
 	 .word	TogetherWeRide_5_009
 @ 014   ----------------------------------------
 	.byte		N05   , Cn1 , v124
-	.byte		N11   , En1 , v080
+	.byte		N11   , Dn1 , v080
 	.byte		N12   , As1 , v068
 	.byte	W12
 	.byte		N06   , Cn1 , v108
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N24   , Gn2 , v092
 	.byte	W12
-	.byte		N11   , En1 , v080
+	.byte		N11   , Dn1 , v080
 	.byte	W12
 	.byte		N05   , Cn1 , v124
-	.byte		N11   , En1 , v068
+	.byte		N11   , Dn1 , v068
 	.byte	W12
-	.byte		N05   , En1 , v116
+	.byte		N05   , Dn1 , v116
 	.byte		N24   , Ds2 , v072
 	.byte	W06
 	.byte		N05   , Dn1 , v056
 	.byte	W06
 	.byte		        Cn1 , v124
-	.byte		N05   , En1 , v060
+	.byte		N05   , Dn1 , v060
 	.byte	W06
 	.byte		        Dn1 , v072
 	.byte	W06
-	.byte		        En1 , v116
+	.byte		        Dn1 , v116
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
 	.byte		N03   , Cn1 , v120
-	.byte		N05   , En1 , v096
+	.byte		N05   , Dn1 , v096
 	.byte	W06
 	.byte		        Dn1 , v100
 	.byte	W06
@@ -1950,7 +1950,7 @@ TogetherWeRide_5_009:
 	.byte		N06   , Cn1 , v104
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W12
 	.byte		N04   , Cn1 , v124
@@ -1961,7 +1961,7 @@ TogetherWeRide_5_009:
 	.byte		N04   , Cn1 , v124
 	.byte		N12   , As1 , v060
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v076
 	.byte	W12
 	.byte		N06   , Cn1 , v124
@@ -1974,7 +1974,7 @@ TogetherWeRide_5_009:
 	.byte		N12   , As1 , v056
 	.byte	W12
 	.byte		N05   , Cn1 , v112
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W12
 	.byte		N05   , Cn1 , v124
@@ -1986,7 +1986,7 @@ TogetherWeRide_5_009:
 	.byte		N12   , As1 , v060
 	.byte	W12
 	.byte		N03   , Cn1 , v044
-	.byte		N03   , En1 , v116
+	.byte		N03   , Dn1 , v116
 	.byte		N12   , As1 , v072
 	.byte	W04
 	.byte		N03   , Cn1 , v060
@@ -2063,20 +2063,20 @@ TogetherWeRide_5_009:
 	.byte		N06   , Cn1 , v124
 	.byte		N04   , Fn1 , v112
 	.byte	W06
-	.byte		N05   , En1 , v056
+	.byte		N05   , Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v072
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte	W06
 	.byte		N06   , Cn1 , v124
 	.byte		N05   , Dn1 , v100
 	.byte	W06
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W06
 	.byte		N04   , Dn1 , v112
 	.byte	W06
-	.byte		N05   , En1 , v116
+	.byte		N05   , Dn1 , v116
 	.byte	W06
 @ 019   ----------------------------------------
 	.byte		        Cn1 , v124
@@ -2084,7 +2084,7 @@ TogetherWeRide_5_009:
 	.byte	W12
 	.byte		N06   , Cn1 , v104
 	.byte	W12
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v060
 	.byte	W06
 	.byte		        Fs1 , v044
@@ -2103,7 +2103,7 @@ TogetherWeRide_5_009:
 	.byte	W06
 	.byte		        Fs1 , v048
 	.byte	W06
-	.byte		N12   , En1 , v116
+	.byte		N12   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -2129,7 +2129,7 @@ TogetherWeRide_5_009:
 	.byte		        Fs1 , v044
 	.byte	W06
 	.byte		N05   , Cn1 , v112
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v048
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -2148,7 +2148,7 @@ TogetherWeRide_5_009:
 	.byte	W06
 	.byte		        Fs1 , v044
 	.byte	W06
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -2169,7 +2169,7 @@ TogetherWeRide_5_009:
 	.byte	W06
 	.byte		        Fs1 , v040
 	.byte	W06
-	.byte		N11   , En1 , v116
+	.byte		N11   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -2188,7 +2188,7 @@ TogetherWeRide_5_009:
 	.byte	W06
 	.byte		        Fs1 , v044
 	.byte	W06
-	.byte		N12   , En1 , v116
+	.byte		N12   , Dn1 , v116
 	.byte		N06   , Fs1 , v056
 	.byte	W06
 	.byte		        Fs1 , v040
@@ -2202,9 +2202,9 @@ TogetherWeRide_5_009:
 	.byte		N22   , Cs2 , v076
 	.byte	W12
 	.byte		N06   , Cn1 , v108
-	.byte		N11   , En1 , v064
+	.byte		N11   , Dn1 , v064
 	.byte	W12
-	.byte		        En1 , v116
+	.byte		        Dn1 , v116
 	.byte		N11   , As1 , v072
 	.byte	W12
 	.byte		N06   , Cn1 , v124
@@ -3458,7 +3458,7 @@ TogetherWeRide_9:
 	.byte	W24
 	.byte		N05   , Cn1 , v124
 	.byte	W12
-	.byte		N11   , En1 , v127
+	.byte		N11   , Dn1 , v127
 	.byte	W12
 	.byte		N02   , Dn1 , v068
 	.byte	W03
@@ -3623,23 +3623,23 @@ TogetherWeRide_9_B1:
 	.byte	W03
 	.byte		        As3 , v044
 	.byte	W06
-	.byte		N23   , Cn4 , v084
+	.byte		N23   , Cn3 , v084
 	.byte	W24
-	.byte		N06   , Cn4 , v044
+	.byte		N06   , Cn3 , v044
 	.byte	W12
-	.byte		        Cn4 , v112
+	.byte		        Cn3 , v112
 	.byte	W12
-	.byte		        Cn4 , v044
+	.byte		        Cn3 , v044
 	.byte	W12
-	.byte		        Cn4 , v112
+	.byte		        Cn3 , v112
 	.byte	W12
-	.byte		        Cn4 , v040
+	.byte		        Cn3 , v040
 	.byte	W12
-	.byte		        Cn4 , v112
+	.byte		        Cn3 , v112
 	.byte	W03
 @ 022   ----------------------------------------
 	.byte	W03
-	.byte		        Cn4 , v056
+	.byte		        Cn3 , v056
 	.byte	W06
 	.byte		N23   , As3 , v088
 	.byte	W24

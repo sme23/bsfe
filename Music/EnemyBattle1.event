@@ -618,7 +618,6 @@ EnemyBattle1_1_B1:
 	BYTE	W01
 	BYTE	W03
 	BYTE	W05
-	BYTE		VOICE   3
 	BYTE		VOL     100*EnemyBattle1_mvl/mxv
 	BYTE		PAN     c_v+10
 	BYTE		TIE     Fn2   v084
@@ -4205,14 +4204,14 @@ EnemyBattle1_7_B1:
 	BYTE		        Cn1   v124
 	BYTE		N06     An1 
 	BYTE	W06
-	BYTE		        En1   v127
+	BYTE		        Dn1   v127
 	BYTE		N05     Gn2   v048
 	BYTE	W06
 	BYTE		N06     Dn1   v127
 	BYTE		N05     Cs2   v048
 	BYTE	W06
 	BYTE		N06     Cn1   v124
-	BYTE		N06     En1   v127
+	BYTE		N06     Dn1   v127
 	BYTE		N05     Gn2   v048
 	BYTE	W06
 	BYTE		N06     Cn1   v124
@@ -4344,7 +4343,7 @@ EnemyBattle1_7_B1:
 	BYTE		        Cn1   v124
 	BYTE		N06     An1 
 	BYTE	W06
-	BYTE		        En1   v127
+	BYTE		        Dn1   v127
 	BYTE		N05     Gn2   v048
 	BYTE	W06
 // 007   ----------------------------------------
@@ -4352,7 +4351,7 @@ EnemyBattle1_7_B1:
 	BYTE		N05     Cs2   v048
 	BYTE	W06
 	BYTE		N06     Cn1   v124
-	BYTE		N06     En1   v127
+	BYTE		N06     Dn1   v127
 	BYTE		N05     Gn2   v048
 	BYTE	W06
 	BYTE		N06     Cn1   v124
@@ -4455,14 +4454,14 @@ EnemyBattle1_7_B1:
 // 011   ----------------------------------------
 	BYTE		        Fn1   v120
 	BYTE	W12
-	BYTE		N02     En1   v112
+	BYTE		N02     Dn1   v112
 	BYTE		N06     Cn2   v120
 	BYTE	W03
 	BYTE		N02     Dn1   v112
 	BYTE	W03
-	BYTE		        En1 
+	BYTE		N02   
 	BYTE	W03
-	BYTE		        Dn1 
+	BYTE		N02   
 	BYTE	W03
 	BYTE		N06     Cn1   v124
 	BYTE		N02     Fs1   v112
@@ -4597,13 +4596,13 @@ EnemyBattle1_7_B1:
 	BYTE		N02     Cs1   v092
 	BYTE		N06     An1   v124
 	BYTE	W06
-	BYTE		        En1   v127
+	BYTE		        Dn1   v127
 	BYTE		N05     Gn2   v048
 	BYTE	W06
 	BYTE		N06     Dn1   v127
 	BYTE		N05     Cs2   v040
 	BYTE	W06
-	BYTE		N06     En1   v127
+	BYTE		N06     Dn1   v127
 	BYTE		N05     Gn2   v056
 	BYTE	W06
 // 015   ----------------------------------------
@@ -4731,13 +4730,13 @@ EnemyBattle1_7_B1:
 	BYTE		N02     Fs1   v092
 	BYTE		N06     An1   v124
 	BYTE	W06
-	BYTE		N05     En1   v127
+	BYTE		N05     Dn1   v127
 	BYTE		N05     Gn2   v064
 	BYTE	W06
 	BYTE		        Dn1   v127
 	BYTE		N05     Cs2   v056
 	BYTE	W06
-	BYTE		        En1   v127
+	BYTE		        Dn1   v127
 	BYTE		N05     Gn2   v072
 	BYTE	W06
 	BYTE		N06     Cn1   v124
@@ -4841,13 +4840,13 @@ EnemyBattle1_7_B1:
 	BYTE		N06     Fn1   v120
 	BYTE	W12
 	BYTE		        Cn1   v124
-	BYTE		N02     En1   v112
+	BYTE		N02     Dn1   v112
 	BYTE	W03
-	BYTE		        Dn1 
+	BYTE		N02   
 	BYTE	W03
-	BYTE		        En1 
+	BYTE		N02   
 	BYTE	W03
-	BYTE		        Dn1 
+	BYTE		N02   
 	BYTE	W03
 	BYTE		N06     Cn1   v124
 	BYTE		N02     Fs1   v112

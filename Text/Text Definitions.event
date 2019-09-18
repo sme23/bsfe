@@ -510,5 +510,6 @@
 #define PoleaxName $AD5
 #define HauteclereName $AD6
 #define BlizzardName $AD7
+#define LevinSwordDesc $AD8
 
 #endif // TEXT_DEFINITIONS_TEXT_BUILDFILE_TXT

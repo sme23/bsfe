@@ -22,7 +22,7 @@ taleselect_1_B1:
 // 000   ----------------------------------------
 	BYTE	TEMPO   150*taleselect_tbs/2
 	BYTE		VOICE   75
-	BYTE		PAN     c_v+31
+	BYTE		PAN     c_v-29
 	BYTE		VOL     95*taleselect_mvl/mxv
 	BYTE	W24
 	BYTE		N04     En4   v088
@@ -181,7 +181,7 @@ taleselect_2:
 taleselect_2_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   61
-	BYTE		PAN     c_v+31
+	BYTE		PAN     c_v+11
 	BYTE		VOL     127*taleselect_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
@@ -273,7 +273,7 @@ taleselect_3:
 taleselect_3_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   10
-	BYTE		PAN     c_v+12
+	BYTE		PAN     c_v-25
 	BYTE		VOL     105*taleselect_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------
@@ -388,7 +388,7 @@ taleselect_4:
 taleselect_4_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   75
-	BYTE		PAN     c_v+47
+	BYTE		PAN     c_v+2
 	BYTE		VOL     95*taleselect_mvl/mxv
 	BYTE		TIE     An3   v064
 	BYTE	W96
@@ -487,7 +487,7 @@ taleselect_5:
 taleselect_5_B1:
 // 000   ----------------------------------------
 	BYTE		VOICE   49
-	BYTE		PAN     c_v+31
+	BYTE		PAN     c_v-15
 	BYTE		VOL     90*taleselect_mvl/mxv
 	BYTE	W96
 // 001   ----------------------------------------

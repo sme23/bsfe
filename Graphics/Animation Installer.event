@@ -95,3 +95,7 @@ HunterMovingMapSprite:
 
 
 
+PUSH
+ORG 0x592E74
+#incext Png2Dmp "Levin.png"
+POP

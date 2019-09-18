@@ -17,6 +17,7 @@
 
 VictoryIsOurs_1:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_1_B1:
 @ 000   ----------------------------------------
 	.byte	TEMPO , 148*VictoryIsOurs_tbs/2
 	.byte		VOICE , 40
@@ -24,10 +25,8 @@ VictoryIsOurs_1:
 	.byte		PAN   , c_v-10
 	.byte		BEND  , c_v+1
 	.byte		N23   , Gn4 , v076
-	.byte	W06
-VictoryIsOurs_1_B1:
-	.byte	W18
-	.byte		N23   , Fn4 , v072
+	.byte	W24
+	.byte		        Fn4 , v072
 	.byte	W24
 	.byte		N11   , En4 , v076
 	.byte	W12
@@ -249,29 +248,388 @@ VictoryIsOurs_1_B1:
 	.byte		        Bn3 
 	.byte	W06
 	.byte		        Dn4 
-	.byte	W05
+	.byte	W06
 	.byte	GOTO
 	 .word	VictoryIsOurs_1_B1
 VictoryIsOurs_1_B2:
-	.byte	W01
 @ 014   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 2 (Midi-Chn.3) ****************@
+@**************** Track 2 (Midi-Chn.2) ****************@
 
 VictoryIsOurs_2:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_2_B1:
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
+	.byte		VOL   , 95*VictoryIsOurs_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		N06   , Cn1 , v112
+	.byte		N12   , Cs2 , v080
+	.byte	W12
+	.byte		N06   , Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		N11   , Dn1 , v112
+	.byte	W12
+	.byte		N06   , Cn1 
+	.byte		N06   , Cn2 
+	.byte	W06
+	.byte		        Bn1 , v056
+	.byte	W06
+@ 001   ----------------------------------------
+	.byte		        Cn1 , v028
+	.byte	W06
+	.byte		        Bn1 , v056
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N06   , An1 
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte		N06   , An1 , v056
+	.byte	W06
+	.byte		N06   
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N06   , Gn1 
+	.byte	W06
+	.byte		        Fn1 
+	.byte	W06
+	.byte		        Cn1 , v028
+	.byte		N06   , Gn1 , v056
+	.byte	W06
+	.byte		        Fn1 , v112
+	.byte	W06
+	.byte		N11   , Dn1 , v100
+	.byte	W12
+	.byte		N06   , Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+@ 002   ----------------------------------------
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		N11   , Dn1 , v112
+	.byte	W12
+	.byte		N06   , Cn1 
+	.byte		N06   , Cn2 
+	.byte	W06
+	.byte		        Bn1 , v056
+	.byte	W06
+	.byte		        Cn1 , v028
+	.byte	W06
+	.byte		        Bn1 , v056
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N06   , An1 
+	.byte	W12
+@ 003   ----------------------------------------
+	.byte		        Cn1 , v028
+	.byte		N06   , An1 , v056
+	.byte	W06
+	.byte		        An1 , v108
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N06   , Gn1 
+	.byte	W06
+	.byte		        Fn1 
+	.byte	W06
+	.byte		        Cn1 , v028
+	.byte		N06   , Gn1 , v056
+	.byte	W06
+	.byte		        Fn1 , v112
+	.byte	W06
+	.byte		N11   , Dn1 , v100
+	.byte	W12
+	.byte		N06   , Cn1 , v112
+	.byte		N12   , Cs2 , v080
+	.byte	W12
+	.byte		N06   , Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+@ 004   ----------------------------------------
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		N11   , Dn1 , v112
+	.byte	W12
+	.byte		N06   , Cn1 
+	.byte		N06   , Cn2 
+	.byte	W06
+	.byte		        Fn1 , v056
+	.byte	W06
+	.byte		        Cn1 , v028
+	.byte	W06
+	.byte		        Fn1 , v056
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N06   , Gn1 
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte		N06   , An1 , v056
+	.byte	W06
+	.byte		N06   
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N06   , Gn1 
+	.byte	W06
+	.byte		        Fn1 , v056
+	.byte	W06
+@ 005   ----------------------------------------
+	.byte		        Cn1 , v028
+	.byte		N06   , Gn1 , v056
+	.byte	W06
+	.byte		        Fn1 , v112
+	.byte	W06
+	.byte		N11   , Dn1 , v100
+	.byte	W12
+	.byte		N06   , Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+@ 006   ----------------------------------------
+	.byte		N11   , Dn1 , v112
+	.byte	W12
+	.byte		N06   , Cn1 
+	.byte		N06   , Gn1 
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte		N06   , Gn1 , v056
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte		N06   , An1 
+	.byte	W06
+	.byte		        An1 , v056
+	.byte	W06
+	.byte		N05   , Cn1 , v124
+	.byte		N06   , Fn1 , v088
+	.byte	W06
+	.byte		        Gn1 , v100
+	.byte	W06
+	.byte		        Cn1 , v028
+	.byte		N02   , Cn2 , v127
+	.byte	W03
+	.byte		        Cn2 , v108
+	.byte	W03
+	.byte		        Cn2 , v127
+	.byte	W03
+	.byte		        Cn2 , v108
+	.byte	W03
+	.byte		N05   , An1 , v127
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte		N05   , An1 , v127
+	.byte	W06
+	.byte		N11   , Dn1 , v100
+	.byte		N05   , Gn1 , v127
+	.byte	W06
+	.byte		        Fn1 
+	.byte	W06
+@ 007   ----------------------------------------
+	.byte		N06   , Cn1 , v112
+	.byte		N12   , Cs2 , v072
+	.byte	W12
+	.byte		N06   , Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		N06   
+	.byte	W12
+	.byte		        Cn1 , v092
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+@ 008   ----------------------------------------
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		N06   
+	.byte		N05   , Dn1 , v100
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N06   , Cn1 , v092
+	.byte		N05   , Dn1 , v100
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N06   , Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+@ 009   ----------------------------------------
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		N06   
+	.byte	W12
+	.byte		        Cn1 , v092
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+@ 010   ----------------------------------------
+	.byte		        Cn1 , v028
+	.byte		N05   , Cn2 , v127
+	.byte	W12
+	.byte		N06   , Cn1 , v112
+	.byte		N05   , Cn2 , v127
+	.byte	W06
+	.byte		        Bn1 
+	.byte	W06
+	.byte		N06   , Cn1 , v112
+	.byte		N05   , An1 , v127
+	.byte	W06
+	.byte		N02   , Gn1 , v108
+	.byte	W03
+	.byte		        Fn1 
+	.byte	W03
+	.byte		N06   , Cn1 , v092
+	.byte		N05   , Dn1 , v100
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N06   , Cn1 , v112
+	.byte		N12   , Cs2 , v080
+	.byte	W12
+	.byte		N06   , Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+@ 011   ----------------------------------------
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		N06   
+	.byte	W12
+	.byte		        Cn1 , v092
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+@ 012   ----------------------------------------
+	.byte		N06   
+	.byte		N05   , Dn1 , v100
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N06   , Cn1 , v092
+	.byte		N05   , Dn1 , v100
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N06   , Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		        Cn1 , v028
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte	W12
+	.byte		N06   
+	.byte	W12
+@ 013   ----------------------------------------
+	.byte		        Cn1 , v092
+	.byte	W12
+	.byte		        Dn1 , v088
+	.byte	W12
+	.byte		N06   
+	.byte	W12
+	.byte		        Cn1 , v112
+	.byte		N06   , An1 , v116
+	.byte	W06
+	.byte		        Fn1 
+	.byte	W06
+	.byte		        Cn1 , v028
+	.byte		N05   , Cn2 , v127
+	.byte	W06
+	.byte		N06   , An1 , v116
+	.byte	W06
+	.byte		        Cn1 , v112
+	.byte		N05   , Cn2 , v127
+	.byte	W06
+	.byte		        Bn1 
+	.byte	W06
+	.byte		N06   , Cn1 , v112
+	.byte		N05   , An1 , v127
+	.byte	W06
+	.byte		N06   , Fn1 , v112
+	.byte	W06
+	.byte		        Cn1 , v092
+	.byte		N06   , Dn1 , v112
+	.byte	W06
+	.byte		N06   
+	.byte	W06
+	.byte	GOTO
+	 .word	VictoryIsOurs_2_B1
+VictoryIsOurs_2_B2:
+@ 014   ----------------------------------------
+	.byte	FINE
+
+@**************** Track 3 (Midi-Chn.3) ****************@
+
+VictoryIsOurs_3:
+	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_3_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 57
 	.byte		VOL   , 107*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v-16
 	.byte		TIE   , Gn1 , v084
-	.byte	W06
-VictoryIsOurs_2_B1:
-	.byte	W90
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W11
-	.byte		EOT   , Gn1 
+	.byte		EOT   
 	.byte	W01
 	.byte		N23   , Cn2 , v068
 	.byte	W24
@@ -588,27 +946,25 @@ VictoryIsOurs_2_B1:
 	.byte	W03
 	.byte		        Bn2 , v048
 	.byte		N02   , Dn3 , v052
-	.byte	W02
+	.byte	W03
 	.byte	GOTO
-	 .word	VictoryIsOurs_2_B1
-VictoryIsOurs_2_B2:
-	.byte	W01
+	 .word	VictoryIsOurs_3_B1
+VictoryIsOurs_3_B2:
 @ 014   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 3 (Midi-Chn.4) ****************@
+@**************** Track 4 (Midi-Chn.4) ****************@
 
-VictoryIsOurs_3:
+VictoryIsOurs_4:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_4_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 33
 	.byte		VOL   , 127*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v+0
 	.byte		N06   , Cn2 , v127
-	.byte	W06
-VictoryIsOurs_3_B1:
-	.byte	W18
-	.byte		N06   , Cn2 , v116
+	.byte	W24
+	.byte		        Cn2 , v116
 	.byte	W24
 	.byte		        Cn2 , v120
 	.byte	W24
@@ -720,27 +1076,25 @@ VictoryIsOurs_3_B1:
 	.byte		N23   
 	.byte	W24
 	.byte		N11   
-	.byte	W11
+	.byte	W12
 	.byte	GOTO
-	 .word	VictoryIsOurs_3_B1
-VictoryIsOurs_3_B2:
-	.byte	W01
+	 .word	VictoryIsOurs_4_B1
+VictoryIsOurs_4_B2:
 @ 014   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 4 (Midi-Chn.5) ****************@
+@**************** Track 5 (Midi-Chn.5) ****************@
 
-VictoryIsOurs_4:
+VictoryIsOurs_5:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_5_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 41
 	.byte		VOL   , 110*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v+17
 	.byte		N22   , En4 , v068
-	.byte	W06
-VictoryIsOurs_4_B1:
-	.byte	W18
-	.byte		N22   , Dn4 , v068
+	.byte	W24
+	.byte		        Dn4 
 	.byte	W24
 	.byte		N11   , Cn4 
 	.byte	W12
@@ -934,32 +1288,30 @@ VictoryIsOurs_4_B1:
 	.byte		N05   , Bn3 , v084
 	.byte	W06
 	.byte		        Bn3 , v044
-	.byte	W05
+	.byte	W06
 	.byte	GOTO
-	 .word	VictoryIsOurs_4_B1
-VictoryIsOurs_4_B2:
-	.byte	W01
+	 .word	VictoryIsOurs_5_B1
+VictoryIsOurs_5_B2:
 @ 014   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 5 (Midi-Chn.6) ****************@
+@**************** Track 6 (Midi-Chn.6) ****************@
 
-VictoryIsOurs_5:
+VictoryIsOurs_6:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_6_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 20
 	.byte		VOL   , 111*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v-40
 	.byte		TIE   , Gn2 , v088
-	.byte	W06
-VictoryIsOurs_5_B1:
-	.byte	W90
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W68
 	.byte	W03
-	.byte		EOT   , Gn2 
+	.byte		EOT   
 	.byte	W01
-	.byte		TIE   , En2 , v088
+	.byte		TIE   , En2 
 	.byte	W24
 @ 002   ----------------------------------------
 	.byte	W96
@@ -1015,33 +1367,30 @@ VictoryIsOurs_5_B1:
 	.byte		N48   , Dn4 , v084
 	.byte	W48
 	.byte		N32   , Bn3 , v072
-	.byte	W32
-	.byte	W03
+	.byte	W36
 	.byte	GOTO
-	 .word	VictoryIsOurs_5_B1
-VictoryIsOurs_5_B2:
-	.byte	W01
+	 .word	VictoryIsOurs_6_B1
+VictoryIsOurs_6_B2:
 @ 014   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 6 (Midi-Chn.7) ****************@
+@**************** Track 7 (Midi-Chn.7) ****************@
 
-VictoryIsOurs_6:
+VictoryIsOurs_7:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_7_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 49
 	.byte		VOL   , 108*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v+40
 	.byte		TIE   , Cn2 , v088
-	.byte	W06
-VictoryIsOurs_6_B1:
-	.byte	W90
+	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W68
 	.byte	W03
-	.byte		EOT   , Cn2 
+	.byte		EOT   
 	.byte	W01
-	.byte		TIE   , An1 , v088
+	.byte		TIE   , An1 
 	.byte	W24
 @ 002   ----------------------------------------
 	.byte	W96
@@ -1277,999 +1626,574 @@ VictoryIsOurs_6_B1:
 	.byte		        Bn2 , v120
 	.byte	W03
 	.byte		        Bn2 , v048
-	.byte	W02
+	.byte	W03
 	.byte	GOTO
-	 .word	VictoryIsOurs_6_B1
-VictoryIsOurs_6_B2:
-	.byte	W01
+	 .word	VictoryIsOurs_7_B1
+VictoryIsOurs_7_B2:
 @ 014   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 7 (Midi-Chn.8) ****************@
+@**************** Track 8 (Midi-Chn.8) ****************@
 
-VictoryIsOurs_7:
+VictoryIsOurs_8:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_8_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 50
 	.byte		VOL   , 107*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v-31
-	.byte		N03   , Cn2 , v060
+	.byte		N03   , Cn1 , v060
 	.byte	W03
-	.byte		        Cn5 , v032
+	.byte		        Cn4 , v032
 	.byte	W03
-VictoryIsOurs_7_B1:
-	.byte		N03   , Gn2 , v064
+	.byte		        Gn1 , v064
 	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
+	.byte		        Gn4 , v040
 	.byte	W03
 	.byte		        Cn2 , v072
 	.byte	W03
 	.byte		        Cn5 , v048
 	.byte	W03
-	.byte		        Gn2 , v076
+	.byte		        Gn1 , v060
 	.byte	W03
-	.byte		        Gn5 , v048
+	.byte		        Gn4 , v036
 	.byte	W03
-	.byte		        Cn3 , v080
+	.byte		        Cn1 , v076
 	.byte	W03
-	.byte		        Cn6 , v056
+	.byte		        Cn4 , v052
 	.byte	W03
-	.byte		        Gn2 , v076
+	.byte		        Gn1 , v068
 	.byte	W03
-	.byte		        Gn5 , v052
+	.byte		        Gn4 , v040
 	.byte	W03
-	.byte		        Cn2 , v076
+	.byte		        Cn2 , v072
 	.byte	W03
-	.byte		        Cn5 , v052
+	.byte		        Cn5 , v048
 	.byte	W03
-	.byte		        Gn2 , v076
+	.byte		        Gn1 , v072
 	.byte	W03
-	.byte		        Gn5 , v048
+	.byte		        Gn4 , v044
 	.byte	W03
-	.byte		        Cn2 , v060
+	.byte		        Cn1 , v072
 	.byte	W03
-	.byte		        Cn5 , v032
+	.byte		        Cn4 , v048
 	.byte	W03
-	.byte		        Gn2 , v064
+	.byte		        Gn1 , v076
 	.byte	W03
-	.byte		        Gn5 , v040
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
 	.byte	W03
 @ 001   ----------------------------------------
-VictoryIsOurs_7_001:
-	.byte		N03   , Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte	PEND
-@ 002   ----------------------------------------
-VictoryIsOurs_7_002:
-	.byte		N03   , Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte	PEND
-@ 003   ----------------------------------------
-VictoryIsOurs_7_003:
-	.byte		N03   , Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte	PEND
-@ 004   ----------------------------------------
-VictoryIsOurs_7_004:
+VictoryIsOurs_8_001:
 	.byte		N03   , Cn2 , v072
 	.byte	W03
 	.byte		        Cn5 , v048
 	.byte	W03
-	.byte		        Gn2 , v076
+	.byte		        Gn1 , v060
 	.byte	W03
-	.byte		        Gn5 , v048
+	.byte		        Gn4 , v036
 	.byte	W03
-	.byte		        Cn3 , v080
+	.byte		        Cn1 , v076
 	.byte	W03
-	.byte		        Cn6 , v056
+	.byte		        Cn4 , v052
 	.byte	W03
-	.byte		        Gn2 , v076
+	.byte		        Gn1 , v068
 	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
+	.byte		        Gn4 , v040
 	.byte	W03
 	.byte		        Cn2 , v072
 	.byte	W03
 	.byte		        Cn5 , v048
 	.byte	W03
-	.byte		        Gn2 , v076
+	.byte		        Gn1 , v072
 	.byte	W03
-	.byte		        Gn5 , v048
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
 	.byte	W03
 	.byte	PEND
-@ 005   ----------------------------------------
-VictoryIsOurs_7_005:
-	.byte		N03   , Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte	PEND
-@ 006   ----------------------------------------
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-@ 007   ----------------------------------------
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-@ 008   ----------------------------------------
-	.byte	PATT
-	 .word	VictoryIsOurs_7_001
-@ 009   ----------------------------------------
-	.byte	PATT
-	 .word	VictoryIsOurs_7_002
-@ 010   ----------------------------------------
-	.byte	PATT
-	 .word	VictoryIsOurs_7_003
-@ 011   ----------------------------------------
-	.byte	PATT
-	 .word	VictoryIsOurs_7_004
-@ 012   ----------------------------------------
-	.byte	PATT
-	 .word	VictoryIsOurs_7_005
-@ 013   ----------------------------------------
-	.byte		N03   , Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn2 , v060
-	.byte	W03
-	.byte		        Cn5 , v032
-	.byte	W03
-	.byte		        Gn2 , v064
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v060
-	.byte	W03
-	.byte		        Gn5 , v036
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v068
-	.byte	W03
-	.byte		        Gn5 , v040
-	.byte	W03
-	.byte		        Cn3 , v072
-	.byte	W03
-	.byte		        Cn6 , v048
-	.byte	W03
-	.byte		        Gn2 , v072
-	.byte	W03
-	.byte		        Gn5 , v044
-	.byte	W03
-	.byte		        Cn2 , v072
-	.byte	W03
-	.byte		        Cn5 , v048
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W03
-	.byte		        Cn3 , v080
-	.byte	W03
-	.byte		        Cn6 , v056
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v052
-	.byte	W03
-	.byte		        Cn2 , v076
-	.byte	W03
-	.byte		        Cn5 , v052
-	.byte	W03
-	.byte		        Gn2 , v076
-	.byte	W03
-	.byte		        Gn5 , v048
-	.byte	W02
-	.byte	GOTO
-	 .word	VictoryIsOurs_7_B1
-VictoryIsOurs_7_B2:
-	.byte	W01
-@ 014   ----------------------------------------
-	.byte	FINE
-
-@**************** Track 8 (Midi-Chn.9) ****************@
-
-VictoryIsOurs_8:
-	.byte	KEYSH , VictoryIsOurs_key+0
-@ 000   ----------------------------------------
-	.byte		VOICE , 127
-	.byte		VOL   , 95*VictoryIsOurs_mvl/mxv
-	.byte		PAN   , c_v+0
-	.byte		N06   , Cn1 , v112
-	.byte		N12   , Cs2 , v080
-	.byte	W06
-VictoryIsOurs_8_B1:
-	.byte	W06
-	.byte		N06   , Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		N11   , Dn1 , v112
-	.byte	W12
-	.byte		N06   , Cn1 
-	.byte		N06   , Cn2 
-	.byte	W06
-	.byte		        Bn1 , v056
-	.byte	W06
-@ 001   ----------------------------------------
-	.byte		        Cn1 , v028
-	.byte	W06
-	.byte		        Bn1 , v056
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N06   , An1 
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte		N06   , An1 , v056
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N06   , Gn1 
-	.byte	W06
-	.byte		        Fn1 
-	.byte	W06
-	.byte		        Cn1 , v028
-	.byte		N06   , Gn1 , v056
-	.byte	W06
-	.byte		        Fn1 , v112
-	.byte	W06
-	.byte		N11   , Dn1 , v100
-	.byte	W12
-	.byte		N06   , Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
 @ 002   ----------------------------------------
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		N11   , Dn1 , v112
-	.byte	W12
-	.byte		N06   , Cn1 
-	.byte		N06   , Cn2 
-	.byte	W06
-	.byte		        Bn1 , v056
-	.byte	W06
-	.byte		        Cn1 , v028
-	.byte	W06
-	.byte		        Bn1 , v056
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N06   , An1 
-	.byte	W12
+VictoryIsOurs_8_002:
+	.byte		N03   , Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte	PEND
 @ 003   ----------------------------------------
-	.byte		        Cn1 , v028
-	.byte		N06   , An1 , v056
-	.byte	W06
-	.byte		        An1 , v108
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N06   , Gn1 
-	.byte	W06
-	.byte		        Fn1 
-	.byte	W06
-	.byte		        Cn1 , v028
-	.byte		N06   , Gn1 , v056
-	.byte	W06
-	.byte		        Fn1 , v112
-	.byte	W06
-	.byte		N11   , Dn1 , v100
-	.byte	W12
-	.byte		N06   , Cn1 , v112
-	.byte		N12   , Cs2 , v080
-	.byte	W12
-	.byte		N06   , Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
+VictoryIsOurs_8_003:
+	.byte		N03   , Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte	PEND
 @ 004   ----------------------------------------
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		N11   , Dn1 , v112
-	.byte	W12
-	.byte		N06   , Cn1 
-	.byte		N06   , Cn2 
-	.byte	W06
-	.byte		        Fn1 , v056
-	.byte	W06
-	.byte		        Cn1 , v028
-	.byte	W06
-	.byte		        Fn1 , v056
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N06   , Gn1 
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte		N06   , An1 , v056
-	.byte	W06
-	.byte		N06   
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N06   , Gn1 
-	.byte	W06
-	.byte		        Fn1 , v056
-	.byte	W06
+VictoryIsOurs_8_004:
+	.byte		N03   , Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte	PEND
 @ 005   ----------------------------------------
-	.byte		        Cn1 , v028
-	.byte		N06   , Gn1 , v056
-	.byte	W06
-	.byte		        Fn1 , v112
-	.byte	W06
-	.byte		N11   , Dn1 , v100
-	.byte	W12
-	.byte		N06   , Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
+VictoryIsOurs_8_005:
+	.byte		N03   , Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte	PEND
 @ 006   ----------------------------------------
-	.byte		N11   , Dn1 , v112
-	.byte	W12
-	.byte		N06   , Cn1 
-	.byte		N06   , Gn1 
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte		N06   , Gn1 , v056
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte		N06   , An1 
-	.byte	W06
-	.byte		        An1 , v056
-	.byte	W06
-	.byte		N05   , Cn1 , v124
-	.byte		N06   , Fn1 , v088
-	.byte	W06
-	.byte		        Gn1 , v100
-	.byte	W06
-	.byte		        Cn1 , v028
-	.byte		N02   , Cn2 , v127
+VictoryIsOurs_8_006:
+	.byte		N03   , Cn1 , v076
 	.byte	W03
-	.byte		        Cn2 , v108
+	.byte		        Cn4 , v052
 	.byte	W03
-	.byte		        Cn2 , v127
+	.byte		        Gn1 , v076
 	.byte	W03
-	.byte		        Cn2 , v108
+	.byte		        Gn4 , v048
 	.byte	W03
-	.byte		N05   , An1 , v127
-	.byte	W06
-	.byte		        En1 , v100
-	.byte		N05   , An1 , v127
-	.byte	W06
-	.byte		N11   , Dn1 , v100
-	.byte		N05   , Gn1 , v127
-	.byte	W06
-	.byte		        Fn1 
-	.byte	W06
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte	PEND
 @ 007   ----------------------------------------
-	.byte		N06   , Cn1 , v112
-	.byte		N12   , Cs2 , v072
-	.byte	W12
-	.byte		N06   , Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		N06   
-	.byte	W12
-	.byte		        Cn1 , v092
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v060
+	.byte	W03
+	.byte		        Gn4 , v036
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v068
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
+	.byte		        Cn2 , v072
+	.byte	W03
+	.byte		        Cn5 , v048
+	.byte	W03
+	.byte		        Gn1 , v072
+	.byte	W03
+	.byte		        Gn4 , v044
+	.byte	W03
+	.byte		        Cn1 , v072
+	.byte	W03
+	.byte		        Cn4 , v048
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn2 , v080
+	.byte	W03
+	.byte		        Cn5 , v056
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v052
+	.byte	W03
+	.byte		        Cn1 , v076
+	.byte	W03
+	.byte		        Cn4 , v052
+	.byte	W03
+	.byte		        Gn1 , v076
+	.byte	W03
+	.byte		        Gn4 , v048
+	.byte	W03
+	.byte		        Cn1 , v060
+	.byte	W03
+	.byte		        Cn4 , v032
+	.byte	W03
+	.byte		        Gn1 , v064
+	.byte	W03
+	.byte		        Gn4 , v040
+	.byte	W03
 @ 008   ----------------------------------------
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		N06   
-	.byte		N05   , Dn1 , v100
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		N06   , Cn1 , v092
-	.byte		N05   , Dn1 , v100
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		N06   , Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
+	.byte	PATT
+	 .word	VictoryIsOurs_8_001
 @ 009   ----------------------------------------
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		N06   
-	.byte	W12
-	.byte		        Cn1 , v092
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
+	.byte	PATT
+	 .word	VictoryIsOurs_8_002
 @ 010   ----------------------------------------
-	.byte		        Cn1 , v028
-	.byte		N05   , Cn2 , v127
-	.byte	W12
-	.byte		N06   , Cn1 , v112
-	.byte		N05   , Cn2 , v127
-	.byte	W06
-	.byte		        Bn1 
-	.byte	W06
-	.byte		N06   , Cn1 , v112
-	.byte		N05   , An1 , v127
-	.byte	W06
-	.byte		N02   , Gn1 , v108
-	.byte	W03
-	.byte		        Fn1 
-	.byte	W03
-	.byte		N06   , Cn1 , v092
-	.byte		N05   , Dn1 , v100
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		N06   , Cn1 , v112
-	.byte		N12   , Cs2 , v080
-	.byte	W12
-	.byte		N06   , Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
+	.byte	PATT
+	 .word	VictoryIsOurs_8_003
 @ 011   ----------------------------------------
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		N06   
-	.byte	W12
-	.byte		        Cn1 , v092
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
+	.byte	PATT
+	 .word	VictoryIsOurs_8_004
 @ 012   ----------------------------------------
-	.byte		N06   
-	.byte		N05   , Dn1 , v100
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		N06   , Cn1 , v092
-	.byte		N05   , Dn1 , v100
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		N06   , Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		        Cn1 , v028
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte	W12
-	.byte		N06   
-	.byte	W12
+	.byte	PATT
+	 .word	VictoryIsOurs_8_005
 @ 013   ----------------------------------------
-	.byte		        Cn1 , v092
-	.byte	W12
-	.byte		        En1 , v088
-	.byte	W12
-	.byte		        Dn1 
-	.byte	W12
-	.byte		        Cn1 , v112
-	.byte		N06   , An1 , v116
-	.byte	W06
-	.byte		        Fn1 
-	.byte	W06
-	.byte		        Cn1 , v028
-	.byte		N05   , Cn2 , v127
-	.byte	W06
-	.byte		N06   , An1 , v116
-	.byte	W06
-	.byte		        Cn1 , v112
-	.byte		N05   , Cn2 , v127
-	.byte	W06
-	.byte		        Bn1 
-	.byte	W06
-	.byte		N06   , Cn1 , v112
-	.byte		N05   , An1 , v127
-	.byte	W06
-	.byte		N06   , Fn1 , v112
-	.byte	W06
-	.byte		        Cn1 , v092
-	.byte		N06   , Dn1 , v112
-	.byte	W06
-	.byte		        En1 
-	.byte	W05
+	.byte	PATT
+	 .word	VictoryIsOurs_8_006
 	.byte	GOTO
 	 .word	VictoryIsOurs_8_B1
 VictoryIsOurs_8_B2:
-	.byte	W01
 @ 014   ----------------------------------------
 	.byte	FINE
 
@@ -2277,13 +2201,13 @@ VictoryIsOurs_8_B2:
 
 VictoryIsOurs_9:
 	.byte	KEYSH , VictoryIsOurs_key+0
+VictoryIsOurs_9_B1:
 @ 000   ----------------------------------------
 	.byte		VOICE , 42
 	.byte		VOL   , 72*VictoryIsOurs_mvl/mxv
 	.byte		PAN   , c_v-64
 	.byte		BEND  , c_v+1
 	.byte	W06
-VictoryIsOurs_9_B1:
 	.byte		N23   , Gn4 , v076
 	.byte	W24
 	.byte		        Fn4 , v072
@@ -2556,11 +2480,10 @@ VictoryIsOurs_9_B1:
 	.byte		        Bn3 , v084
 	.byte	W06
 	.byte		        Bn3 , v068
-	.byte	W05
+	.byte	W06
 	.byte	GOTO
 	 .word	VictoryIsOurs_9_B1
 VictoryIsOurs_9_B2:
-	.byte	W01
 @ 014   ----------------------------------------
 	.byte	FINE
 

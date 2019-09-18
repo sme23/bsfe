@@ -1239,37 +1239,37 @@ ForLiberty_3_B1:
 	.byte	W12
 	.byte		N11   , Dn1 , v112
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 	.byte		N05   , Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 @ 001   ----------------------------------------
 ForLiberty_3_001:
-	.byte		N11   , En1 , v104
+	.byte		N11   , Dn1 , v104
 	.byte	W12
 	.byte		        Dn1 , v096
 	.byte	W12
-	.byte		        En1 
+	.byte		N11   
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
 	.byte		N05   , Dn1 , v108
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		        Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v080
+	.byte		        Dn1 , v080
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
@@ -1278,23 +1278,23 @@ ForLiberty_3_001:
 	.byte	PEND
 @ 002   ----------------------------------------
 ForLiberty_3_002:
-	.byte		N05   , En1 , v088
+	.byte		N05   , Dn1 , v088
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		N11   , En1 , v088
+	.byte		N11   , Dn1 , v088
 	.byte	W12
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
 	.byte		N05   , Dn1 , v092
 	.byte	W06
-	.byte		        En1 
+	.byte		N05   
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 
+	.byte		N05   
 	.byte	W06
 	.byte		N11   , Dn1 , v088
 	.byte	W12
@@ -1302,308 +1302,286 @@ ForLiberty_3_002:
 	.byte	W12
 	.byte	PEND
 @ 003   ----------------------------------------
-	.byte		        En1 , v108
+	.byte		        Dn1 , v108
 	.byte	W12
 	.byte		        Dn1 , v104
 	.byte	W12
-	.byte		N05   , En1 , v096
+	.byte		N05   , Dn1 , v096
 	.byte	W06
 	.byte		N11   , Dn1 , v056
 	.byte	W12
-	.byte		N05   , En1 , v112
+	.byte		N05   , Dn1 , v112
 	.byte	W06
 	.byte		        Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		N11   , Dn1 , v088
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
 @ 004   ----------------------------------------
-	.byte		        En1 , v112
+	.byte		        Dn1 , v112
 	.byte	W12
 	.byte		        Dn1 , v108
 	.byte	W12
 	.byte		        Dn1 , v112
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 	.byte		N05   , Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 @ 005   ----------------------------------------
-	.byte		        En1 , v104
+	.byte		        Dn1 , v104
 	.byte	W12
 	.byte		        Dn1 , v096
 	.byte	W12
-	.byte		N14   , En1 
+	.byte		N14   
 	.byte	W15
 	.byte		N08   , Dn1 , v056
 	.byte	W09
 	.byte		N05   , Dn1 , v108
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		        Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v080
+	.byte		        Dn1 , v080
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
-	.byte		        En1 , v056
-	.byte	W12
-@ 006   ----------------------------------------
-ForLiberty_3_006:
-	.byte		N05   , En1 , v088
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		N11   , En1 , v088
-	.byte	W12
-	.byte		        En1 , v096
-	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
-	.byte		N05   , Dn1 , v092
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		N11   , Dn1 , v088
-	.byte	W12
-	.byte		        En1 , v056
-	.byte	W12
-	.byte	PEND
+@ 006   ----------------------------------------
+	.byte	PATT
+	 .word	ForLiberty_3_002
 @ 007   ----------------------------------------
-	.byte		        En1 , v108
+	.byte		N11   , Dn1 , v108
 	.byte	W12
 	.byte		        Dn1 , v104
 	.byte	W12
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W12
 	.byte		N05   , Dn1 , v056
 	.byte	W06
-	.byte		        En1 , v112
+	.byte		        Dn1 , v112
 	.byte	W06
 	.byte		        Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		N11   , Dn1 , v088
 	.byte	W12
-	.byte		N02   , En1 , v072
+	.byte		N02   , Dn1 , v072
 	.byte	W03
 	.byte		        Dn1 , v064
 	.byte	W03
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W03
 	.byte		        Dn1 , v064
 	.byte	W03
 @ 008   ----------------------------------------
-	.byte		        En1 
+	.byte		N02   
 	.byte	W03
 	.byte		        Dn1 , v072
 	.byte	W03
 	.byte		        Dn1 , v060
 	.byte	W03
-	.byte		        En1 , v064
+	.byte		        Dn1 , v064
 	.byte	W03
 	.byte		N05   , Dn1 , v088
 	.byte		N05   , An2 , v056
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte		N05   , An2 , v056
 	.byte	W06
 	.byte		N11   , Dn1 , v088
 	.byte		N05   , An2 , v060
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        En1 
+	.byte		N05   
 	.byte	W06
 	.byte		N05   
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		N11   , En1 , v076
+	.byte		N11   , Dn1 , v076
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
 @ 009   ----------------------------------------
 	.byte		N05   , Dn1 , v092
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		N11   , Dn1 , v080
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
-	.byte		N05   , En1 , v072
+	.byte		N05   , Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v064
 	.byte	W06
-	.byte		        En1 , v052
+	.byte		        Dn1 , v052
 	.byte	W06
 	.byte		        Dn1 , v064
 	.byte	W06
-	.byte		N11   , En1 , v068
+	.byte		N11   , Dn1 , v068
 	.byte	W12
 	.byte		        Dn1 , v092
 	.byte	W12
 @ 010   ----------------------------------------
-	.byte		N05   , En1 , v080
+	.byte		N05   , Dn1 , v080
 	.byte		N11   , As2 , v064
 	.byte	W06
 	.byte		N05   , Dn1 , v072
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte		N05   , An2 , v068
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte		N05   , An2 , v064
 	.byte	W06
-	.byte		N14   , En1 , v080
+	.byte		N14   , Dn1 , v080
 	.byte		N04   , An2 , v072
 	.byte	W15
 	.byte		N08   , Dn1 , v056
 	.byte	W09
 	.byte		N05   , Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v052
+	.byte		        Dn1 , v052
 	.byte	W06
 	.byte		        Dn1 , v060
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		N11   , Dn1 , v080
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 @ 011   ----------------------------------------
 	.byte		        Dn1 , v092
 	.byte	W12
-	.byte		N05   , En1 , v076
+	.byte		N05   , Dn1 , v076
 	.byte	W06
-	.byte		        Dn1 
+	.byte		N05   
 	.byte	W06
-	.byte		        En1 , v064
+	.byte		        Dn1 , v064
 	.byte	W06
 	.byte		        Dn1 , v076
 	.byte	W06
-	.byte		N11   , En1 , v080
+	.byte		N11   , Dn1 , v080
 	.byte	W12
 	.byte		N05   , Dn1 , v088
 	.byte	W06
-	.byte		        En1 , v080
+	.byte		        Dn1 , v080
 	.byte	W06
 	.byte		        Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v092
 	.byte	W06
-	.byte		        En1 , v084
+	.byte		        Dn1 , v084
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		        Dn1 , v072
 	.byte	W06
 @ 012   ----------------------------------------
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v072
 	.byte	W06
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte		N05   , An2 , v072
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte		N05   , An2 , v064
 	.byte	W06
-	.byte		N11   , En1 , v072
+	.byte		N11   , Dn1 , v072
 	.byte		N03   , An2 , v064
 	.byte	W12
-	.byte		N05   , En1 , v056
+	.byte		N05   , Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v064
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v068
 	.byte	W06
-	.byte		N11   , En1 , v072
+	.byte		N11   , Dn1 , v072
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
 @ 013   ----------------------------------------
 	.byte		N05   , Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W06
-	.byte		N11   , En1 , v084
+	.byte		N11   , Dn1 , v084
 	.byte	W12
 	.byte		N05   , Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		N11   , Dn1 , v080
 	.byte	W12
 	.byte		N05   , Dn1 , v092
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte	W06
 	.byte		        Dn1 , v056
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v080
+	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		N11   , En1 , v072
+	.byte		N11   , Dn1 , v072
 	.byte	W12
 @ 014   ----------------------------------------
 	.byte		N05   , Dn1 , v088
 	.byte		N11   , As2 , v072
 	.byte	W06
-	.byte		N05   , En1 , v076
+	.byte		N05   , Dn1 , v076
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte		N05   , An2 , v064
 	.byte	W06
-	.byte		        En1 , v084
+	.byte		        Dn1 , v084
 	.byte		N05   , An2 , v068
 	.byte	W06
 	.byte		N14   , Dn1 , v076
@@ -1611,15 +1589,15 @@ ForLiberty_3_006:
 	.byte	W15
 	.byte		N02   , Dn1 , v056
 	.byte	W03
-	.byte		N05   , En1 , v072
+	.byte		N05   , Dn1 , v072
 	.byte	W06
-	.byte		        Dn1 
+	.byte		N05   
 	.byte	W06
-	.byte		        En1 , v064
+	.byte		        Dn1 , v064
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		N11   , Dn1 , v076
 	.byte	W12
@@ -1628,15 +1606,15 @@ ForLiberty_3_006:
 @ 015   ----------------------------------------
 	.byte		N05   , Dn1 , v076
 	.byte	W06
-	.byte		        En1 , v084
+	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        Dn1 
+	.byte		N05   
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
-	.byte		        Dn1 
+	.byte		N05   
 	.byte	W06
-	.byte		        En1 , v068
+	.byte		        Dn1 , v068
 	.byte	W06
 	.byte		N11   , Dn1 , v080
 	.byte	W12
@@ -1644,16 +1622,16 @@ ForLiberty_3_006:
 	.byte	W12
 	.byte		N05   , Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		N11   , Dn1 , v080
 	.byte	W12
-	.byte		N05   , En1 , v096
+	.byte		N05   , Dn1 , v096
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
 @ 016   ----------------------------------------
-	.byte		        En1 , v080
+	.byte		        Dn1 , v080
 	.byte	W06
 	.byte		        Dn1 , v076
 	.byte	W06
@@ -1663,37 +1641,37 @@ ForLiberty_3_006:
 	.byte	W12
 	.byte		        Dn1 , v104
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte	W06
 	.byte		N23   , Dn1 , v104
 	.byte	W24
-	.byte		N11   , En1 , v056
+	.byte		N11   , Dn1 , v056
 	.byte	W12
 @ 017   ----------------------------------------
-	.byte		N05   , En1 , v100
+	.byte		N05   , Dn1 , v100
 	.byte	W06
 	.byte		N17   , Dn1 , v084
 	.byte	W18
 	.byte		N05   , Dn1 , v076
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		N11   , Dn1 , v084
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
-	.byte		N05   , En1 , v084
+	.byte		N05   , Dn1 , v084
 	.byte	W06
 	.byte		        Dn1 , v064
 	.byte	W06
-	.byte		N11   , En1 , v068
+	.byte		N11   , Dn1 , v068
 	.byte	W12
 	.byte		        Dn1 , v084
 	.byte	W12
 @ 018   ----------------------------------------
 	.byte		N05   
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		N23   , Dn1 , v092
 	.byte		N18   , Cs2 , v072
@@ -1702,13 +1680,13 @@ ForLiberty_3_006:
 	.byte	W12
 	.byte		N05   , Dn1 , v092
 	.byte	W06
-	.byte		        En1 , v080
+	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		N11   , Dn1 
+	.byte		N11   
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
-	.byte		        Dn1 
+	.byte		N11   
 	.byte	W12
 @ 019   ----------------------------------------
 	.byte		N11   
@@ -1717,90 +1695,90 @@ ForLiberty_3_006:
 	.byte	W12
 	.byte		N05   , Dn1 , v100
 	.byte	W06
-	.byte		        En1 , v084
+	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		N11   , Dn1 
+	.byte		N11   
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
-	.byte		N05   , En1 , v112
+	.byte		N05   , Dn1 , v112
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		N11   , En1 , v092
+	.byte		N11   , Dn1 , v092
 	.byte	W12
 	.byte		N05   , Dn1 , v096
 	.byte	W06
-	.byte		        En1 
+	.byte		N05   
 	.byte	W06
 @ 020   ----------------------------------------
 	.byte		        Dn1 , v088
 	.byte		N11   , Cs2 , v072
 	.byte	W06
-	.byte		N05   , En1 , v092
+	.byte		N05   , Dn1 , v092
 	.byte	W06
 	.byte		N11   , Dn1 , v112
 	.byte		N16   , Cs2 , v076
 	.byte	W12
-	.byte		N03   , En1 , v092
+	.byte		N03   , Dn1 , v092
 	.byte	W04
-	.byte		        Dn1 
+	.byte		N03   
 	.byte	W04
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W04
 	.byte		N11   , Dn1 , v092
 	.byte	W12
 	.byte		N05   , Dn1 , v100
 	.byte	W06
-	.byte		        En1 , v088
+	.byte		        Dn1 , v088
 	.byte	W06
 	.byte		N15   , Dn1 , v084
 	.byte	W16
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W16
 	.byte		        Dn1 , v088
 	.byte	W04
 @ 021   ----------------------------------------
 	.byte	W12
-	.byte		        En1 , v100
+	.byte		        Dn1 , v100
 	.byte		N16   , Cs2 , v072
 	.byte	W16
 	.byte		N15   , Dn1 , v104
 	.byte	W16
-	.byte		        En1 
+	.byte		N15   
 	.byte	W16
 	.byte		N07   , Dn1 , v112
 	.byte	W08
-	.byte		        En1 , v084
+	.byte		        Dn1 , v084
 	.byte	W08
 	.byte		        Dn1 , v100
 	.byte	W08
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W08
 	.byte		        Dn1 , v100
 	.byte	W04
 @ 022   ----------------------------------------
 	.byte	W04
-	.byte		        En1 , v108
+	.byte		        Dn1 , v108
 	.byte	W08
-	.byte		N11   , Dn1 
+	.byte		N11   
 	.byte		N44   , Cs2 , v072
 	.byte	W12
 	.byte		N11   , Dn1 , v112
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 	.byte		N05   , Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 @ 023   ----------------------------------------
 	.byte	PATT
@@ -1809,30 +1787,30 @@ ForLiberty_3_006:
 	.byte	PATT
 	 .word	ForLiberty_3_002
 @ 025   ----------------------------------------
-	.byte		N11   , En1 , v108
+	.byte		N11   , Dn1 , v108
 	.byte	W12
 	.byte		        Dn1 , v104
 	.byte	W12
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W12
 	.byte		N05   , Dn1 , v056
 	.byte	W06
-	.byte		        En1 , v112
+	.byte		        Dn1 , v112
 	.byte	W06
 	.byte		        Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		        Dn1 , v084
 	.byte	W06
-	.byte		        En1 , v076
+	.byte		        Dn1 , v076
 	.byte	W06
 	.byte		N11   , Dn1 , v088
 	.byte	W12
 	.byte		        Dn1 , v056
 	.byte	W12
 @ 026   ----------------------------------------
-	.byte		N05   , En1 , v112
+	.byte		N05   , Dn1 , v112
 	.byte	W06
 	.byte		        Dn1 , v108
 	.byte	W06
@@ -1841,51 +1819,51 @@ ForLiberty_3_006:
 	.byte	W12
 	.byte		N11   , Dn1 , v112
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 	.byte		N05   , Dn1 , v096
 	.byte	W06
-	.byte		        En1 , v072
+	.byte		        Dn1 , v072
 	.byte	W06
 	.byte		        Dn1 , v080
 	.byte	W06
-	.byte		        En1 , v092
+	.byte		        Dn1 , v092
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W12
 @ 027   ----------------------------------------
 	.byte	PATT
 	 .word	ForLiberty_3_001
 @ 028   ----------------------------------------
 	.byte	PATT
-	 .word	ForLiberty_3_006
+	 .word	ForLiberty_3_002
 @ 029   ----------------------------------------
-	.byte		N11   , En1 , v108
+	.byte		N11   , Dn1 , v108
 	.byte	W12
 	.byte		        Dn1 , v104
 	.byte	W12
-	.byte		        En1 , v096
+	.byte		        Dn1 , v096
 	.byte	W12
 	.byte		N05   , Dn1 , v092
 	.byte	W06
-	.byte		        En1 , v056
+	.byte		        Dn1 , v056
 	.byte	W06
 	.byte		        Dn1 , v104
 	.byte	W06
-	.byte		        En1 , v060
+	.byte		        Dn1 , v060
 	.byte	W06
 	.byte		        Dn1 , v100
 	.byte	W06
-	.byte		        En1 , v060
+	.byte		        Dn1 , v060
 	.byte	W06
 	.byte		N11   , Dn1 , v100
 	.byte	W12
-	.byte		        En1 , v104
+	.byte		        Dn1 , v104
 	.byte	W12
 @ 030   ----------------------------------------
-	.byte		N05   , En1 , v112
+	.byte		N05   , Dn1 , v112
 	.byte	W06
 	.byte		        Dn1 , v092
 	.byte	W06

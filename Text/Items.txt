@@ -33,3 +33,7 @@ Hauteclere[X]
 
 ##BlizzardName
 Blizzard[X]
+
+##LevinSwordDesc
+Suffused with thunder magic.[X]
+

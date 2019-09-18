@@ -1659,856 +1659,9 @@ FootstepsOfFate_2_021:
 FootstepsOfFate_2_B2:
 	.byte	FINE
 
-@**************** Track 3 (Midi-Chn.3) ****************@
+@**************** Track 3 (Midi-Chn.4) ****************@
 
 FootstepsOfFate_3:
-	.byte	KEYSH , FootstepsOfFate_key+0
-@ 000   ----------------------------------------
-	.byte		MODT  , 0
-	.byte		LFOS  , 44
-	.byte	W24
-	.byte		VOICE , 127
-	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
-	.byte		PAN   , c_v+0
-	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
-	.byte		N06   , Dn1 , v076
-	.byte	W24
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		        Ds1 , v060
-	.byte	W18
-	.byte		N02   , Dn1 , v084
-	.byte	W03
-	.byte		N06   , Ds1 , v064
-	.byte	W21
-@ 001   ----------------------------------------
-	.byte		N04   , Dn1 , v068
-	.byte	W12
-	.byte		N05   , Ds1 , v052
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N08   , Dn1 , v072
-	.byte	W12
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		N05   
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W12
-	.byte		N05   
-	.byte	W06
-	.byte		N02   , Ds1 , v072
-	.byte	W03
-	.byte		N06   , Dn1 , v068
-	.byte	W09
-	.byte		N06   
-	.byte	W12
-@ 002   ----------------------------------------
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		        Ds1 , v060
-	.byte	W06
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		        Dn1 , v084
-	.byte	W24
-	.byte		        Ds1 , v064
-	.byte	W06
-	.byte		        Dn1 
-	.byte	W18
-	.byte		N09   
-	.byte	W12
-	.byte		N08   , Ds1 , v056
-	.byte	W12
-@ 003   ----------------------------------------
-	.byte		N04   , Dn1 , v068
-	.byte	W06
-	.byte		        Ds1 , v080
-	.byte	W06
-	.byte		N05   , Dn1 , v076
-	.byte	W06
-	.byte		        Ds1 , v092
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Ds1 , v068
-	.byte	W06
-	.byte		        Dn1 , v084
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W18
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N02   , Ds1 , v108
-	.byte	W03
-	.byte		        Dn1 , v084
-	.byte	W03
-	.byte		N05   , Ds1 
-	.byte	W06
-@ 004   ----------------------------------------
-FootstepsOfFate_3_004:
-	.byte		N23   , En1 , v108
-	.byte	W24
-	.byte		N06   , Dn1 , v124
-	.byte	W24
-	.byte		N04   , Dn1 , v104
-	.byte	W24
-	.byte		N03   , Dn1 , v088
-	.byte	W06
-	.byte		N04   , Ds1 , v072
-	.byte	W18
-	.byte	PEND
-@ 005   ----------------------------------------
-FootstepsOfFate_3_005:
-	.byte		N03   , Dn1 , v096
-	.byte	W06
-	.byte		        Ds1 , v080
-	.byte	W06
-	.byte		N11   , En1 , v120
-	.byte	W12
-	.byte		N05   , Dn1 , v127
-	.byte	W24
-	.byte		        En1 , v120
-	.byte	W06
-	.byte		        Dn1 , v127
-	.byte	W18
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Ds1 , v096
-	.byte	W12
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte	PEND
-@ 006   ----------------------------------------
-	.byte		        Dn1 , v112
-	.byte	W06
-	.byte		        Ds1 , v116
-	.byte	W06
-	.byte		N11   , En1 , v127
-	.byte	W12
-FootstepsOfFate_3_B1:
-	.byte		N06   , Dn1 , v127
-	.byte	W24
-	.byte		N04   , Dn1 , v104
-	.byte	W24
-	.byte		N03   , Dn1 , v088
-	.byte	W06
-	.byte		N04   , Ds1 , v072
-	.byte	W18
-@ 007   ----------------------------------------
-FootstepsOfFate_3_007:
-	.byte		N03   , Dn1 , v096
-	.byte	W06
-	.byte		        Ds1 , v080
-	.byte	W06
-	.byte		N11   , En1 , v108
-	.byte	W12
-	.byte		N06   , Dn1 , v100
-	.byte	W24
-	.byte		N05   , En1 , v092
-	.byte	W06
-	.byte		        Dn1 , v104
-	.byte	W12
-	.byte		        Ds1 , v100
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Ds1 , v096
-	.byte	W12
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte	PEND
-@ 008   ----------------------------------------
-FootstepsOfFate_3_008:
-	.byte		N05   , Dn1 , v120
-	.byte	W06
-	.byte		        Ds1 , v108
-	.byte	W06
-	.byte		N11   , En1 , v127
-	.byte	W12
-	.byte		N06   , Dn1 , v124
-	.byte	W24
-	.byte		N04   , Dn1 , v104
-	.byte	W24
-	.byte		N03   , Dn1 , v088
-	.byte	W06
-	.byte		N04   , Ds1 , v072
-	.byte	W18
-	.byte	PEND
-@ 009   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_005
-@ 010   ----------------------------------------
-FootstepsOfFate_3_010:
-	.byte		N05   , Dn1 , v127
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		N11   , En1 
-	.byte	W12
-	.byte		N06   , Dn1 
-	.byte	W24
-	.byte		N04   , Dn1 , v104
-	.byte	W24
-	.byte		N03   , Dn1 , v088
-	.byte	W06
-	.byte		N04   , Ds1 , v072
-	.byte	W18
-	.byte	PEND
-@ 011   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_007
-@ 012   ----------------------------------------
-	.byte		N23   , En1 , v120
-	.byte	W24
-	.byte		N06   , Dn1 , v124
-	.byte	W24
-	.byte		N04   , Dn1 , v104
-	.byte	W24
-	.byte		N03   , Dn1 , v088
-	.byte	W06
-	.byte		N04   , Ds1 , v072
-	.byte	W18
-@ 013   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_005
-@ 014   ----------------------------------------
-	.byte		N05   , Dn1 , v112
-	.byte	W06
-	.byte		        Ds1 , v116
-	.byte	W06
-	.byte		N11   , En1 , v127
-	.byte	W12
-	.byte		N06   , Dn1 
-	.byte	W24
-	.byte		N04   , Dn1 , v104
-	.byte	W24
-	.byte		N03   , Dn1 , v088
-	.byte	W06
-	.byte		N04   , Ds1 , v072
-	.byte	W18
-@ 015   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_007
-@ 016   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_008
-@ 017   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_005
-@ 018   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_010
-@ 019   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_007
-@ 020   ----------------------------------------
-	.byte		N23   , En1 , v120
-	.byte	W24
-	.byte		N06   , Dn1 , v092
-	.byte	W24
-	.byte		N04   , Dn1 , v060
-	.byte	W24
-	.byte		        Dn1 , v076
-	.byte	W24
-@ 021   ----------------------------------------
-	.byte		        Dn1 , v092
-	.byte	W12
-	.byte		N03   , Ds1 , v076
-	.byte	W12
-	.byte		N05   , Dn1 , v084
-	.byte	W06
-	.byte		N08   , Ds1 , v072
-	.byte	W18
-	.byte		N04   , Dn1 , v060
-	.byte	W24
-	.byte		        Dn1 , v076
-	.byte	W24
-@ 022   ----------------------------------------
-	.byte		        Dn1 , v092
-	.byte	W24
-	.byte		N06   , Dn1 , v084
-	.byte	W24
-	.byte		N04   , Dn1 , v060
-	.byte	W24
-	.byte		        Dn1 , v076
-	.byte	W24
-@ 023   ----------------------------------------
-	.byte		        Dn1 , v084
-	.byte	W12
-	.byte		        Dn1 , v068
-	.byte	W12
-	.byte		N05   , Dn1 , v060
-	.byte	W06
-	.byte		N06   , Ds1 , v064
-	.byte	W18
-	.byte		N04   , Dn1 , v060
-	.byte	W24
-	.byte		        Dn1 , v076
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		N02   , Dn1 , v056
-	.byte	W03
-	.byte		        Ds1 , v044
-	.byte	W03
-	.byte		        Dn1 , v056
-	.byte	W03
-	.byte		        Ds1 , v064
-	.byte	W03
-@ 024   ----------------------------------------
-	.byte		N06   , Dn1 , v076
-	.byte	W12
-	.byte		N05   , Ds1 , v084
-	.byte	W06
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		N03   , Dn1 , v096
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		N03   , Ds1 , v064
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		N03   , Dn1 , v076
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		        Ds1 , v060
-	.byte	W06
-	.byte		        Dn1 , v024
-	.byte	W06
-	.byte		N02   , Dn1 , v056
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		N05   , Ds1 , v044
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-@ 025   ----------------------------------------
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		N05   , Ds1 , v052
-	.byte	W06
-	.byte		N04   , Dn1 , v056
-	.byte	W06
-	.byte		N05   , Ds1 , v060
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		N05   , Ds1 , v060
-	.byte	W06
-	.byte		N04   , Ds1 , v024
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        Dn1 , v024
-	.byte	W06
-	.byte		        Ds1 , v064
-	.byte	W06
-	.byte		        Ds1 , v024
-	.byte	W06
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		        Ds1 , v060
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		N05   , Ds1 , v068
-	.byte	W06
-@ 026   ----------------------------------------
-	.byte		        Dn1 , v084
-	.byte	W06
-	.byte		        Ds1 , v064
-	.byte	W06
-	.byte		N04   , Dn1 , v056
-	.byte	W06
-	.byte		N05   , Ds1 , v060
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		N04   , Ds1 , v024
-	.byte	W06
-	.byte		N05   , Ds1 , v072
-	.byte	W06
-	.byte		N04   , Dn1 , v024
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        Dn1 , v024
-	.byte	W06
-	.byte		N05   , Ds1 , v072
-	.byte	W06
-	.byte		N04   , Ds1 , v032
-	.byte	W06
-	.byte		N03   , Dn1 , v084
-	.byte	W06
-	.byte		N04   , Dn1 , v040
-	.byte	W06
-	.byte		        Ds1 , v076
-	.byte	W09
-	.byte		N02   , Ds1 , v044
-	.byte	W03
-@ 027   ----------------------------------------
-	.byte		N04   , Dn1 , v076
-	.byte	W06
-	.byte		N05   , Ds1 , v084
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        Ds1 , v088
-	.byte	W06
-	.byte		        Dn1 , v116
-	.byte	W06
-	.byte		N04   , Dn1 , v048
-	.byte	W06
-	.byte		        Ds1 , v112
-	.byte	W06
-	.byte		        Ds1 , v048
-	.byte	W06
-	.byte		        Dn1 , v127
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Ds1 , v112
-	.byte	W06
-	.byte		        Ds1 , v048
-	.byte	W06
-	.byte		N05   , Dn1 , v127
-	.byte	W06
-	.byte		        Ds1 , v104
-	.byte	W06
-	.byte		        Dn1 , v116
-	.byte	W06
-	.byte		        Ds1 , v100
-	.byte	W06
-@ 028   ----------------------------------------
-	.byte		N04   , Dn1 , v127
-	.byte	W06
-	.byte		N05   , Ds1 , v084
-	.byte	W06
-	.byte		N11   , En1 , v127
-	.byte	W12
-	.byte		N15   , Dn1 
-	.byte		N13   , Cs3 
-	.byte	W24
-	.byte		N11   , En1 , v100
-	.byte	W12
-	.byte		N17   , Ds1 , v104
-	.byte	W24
-	.byte		N03   , Ds1 , v112
-	.byte	W12
-@ 029   ----------------------------------------
-	.byte		N05   , Dn1 , v120
-	.byte	W06
-	.byte		        Ds1 , v088
-	.byte	W06
-	.byte		        Dn1 , v104
-	.byte	W12
-	.byte		N23   , Dn1 , v127
-	.byte		N13   , Cn3 , v052
-	.byte	W24
-	.byte		N03   , Ds1 , v072
-	.byte	W12
-	.byte		N18   , Ds1 , v112
-	.byte	W24
-	.byte		N04   , Ds1 , v100
-	.byte	W12
-@ 030   ----------------------------------------
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		N05   , Ds1 , v072
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte		N05   , Cs3 , v108
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N23   , Dn1 , v120
-	.byte		N13   , Cs3 , v127
-	.byte	W24
-	.byte		N11   , En1 , v104
-	.byte	W12
-	.byte		N19   , Ds1 
-	.byte	W24
-	.byte		N03   , Ds1 , v100
-	.byte	W12
-@ 031   ----------------------------------------
-	.byte		N05   , Dn1 , v104
-	.byte	W06
-	.byte		        Ds1 , v072
-	.byte	W06
-	.byte		N04   , Dn1 , v084
-	.byte	W12
-	.byte		N13   , Dn1 , v124
-	.byte		N13   , Cn3 , v052
-	.byte	W24
-	.byte		N03   , Ds1 , v096
-	.byte	W12
-	.byte		N23   , En1 , v104
-	.byte	W24
-	.byte		N02   , Ds1 , v096
-	.byte	W12
-@ 032   ----------------------------------------
-	.byte		N04   , Dn1 , v104
-	.byte	W06
-	.byte		N05   , Ds1 , v084
-	.byte	W06
-	.byte		N04   , Dn1 
-	.byte		N05   , Cs3 , v108
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N16   , Dn1 , v108
-	.byte		N13   , Cs3 , v127
-	.byte	W24
-	.byte		N03   , Dn1 , v104
-	.byte	W12
-	.byte		N32   , En1 
-	.byte	W36
-@ 033   ----------------------------------------
-	.byte		N04   , Dn1 , v108
-	.byte	W06
-	.byte		N05   , Ds1 , v088
-	.byte	W06
-	.byte		N04   , Dn1 
-	.byte	W06
-	.byte		N05   , Ds1 , v072
-	.byte	W06
-	.byte		N07   , Dn1 , v104
-	.byte		N13   , Cn3 , v052
-	.byte	W12
-	.byte		N03   , Dn1 , v116
-	.byte	W12
-	.byte		        Dn1 , v104
-	.byte	W12
-	.byte		N17   , Dn1 , v116
-	.byte	W24
-	.byte		N03   , Ds1 , v092
-	.byte	W06
-	.byte		N05   , Ds1 , v080
-	.byte	W06
-@ 034   ----------------------------------------
-	.byte		N04   , Dn1 , v088
-	.byte	W06
-	.byte		N05   , Ds1 , v084
-	.byte	W06
-	.byte		        Dn1 
-	.byte		N05   , Cs3 , v108
-	.byte	W06
-	.byte		        Ds1 , v072
-	.byte	W06
-	.byte		N13   , Dn1 , v100
-	.byte		N13   , Cs3 , v127
-	.byte	W24
-	.byte		N03   , Ds1 , v096
-	.byte	W12
-	.byte		N16   
-	.byte	W24
-	.byte		N04   , Dn1 , v092
-	.byte	W12
-@ 035   ----------------------------------------
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		N05   , Ds1 , v036
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        Ds1 , v068
-	.byte	W06
-	.byte		        Dn1 , v104
-	.byte		N13   , Cn3 , v052
-	.byte	W12
-	.byte		N02   , Dn1 , v100
-	.byte	W12
-	.byte		N04   
-	.byte	W12
-	.byte		N23   , En1 , v108
-	.byte	W24
-	.byte		N04   , Ds1 , v084
-	.byte	W12
-@ 036   ----------------------------------------
-	.byte		N05   , Dn1 , v120
-	.byte	W06
-	.byte		        Ds1 , v096
-	.byte	W06
-	.byte		        Dn1 , v104
-	.byte	W06
-	.byte		N04   , Ds1 , v100
-	.byte	W06
-	.byte		N80   , En1 , v096
-	.byte	W04
-	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
-	.byte	W08
-	.byte		        115*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        114*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        112*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        110*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        108*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        106*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        105*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        103*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        101*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        98*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        96*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        94*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        91*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        88*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        86*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        83*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        79*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        76*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        72*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        67*FootstepsOfFate_mvl/mxv
-	.byte	W03
-@ 037   ----------------------------------------
-	.byte		        64*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        59*FootstepsOfFate_mvl/mxv
-	.byte	W09
-	.byte		        115*FootstepsOfFate_mvl/mxv
-	.byte		N03   , Ds1 
-	.byte	W12
-	.byte		N05   , Dn1 , v100
-	.byte	W06
-	.byte		        Ds1 , v092
-	.byte	W06
-	.byte		N68   , En1 , v056
-	.byte	W03
-	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        111*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        107*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        104*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        100*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        96*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        93*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        89*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        86*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        82*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        78*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        75*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        71*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        69*FootstepsOfFate_mvl/mxv
-	.byte	W03
-	.byte		        70*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        71*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        72*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        73*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        74*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        75*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        76*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        76*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        78*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        79*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        80*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        82*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        83*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        85*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        86*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        87*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        89*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        91*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        93*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        95*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        97*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        99*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        102*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        105*FootstepsOfFate_mvl/mxv
-	.byte	W01
-@ 038   ----------------------------------------
-	.byte	W01
-	.byte		        107*FootstepsOfFate_mvl/mxv
-	.byte	W01
-	.byte		        111*FootstepsOfFate_mvl/mxv
-	.byte	W02
-	.byte		        115*FootstepsOfFate_mvl/mxv
-	.byte	W08
-	.byte		N11   , En1 , v096
-	.byte	W12
-	.byte		N06   , Dn1 , v076
-	.byte	W24
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		        Ds1 , v060
-	.byte	W06
-	.byte		N11   , En1 , v068
-	.byte	W12
-	.byte		N02   , Dn1 , v084
-	.byte	W03
-	.byte		N06   , Ds1 , v064
-	.byte	W21
-@ 039   ----------------------------------------
-	.byte		N04   , Dn1 , v068
-	.byte	W12
-	.byte		N05   , Ds1 , v052
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N08   , Dn1 , v072
-	.byte	W12
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		N05   
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		        En1 , v084
-	.byte	W06
-	.byte		        Ds1 , v064
-	.byte	W06
-	.byte		N02   , Ds1 , v072
-	.byte	W03
-	.byte		N06   , Dn1 , v068
-	.byte	W09
-	.byte		N06   
-	.byte	W12
-@ 040   ----------------------------------------
-	.byte		N05   , Dn1 , v064
-	.byte	W06
-	.byte		        Ds1 , v060
-	.byte	W06
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		        Dn1 , v084
-	.byte	W24
-	.byte		        Ds1 , v064
-	.byte	W06
-	.byte		        Dn1 
-	.byte	W06
-	.byte		N11   , En1 , v068
-	.byte	W12
-	.byte		N09   , Dn1 , v064
-	.byte	W12
-	.byte		N08   , Ds1 , v056
-	.byte	W12
-@ 041   ----------------------------------------
-	.byte		N04   , Dn1 , v068
-	.byte	W06
-	.byte		        Ds1 , v080
-	.byte	W06
-	.byte		N05   , Dn1 , v076
-	.byte	W06
-	.byte		        Ds1 , v092
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Ds1 , v068
-	.byte	W06
-	.byte		        Dn1 , v084
-	.byte	W06
-	.byte		        Ds1 
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N11   , En1 
-	.byte	W12
-	.byte		N05   , Dn1 , v108
-	.byte	W06
-	.byte		        Ds1 , v084
-	.byte	W06
-	.byte		N02   , Ds1 , v108
-	.byte	W03
-	.byte		        Dn1 , v084
-	.byte	W03
-	.byte		N05   , Ds1 
-	.byte	W06
-@ 042   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_004
-@ 043   ----------------------------------------
-	.byte	PATT
-	 .word	FootstepsOfFate_3_005
-@ 044   ----------------------------------------
-	.byte		N05   , Dn1 , v112
-	.byte	W06
-	.byte		        Ds1 , v116
-	.byte	W06
-	.byte		N11   , En1 , v127
-	.byte	W11
-	.byte	GOTO
-	 .word	FootstepsOfFate_3_B1
-FootstepsOfFate_3_B2:
-	.byte	FINE
-
-@**************** Track 4 (Midi-Chn.4) ****************@
-
-FootstepsOfFate_4:
 	.byte	KEYSH , FootstepsOfFate_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 4
@@ -2528,7 +1681,7 @@ FootstepsOfFate_4:
 	.byte		N52   , Fs1 , v120
 	.byte	W72
 @ 001   ----------------------------------------
-FootstepsOfFate_4_001:
+FootstepsOfFate_3_001:
 	.byte	W12
 	.byte		N05   , Fs1 , v104
 	.byte	W06
@@ -2546,7 +1699,7 @@ FootstepsOfFate_4_001:
 	.byte		N52   , Fs1 , v124
 	.byte	W72
 @ 003   ----------------------------------------
-FootstepsOfFate_4_003:
+FootstepsOfFate_3_003:
 	.byte	W12
 	.byte		N05   , Fs1 , v092
 	.byte	W06
@@ -2562,7 +1715,7 @@ FootstepsOfFate_4_003:
 	.byte	W30
 	.byte	PEND
 @ 004   ----------------------------------------
-FootstepsOfFate_4_004:
+FootstepsOfFate_3_004:
 	.byte		N23   , Fs3 , v104
 	.byte	W24
 	.byte		N52   , Fs1 , v120
@@ -2570,21 +1723,21 @@ FootstepsOfFate_4_004:
 	.byte	PEND
 @ 005   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_001
+	 .word	FootstepsOfFate_3_001
 @ 006   ----------------------------------------
 	.byte	W24
-FootstepsOfFate_4_B1:
+FootstepsOfFate_3_B1:
 	.byte		N52   , Fs1 , v124
 	.byte	W72
 @ 007   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_003
+	 .word	FootstepsOfFate_3_003
 @ 008   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_004
+	 .word	FootstepsOfFate_3_004
 @ 009   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_001
+	 .word	FootstepsOfFate_3_001
 @ 010   ----------------------------------------
 	.byte	W24
 	.byte		N52   , Dn1 , v124
@@ -2610,20 +1763,20 @@ FootstepsOfFate_4_B1:
 	.byte	W72
 @ 013   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_001
+	 .word	FootstepsOfFate_3_001
 @ 014   ----------------------------------------
 	.byte	W24
 	.byte		N52   , Fs1 , v124
 	.byte	W72
 @ 015   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_003
+	 .word	FootstepsOfFate_3_003
 @ 016   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_004
+	 .word	FootstepsOfFate_3_004
 @ 017   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_001
+	 .word	FootstepsOfFate_3_001
 @ 018   ----------------------------------------
 	.byte	W24
 	.byte		N52   , En1 , v124
@@ -2950,14 +2103,14 @@ FootstepsOfFate_4_B1:
 	.byte	W72
 @ 037   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_001
+	 .word	FootstepsOfFate_3_001
 @ 038   ----------------------------------------
 	.byte	W24
 	.byte		N52   , Fs1 , v124
 	.byte	W72
 @ 039   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_003
+	 .word	FootstepsOfFate_3_003
 @ 040   ----------------------------------------
 	.byte		N23   , Fs3 , v104
 	.byte	W24
@@ -2965,23 +2118,23 @@ FootstepsOfFate_4_B1:
 	.byte	W72
 @ 041   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_003
+	 .word	FootstepsOfFate_3_003
 @ 042   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_004
+	 .word	FootstepsOfFate_3_004
 @ 043   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_4_001
+	 .word	FootstepsOfFate_3_001
 @ 044   ----------------------------------------
 	.byte	W23
 	.byte	GOTO
-	 .word	FootstepsOfFate_4_B1
-FootstepsOfFate_4_B2:
+	 .word	FootstepsOfFate_3_B1
+FootstepsOfFate_3_B2:
 	.byte	FINE
 
-@**************** Track 5 (Midi-Chn.5) ****************@
+@**************** Track 4 (Midi-Chn.5) ****************@
 
-FootstepsOfFate_5:
+FootstepsOfFate_4:
 	.byte	KEYSH , FootstepsOfFate_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 60
@@ -3257,7 +2410,7 @@ FootstepsOfFate_5:
 	.byte		        En3 , v100
 	.byte		N05   , Gs3 , v116
 	.byte	W06
-FootstepsOfFate_5_B1:
+FootstepsOfFate_4_B1:
 	.byte		VOL   , 127*FootstepsOfFate_mvl/mxv
 	.byte		N05   , En3 , v092
 	.byte		N05   , Gs3 , v104
@@ -5250,13 +4403,13 @@ FootstepsOfFate_5_B1:
 	.byte		N05   , Gs3 , v112
 	.byte	W05
 	.byte	GOTO
-	 .word	FootstepsOfFate_5_B1
-FootstepsOfFate_5_B2:
+	 .word	FootstepsOfFate_4_B1
+FootstepsOfFate_4_B2:
 	.byte	FINE
 
-@**************** Track 6 (Midi-Chn.6) ****************@
+@**************** Track 5 (Midi-Chn.6) ****************@
 
-FootstepsOfFate_6:
+FootstepsOfFate_5:
 	.byte	KEYSH , FootstepsOfFate_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 51
@@ -5291,7 +4444,7 @@ FootstepsOfFate_6:
 	.byte		        Bn3 
 	.byte	W24
 @ 004   ----------------------------------------
-FootstepsOfFate_6_004:
+FootstepsOfFate_5_004:
 	.byte		N23   , Gs3 , v084
 	.byte	W24
 	.byte		N80   , Cs3 , v096
@@ -5423,7 +4576,7 @@ FootstepsOfFate_6_004:
 	.byte	W06
 	.byte		        Gs3 , v116
 	.byte	W06
-FootstepsOfFate_6_B1:
+FootstepsOfFate_5_B1:
 	.byte		VOL   , 92*FootstepsOfFate_mvl/mxv
 	.byte		N05   , Gs3 , v104
 	.byte	W06
@@ -6676,7 +5829,7 @@ FootstepsOfFate_6_B1:
 	.byte	W24
 @ 042   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_6_004
+	 .word	FootstepsOfFate_5_004
 @ 043   ----------------------------------------
 	.byte		VOL   , 82*FootstepsOfFate_mvl/mxv
 	.byte	W03
@@ -6760,13 +5913,13 @@ FootstepsOfFate_6_B1:
 	.byte		        Gs3 , v116
 	.byte	W05
 	.byte	GOTO
-	 .word	FootstepsOfFate_6_B1
-FootstepsOfFate_6_B2:
+	 .word	FootstepsOfFate_5_B1
+FootstepsOfFate_5_B2:
 	.byte	FINE
 
-@**************** Track 7 (Midi-Chn.7) ****************@
+@**************** Track 6 (Midi-Chn.7) ****************@
 
-FootstepsOfFate_7:
+FootstepsOfFate_6:
 	.byte	KEYSH , FootstepsOfFate_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 49
@@ -6903,7 +6056,7 @@ FootstepsOfFate_7:
 	.byte	W96
 @ 006   ----------------------------------------
 	.byte	W24
-FootstepsOfFate_7_B1:
+FootstepsOfFate_6_B1:
 	.byte		PAN   , c_v-23
 	.byte		VOL   , 102*FootstepsOfFate_mvl/mxv
 	.byte	W72
@@ -8543,13 +7696,13 @@ FootstepsOfFate_7_B1:
 @ 044   ----------------------------------------
 	.byte	W23
 	.byte	GOTO
-	 .word	FootstepsOfFate_7_B1
-FootstepsOfFate_7_B2:
+	 .word	FootstepsOfFate_6_B1
+FootstepsOfFate_6_B2:
 	.byte	FINE
 
-@**************** Track 8 (Midi-Chn.8) ****************@
+@**************** Track 7 (Midi-Chn.8) ****************@
 
-FootstepsOfFate_8:
+FootstepsOfFate_7:
 	.byte	KEYSH , FootstepsOfFate_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 50
@@ -8707,7 +7860,7 @@ FootstepsOfFate_8:
 	.byte		N92   , An2 , v088
 	.byte	W72
 @ 005   ----------------------------------------
-FootstepsOfFate_8_005:
+FootstepsOfFate_7_005:
 	.byte	W24
 	.byte		N88   , En2 , v100
 	.byte		N88   , Gs2 , v084
@@ -8715,7 +7868,7 @@ FootstepsOfFate_8_005:
 	.byte	PEND
 @ 006   ----------------------------------------
 	.byte	W24
-FootstepsOfFate_8_B1:
+FootstepsOfFate_7_B1:
 	.byte		N90   , Fs2 , v088
 	.byte		N92   , An2 , v080
 	.byte	W72
@@ -8739,7 +7892,7 @@ FootstepsOfFate_8_B1:
 	.byte	W72
 @ 009   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_8_005
+	 .word	FootstepsOfFate_7_005
 @ 010   ----------------------------------------
 	.byte	W24
 	.byte		N90   , Fs2 , v088
@@ -9301,17 +8454,17 @@ FootstepsOfFate_8_B1:
 	.byte	W72
 @ 043   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_8_005
+	 .word	FootstepsOfFate_7_005
 @ 044   ----------------------------------------
 	.byte	W23
 	.byte	GOTO
-	 .word	FootstepsOfFate_8_B1
-FootstepsOfFate_8_B2:
+	 .word	FootstepsOfFate_7_B1
+FootstepsOfFate_7_B2:
 	.byte	FINE
 
-@**************** Track 9 (Midi-Chn.9) ****************@
+@**************** Track 8 (Midi-Chn.9) ****************@
 
-FootstepsOfFate_9:
+FootstepsOfFate_8:
 	.byte	KEYSH , FootstepsOfFate_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 67
@@ -9592,7 +8745,7 @@ FootstepsOfFate_9:
 	.byte	W01
 @ 006   ----------------------------------------
 	.byte	W24
-FootstepsOfFate_9_B1:
+FootstepsOfFate_8_B1:
 	.byte		PAN   , c_v-17
 	.byte		VOL   , 25*FootstepsOfFate_mvl/mxv
 	.byte	W72
@@ -9740,7 +8893,7 @@ FootstepsOfFate_9_B1:
 	.byte		        77*FootstepsOfFate_mvl/mxv
 	.byte	W02
 @ 028   ----------------------------------------
-FootstepsOfFate_9_028:
+FootstepsOfFate_8_028:
 	.byte		VOL   , 80*FootstepsOfFate_mvl/mxv
 	.byte	W01
 	.byte		        82*FootstepsOfFate_mvl/mxv
@@ -9890,11 +9043,858 @@ FootstepsOfFate_9_028:
 	.byte	W02
 @ 042   ----------------------------------------
 	.byte	PATT
-	 .word	FootstepsOfFate_9_028
+	 .word	FootstepsOfFate_8_028
 @ 043   ----------------------------------------
 	.byte	W96
 @ 044   ----------------------------------------
 	.byte	W23
+	.byte	GOTO
+	 .word	FootstepsOfFate_8_B1
+FootstepsOfFate_8_B2:
+	.byte	FINE
+
+@**************** Track 9 (Midi-Chn.10) ****************@
+
+FootstepsOfFate_9:
+	.byte	KEYSH , FootstepsOfFate_key+0
+@ 000   ----------------------------------------
+	.byte		MODT  , 0
+	.byte		LFOS  , 44
+	.byte	W24
+	.byte		VOICE , 127
+	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
+	.byte		N06   , Dn1 , v076
+	.byte	W24
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		        Ds1 , v060
+	.byte	W18
+	.byte		N02   , Dn1 , v084
+	.byte	W03
+	.byte		N06   , Ds1 , v064
+	.byte	W21
+@ 001   ----------------------------------------
+	.byte		N04   , Dn1 , v068
+	.byte	W12
+	.byte		N05   , Ds1 , v052
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N08   , Dn1 , v072
+	.byte	W12
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W12
+	.byte		N05   
+	.byte	W06
+	.byte		N02   , Ds1 , v072
+	.byte	W03
+	.byte		N06   , Dn1 , v068
+	.byte	W09
+	.byte		N06   
+	.byte	W12
+@ 002   ----------------------------------------
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		        Ds1 , v060
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W24
+	.byte		        Ds1 , v064
+	.byte	W06
+	.byte		        Dn1 
+	.byte	W18
+	.byte		N09   
+	.byte	W12
+	.byte		N08   , Ds1 , v056
+	.byte	W12
+@ 003   ----------------------------------------
+	.byte		N04   , Dn1 , v068
+	.byte	W06
+	.byte		        Ds1 , v080
+	.byte	W06
+	.byte		N05   , Dn1 , v076
+	.byte	W06
+	.byte		        Ds1 , v092
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Ds1 , v068
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W18
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N02   , Ds1 , v108
+	.byte	W03
+	.byte		        Dn1 , v084
+	.byte	W03
+	.byte		N05   , Ds1 
+	.byte	W06
+@ 004   ----------------------------------------
+FootstepsOfFate_9_004:
+	.byte		N23   , Dn1 , v108
+	.byte	W24
+	.byte		N06   , Dn1 , v124
+	.byte	W24
+	.byte		N04   , Dn1 , v104
+	.byte	W24
+	.byte		N03   , Dn1 , v088
+	.byte	W06
+	.byte		N04   , Ds1 , v072
+	.byte	W18
+	.byte	PEND
+@ 005   ----------------------------------------
+FootstepsOfFate_9_005:
+	.byte		N03   , Dn1 , v096
+	.byte	W06
+	.byte		        Ds1 , v080
+	.byte	W06
+	.byte		N11   , Dn1 , v120
+	.byte	W12
+	.byte		N05   , Dn1 , v127
+	.byte	W24
+	.byte		        Dn1 , v120
+	.byte	W06
+	.byte		        Dn1 , v127
+	.byte	W18
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Ds1 , v096
+	.byte	W12
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte	PEND
+@ 006   ----------------------------------------
+	.byte		        Dn1 , v112
+	.byte	W06
+	.byte		        Ds1 , v116
+	.byte	W06
+	.byte		N11   , Dn1 , v127
+	.byte	W12
+FootstepsOfFate_9_B1:
+	.byte		N06   , Dn1 , v127
+	.byte	W24
+	.byte		N04   , Dn1 , v104
+	.byte	W24
+	.byte		N03   , Dn1 , v088
+	.byte	W06
+	.byte		N04   , Ds1 , v072
+	.byte	W18
+@ 007   ----------------------------------------
+FootstepsOfFate_9_007:
+	.byte		N03   , Dn1 , v096
+	.byte	W06
+	.byte		        Ds1 , v080
+	.byte	W06
+	.byte		N11   , Dn1 , v108
+	.byte	W12
+	.byte		N06   , Dn1 , v100
+	.byte	W24
+	.byte		N05   , Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v104
+	.byte	W12
+	.byte		        Ds1 , v100
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Ds1 , v096
+	.byte	W12
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte	PEND
+@ 008   ----------------------------------------
+FootstepsOfFate_9_008:
+	.byte		N05   , Dn1 , v120
+	.byte	W06
+	.byte		        Ds1 , v108
+	.byte	W06
+	.byte		N11   , Dn1 , v127
+	.byte	W12
+	.byte		N06   , Dn1 , v124
+	.byte	W24
+	.byte		N04   , Dn1 , v104
+	.byte	W24
+	.byte		N03   , Dn1 , v088
+	.byte	W06
+	.byte		N04   , Ds1 , v072
+	.byte	W18
+	.byte	PEND
+@ 009   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_005
+@ 010   ----------------------------------------
+FootstepsOfFate_9_010:
+	.byte		N05   , Dn1 , v127
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		N11   , Dn1 
+	.byte	W12
+	.byte		N06   
+	.byte	W24
+	.byte		N04   , Dn1 , v104
+	.byte	W24
+	.byte		N03   , Dn1 , v088
+	.byte	W06
+	.byte		N04   , Ds1 , v072
+	.byte	W18
+	.byte	PEND
+@ 011   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_007
+@ 012   ----------------------------------------
+	.byte		N23   , Dn1 , v120
+	.byte	W24
+	.byte		N06   , Dn1 , v124
+	.byte	W24
+	.byte		N04   , Dn1 , v104
+	.byte	W24
+	.byte		N03   , Dn1 , v088
+	.byte	W06
+	.byte		N04   , Ds1 , v072
+	.byte	W18
+@ 013   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_005
+@ 014   ----------------------------------------
+	.byte		N05   , Dn1 , v112
+	.byte	W06
+	.byte		        Ds1 , v116
+	.byte	W06
+	.byte		N11   , Dn1 , v127
+	.byte	W12
+	.byte		N06   
+	.byte	W24
+	.byte		N04   , Dn1 , v104
+	.byte	W24
+	.byte		N03   , Dn1 , v088
+	.byte	W06
+	.byte		N04   , Ds1 , v072
+	.byte	W18
+@ 015   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_007
+@ 016   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_008
+@ 017   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_005
+@ 018   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_010
+@ 019   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_007
+@ 020   ----------------------------------------
+	.byte		N23   , Dn1 , v120
+	.byte	W24
+	.byte		N06   , Dn1 , v092
+	.byte	W24
+	.byte		N04   , Dn1 , v060
+	.byte	W24
+	.byte		        Dn1 , v076
+	.byte	W24
+@ 021   ----------------------------------------
+	.byte		        Dn1 , v092
+	.byte	W12
+	.byte		N03   , Ds1 , v076
+	.byte	W12
+	.byte		N05   , Dn1 , v084
+	.byte	W06
+	.byte		N08   , Ds1 , v072
+	.byte	W18
+	.byte		N04   , Dn1 , v060
+	.byte	W24
+	.byte		        Dn1 , v076
+	.byte	W24
+@ 022   ----------------------------------------
+	.byte		        Dn1 , v092
+	.byte	W24
+	.byte		N06   , Dn1 , v084
+	.byte	W24
+	.byte		N04   , Dn1 , v060
+	.byte	W24
+	.byte		        Dn1 , v076
+	.byte	W24
+@ 023   ----------------------------------------
+	.byte		        Dn1 , v084
+	.byte	W12
+	.byte		        Dn1 , v068
+	.byte	W12
+	.byte		N05   , Dn1 , v060
+	.byte	W06
+	.byte		N06   , Ds1 , v064
+	.byte	W18
+	.byte		N04   , Dn1 , v060
+	.byte	W24
+	.byte		        Dn1 , v076
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		N02   , Dn1 , v056
+	.byte	W03
+	.byte		        Ds1 , v044
+	.byte	W03
+	.byte		        Dn1 , v056
+	.byte	W03
+	.byte		        Ds1 , v064
+	.byte	W03
+@ 024   ----------------------------------------
+	.byte		N06   , Dn1 , v076
+	.byte	W12
+	.byte		N05   , Ds1 , v084
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		N03   , Dn1 , v096
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		N03   , Ds1 , v064
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		N03   , Dn1 , v076
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		        Ds1 , v060
+	.byte	W06
+	.byte		        Dn1 , v024
+	.byte	W06
+	.byte		N02   , Dn1 , v056
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		N05   , Ds1 , v044
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+@ 025   ----------------------------------------
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		N05   , Ds1 , v052
+	.byte	W06
+	.byte		N04   , Dn1 , v056
+	.byte	W06
+	.byte		N05   , Ds1 , v060
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		N05   , Ds1 , v060
+	.byte	W06
+	.byte		N04   , Ds1 , v024
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v024
+	.byte	W06
+	.byte		        Ds1 , v064
+	.byte	W06
+	.byte		        Ds1 , v024
+	.byte	W06
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		        Ds1 , v060
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		N05   , Ds1 , v068
+	.byte	W06
+@ 026   ----------------------------------------
+	.byte		        Dn1 , v084
+	.byte	W06
+	.byte		        Ds1 , v064
+	.byte	W06
+	.byte		N04   , Dn1 , v056
+	.byte	W06
+	.byte		N05   , Ds1 , v060
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		N04   , Ds1 , v024
+	.byte	W06
+	.byte		N05   , Ds1 , v072
+	.byte	W06
+	.byte		N04   , Dn1 , v024
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v024
+	.byte	W06
+	.byte		N05   , Ds1 , v072
+	.byte	W06
+	.byte		N04   , Ds1 , v032
+	.byte	W06
+	.byte		N03   , Dn1 , v084
+	.byte	W06
+	.byte		N04   , Dn1 , v040
+	.byte	W06
+	.byte		        Ds1 , v076
+	.byte	W09
+	.byte		N02   , Ds1 , v044
+	.byte	W03
+@ 027   ----------------------------------------
+	.byte		N04   , Dn1 , v076
+	.byte	W06
+	.byte		N05   , Ds1 , v084
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Ds1 , v088
+	.byte	W06
+	.byte		        Dn1 , v116
+	.byte	W06
+	.byte		N04   , Dn1 , v048
+	.byte	W06
+	.byte		        Ds1 , v112
+	.byte	W06
+	.byte		        Ds1 , v048
+	.byte	W06
+	.byte		        Dn1 , v127
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Ds1 , v112
+	.byte	W06
+	.byte		        Ds1 , v048
+	.byte	W06
+	.byte		N05   , Dn1 , v127
+	.byte	W06
+	.byte		        Ds1 , v104
+	.byte	W06
+	.byte		        Dn1 , v116
+	.byte	W06
+	.byte		        Ds1 , v100
+	.byte	W06
+@ 028   ----------------------------------------
+	.byte		N04   , Dn1 , v127
+	.byte	W06
+	.byte		N05   , Ds1 , v084
+	.byte	W06
+	.byte		N11   , Dn1 , v127
+	.byte	W12
+	.byte		N15   
+	.byte		N13   , Cs3 
+	.byte	W24
+	.byte		N11   , Dn1 , v100
+	.byte	W12
+	.byte		N17   , Ds1 , v104
+	.byte	W24
+	.byte		N03   , Ds1 , v112
+	.byte	W12
+@ 029   ----------------------------------------
+	.byte		N05   , Dn1 , v120
+	.byte	W06
+	.byte		        Ds1 , v088
+	.byte	W06
+	.byte		        Dn1 , v104
+	.byte	W12
+	.byte		N23   , Dn1 , v127
+	.byte		N13   , Cn3 , v052
+	.byte	W24
+	.byte		N03   , Ds1 , v072
+	.byte	W12
+	.byte		N18   , Ds1 , v112
+	.byte	W24
+	.byte		N04   , Ds1 , v100
+	.byte	W12
+@ 030   ----------------------------------------
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		N05   , Ds1 , v072
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte		N05   , Cs3 , v108
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N23   , Dn1 , v120
+	.byte		N13   , Cs3 , v127
+	.byte	W24
+	.byte		N11   , Dn1 , v104
+	.byte	W12
+	.byte		N19   , Ds1 
+	.byte	W24
+	.byte		N03   , Ds1 , v100
+	.byte	W12
+@ 031   ----------------------------------------
+	.byte		N05   , Dn1 , v104
+	.byte	W06
+	.byte		        Ds1 , v072
+	.byte	W06
+	.byte		N04   , Dn1 , v084
+	.byte	W12
+	.byte		N13   , Dn1 , v124
+	.byte		N13   , Cn3 , v052
+	.byte	W24
+	.byte		N03   , Ds1 , v096
+	.byte	W12
+	.byte		N23   , Dn1 , v104
+	.byte	W24
+	.byte		N02   , Ds1 , v096
+	.byte	W12
+@ 032   ----------------------------------------
+	.byte		N04   , Dn1 , v104
+	.byte	W06
+	.byte		N05   , Ds1 , v084
+	.byte	W06
+	.byte		N04   , Dn1 
+	.byte		N05   , Cs3 , v108
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N16   , Dn1 , v108
+	.byte		N13   , Cs3 , v127
+	.byte	W24
+	.byte		N03   , Dn1 , v104
+	.byte	W12
+	.byte		N32   
+	.byte	W36
+@ 033   ----------------------------------------
+	.byte		N04   , Dn1 , v108
+	.byte	W06
+	.byte		N05   , Ds1 , v088
+	.byte	W06
+	.byte		N04   , Dn1 
+	.byte	W06
+	.byte		N05   , Ds1 , v072
+	.byte	W06
+	.byte		N07   , Dn1 , v104
+	.byte		N13   , Cn3 , v052
+	.byte	W12
+	.byte		N03   , Dn1 , v116
+	.byte	W12
+	.byte		        Dn1 , v104
+	.byte	W12
+	.byte		N17   , Dn1 , v116
+	.byte	W24
+	.byte		N03   , Ds1 , v092
+	.byte	W06
+	.byte		N05   , Ds1 , v080
+	.byte	W06
+@ 034   ----------------------------------------
+	.byte		N04   , Dn1 , v088
+	.byte	W06
+	.byte		N05   , Ds1 , v084
+	.byte	W06
+	.byte		        Dn1 
+	.byte		N05   , Cs3 , v108
+	.byte	W06
+	.byte		        Ds1 , v072
+	.byte	W06
+	.byte		N13   , Dn1 , v100
+	.byte		N13   , Cs3 , v127
+	.byte	W24
+	.byte		N03   , Ds1 , v096
+	.byte	W12
+	.byte		N16   
+	.byte	W24
+	.byte		N04   , Dn1 , v092
+	.byte	W12
+@ 035   ----------------------------------------
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		N05   , Ds1 , v036
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Ds1 , v068
+	.byte	W06
+	.byte		        Dn1 , v104
+	.byte		N13   , Cn3 , v052
+	.byte	W12
+	.byte		N02   , Dn1 , v100
+	.byte	W12
+	.byte		N04   
+	.byte	W12
+	.byte		N23   , Dn1 , v108
+	.byte	W24
+	.byte		N04   , Ds1 , v084
+	.byte	W12
+@ 036   ----------------------------------------
+	.byte		N05   , Dn1 , v120
+	.byte	W06
+	.byte		        Ds1 , v096
+	.byte	W06
+	.byte		        Dn1 , v104
+	.byte	W06
+	.byte		N04   , Ds1 , v100
+	.byte	W06
+	.byte		N80   , Dn1 , v096
+	.byte	W04
+	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
+	.byte	W08
+	.byte		        115*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        114*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        112*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        110*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        108*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        106*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        105*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        103*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        101*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        98*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        96*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        94*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        91*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        88*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        86*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        83*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        79*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        76*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        72*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        67*FootstepsOfFate_mvl/mxv
+	.byte	W03
+@ 037   ----------------------------------------
+	.byte		        64*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        59*FootstepsOfFate_mvl/mxv
+	.byte	W09
+	.byte		        115*FootstepsOfFate_mvl/mxv
+	.byte		N03   , Ds1 
+	.byte	W12
+	.byte		N05   , Dn1 , v100
+	.byte	W06
+	.byte		        Ds1 , v092
+	.byte	W06
+	.byte		N68   , Dn1 , v056
+	.byte	W03
+	.byte		VOL   , 115*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        111*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        107*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        104*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        100*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        96*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        93*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        89*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        86*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        82*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        78*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        75*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        71*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        69*FootstepsOfFate_mvl/mxv
+	.byte	W03
+	.byte		        70*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        71*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        72*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        73*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        74*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        75*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        76*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        76*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        78*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        79*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        80*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        82*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        83*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        85*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        86*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        87*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        89*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        91*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        93*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        95*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        97*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        99*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        102*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        105*FootstepsOfFate_mvl/mxv
+	.byte	W01
+@ 038   ----------------------------------------
+	.byte	W01
+	.byte		        107*FootstepsOfFate_mvl/mxv
+	.byte	W01
+	.byte		        111*FootstepsOfFate_mvl/mxv
+	.byte	W02
+	.byte		        115*FootstepsOfFate_mvl/mxv
+	.byte	W08
+	.byte		N11   , Dn1 , v096
+	.byte	W12
+	.byte		N06   , Dn1 , v076
+	.byte	W24
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		        Ds1 , v060
+	.byte	W06
+	.byte		N11   , Dn1 , v068
+	.byte	W12
+	.byte		N02   , Dn1 , v084
+	.byte	W03
+	.byte		N06   , Ds1 , v064
+	.byte	W21
+@ 039   ----------------------------------------
+	.byte		N04   , Dn1 , v068
+	.byte	W12
+	.byte		N05   , Ds1 , v052
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N08   , Dn1 , v072
+	.byte	W12
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W06
+	.byte		        Ds1 , v064
+	.byte	W06
+	.byte		N02   , Ds1 , v072
+	.byte	W03
+	.byte		N06   , Dn1 , v068
+	.byte	W09
+	.byte		N06   
+	.byte	W12
+@ 040   ----------------------------------------
+	.byte		N05   , Dn1 , v064
+	.byte	W06
+	.byte		        Ds1 , v060
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W24
+	.byte		        Ds1 , v064
+	.byte	W06
+	.byte		        Dn1 
+	.byte	W06
+	.byte		N11   , Dn1 , v068
+	.byte	W12
+	.byte		N09   , Dn1 , v064
+	.byte	W12
+	.byte		N08   , Ds1 , v056
+	.byte	W12
+@ 041   ----------------------------------------
+	.byte		N04   , Dn1 , v068
+	.byte	W06
+	.byte		        Ds1 , v080
+	.byte	W06
+	.byte		N05   , Dn1 , v076
+	.byte	W06
+	.byte		        Ds1 , v092
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Ds1 , v068
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W06
+	.byte		        Ds1 
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N11   , Dn1 
+	.byte	W12
+	.byte		N05   , Dn1 , v108
+	.byte	W06
+	.byte		        Ds1 , v084
+	.byte	W06
+	.byte		N02   , Ds1 , v108
+	.byte	W03
+	.byte		        Dn1 , v084
+	.byte	W03
+	.byte		N05   , Ds1 
+	.byte	W06
+@ 042   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_004
+@ 043   ----------------------------------------
+	.byte	PATT
+	 .word	FootstepsOfFate_9_005
+@ 044   ----------------------------------------
+	.byte		N05   , Dn1 , v112
+	.byte	W06
+	.byte		        Ds1 , v116
+	.byte	W06
+	.byte		N11   , Dn1 , v127
+	.byte	W11
 	.byte	GOTO
 	 .word	FootstepsOfFate_9_B1
 FootstepsOfFate_9_B2:

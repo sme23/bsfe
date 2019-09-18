@@ -2069,6 +2069,10 @@ __TEXTPROCESSAD7:
 #incbin ".TextEntries\text_buildfileBlizzardName.fetxt.dmp"
 setText($AD7, __TEXTPROCESSAD7)
 
+__TEXTPROCESSAD8:
+#incbin ".TextEntries\text_buildfileLevinSwordDesc.fetxt.dmp"
+setText($AD8, __TEXTPROCESSAD8)
+
 }
 
 #endif // TEXT_INSTALLER_TEXT_BUILDFILE_TXT

@@ -1660,856 +1660,9 @@ FootstepsOfFate_2_021:
 FootstepsOfFate_2_B2:
 	BYTE	FINE
 
-//**************** Track 3 (Midi-Chn.3) ****************//
+//**************** Track 3 (Midi-Chn.4) ****************//
 
 FootstepsOfFate_3:
-	BYTE	KEYSH   FootstepsOfFate_key+0
-// 000   ----------------------------------------
-	BYTE		MODT    0
-	BYTE		LFOS    44
-	BYTE	W24
-	BYTE		VOICE   127
-	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
-	BYTE		PAN     c_v+0
-	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
-	BYTE		N06     Dn1   v076
-	BYTE	W24
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		        Ds1   v060
-	BYTE	W18
-	BYTE		N02     Dn1   v084
-	BYTE	W03
-	BYTE		N06     Ds1   v064
-	BYTE	W21
-// 001   ----------------------------------------
-	BYTE		N04     Dn1   v068
-	BYTE	W12
-	BYTE		N05     Ds1   v052
-	BYTE	W06
-	BYTE		        Dn1   v088
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N08     Dn1   v072
-	BYTE	W12
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		N05   
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W12
-	BYTE		N05   
-	BYTE	W06
-	BYTE		N02     Ds1   v072
-	BYTE	W03
-	BYTE		N06     Dn1   v068
-	BYTE	W09
-	BYTE		N06   
-	BYTE	W12
-// 002   ----------------------------------------
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		        Ds1   v060
-	BYTE	W06
-	BYTE		        Dn1   v068
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		        Dn1   v084
-	BYTE	W24
-	BYTE		        Ds1   v064
-	BYTE	W06
-	BYTE		        Dn1 
-	BYTE	W18
-	BYTE		N09   
-	BYTE	W12
-	BYTE		N08     Ds1   v056
-	BYTE	W12
-// 003   ----------------------------------------
-	BYTE		N04     Dn1   v068
-	BYTE	W06
-	BYTE		        Ds1   v080
-	BYTE	W06
-	BYTE		N05     Dn1   v076
-	BYTE	W06
-	BYTE		        Ds1   v092
-	BYTE	W06
-	BYTE		        Dn1   v100
-	BYTE	W06
-	BYTE		        Ds1   v068
-	BYTE	W06
-	BYTE		        Dn1   v084
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		        Dn1   v100
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W18
-	BYTE		        Dn1   v108
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N02     Ds1   v108
-	BYTE	W03
-	BYTE		        Dn1   v084
-	BYTE	W03
-	BYTE		N05     Ds1 
-	BYTE	W06
-// 004   ----------------------------------------
-FootstepsOfFate_3_004:
-	BYTE		N23     En1   v108
-	BYTE	W24
-	BYTE		N06     Dn1   v124
-	BYTE	W24
-	BYTE		N04     Dn1   v104
-	BYTE	W24
-	BYTE		N03     Dn1   v088
-	BYTE	W06
-	BYTE		N04     Ds1   v072
-	BYTE	W18
-	BYTE	PEND
-// 005   ----------------------------------------
-FootstepsOfFate_3_005:
-	BYTE		N03     Dn1   v096
-	BYTE	W06
-	BYTE		        Ds1   v080
-	BYTE	W06
-	BYTE		N11     En1   v120
-	BYTE	W12
-	BYTE		N05     Dn1   v127
-	BYTE	W24
-	BYTE		        En1   v120
-	BYTE	W06
-	BYTE		        Dn1   v127
-	BYTE	W18
-	BYTE		        Dn1   v108
-	BYTE	W06
-	BYTE		        Ds1   v096
-	BYTE	W12
-	BYTE		        Dn1   v100
-	BYTE	W06
-	BYTE	PEND
-// 006   ----------------------------------------
-	BYTE		        Dn1   v112
-	BYTE	W06
-	BYTE		        Ds1   v116
-	BYTE	W06
-	BYTE		N11     En1   v127
-	BYTE	W12
-FootstepsOfFate_3_B1:
-	BYTE		N06     Dn1   v127
-	BYTE	W24
-	BYTE		N04     Dn1   v104
-	BYTE	W24
-	BYTE		N03     Dn1   v088
-	BYTE	W06
-	BYTE		N04     Ds1   v072
-	BYTE	W18
-// 007   ----------------------------------------
-FootstepsOfFate_3_007:
-	BYTE		N03     Dn1   v096
-	BYTE	W06
-	BYTE		        Ds1   v080
-	BYTE	W06
-	BYTE		N11     En1   v108
-	BYTE	W12
-	BYTE		N06     Dn1   v100
-	BYTE	W24
-	BYTE		N05     En1   v092
-	BYTE	W06
-	BYTE		        Dn1   v104
-	BYTE	W12
-	BYTE		        Ds1   v100
-	BYTE	W06
-	BYTE		        Dn1   v108
-	BYTE	W06
-	BYTE		        Ds1   v096
-	BYTE	W12
-	BYTE		        Dn1   v100
-	BYTE	W06
-	BYTE	PEND
-// 008   ----------------------------------------
-FootstepsOfFate_3_008:
-	BYTE		N05     Dn1   v120
-	BYTE	W06
-	BYTE		        Ds1   v108
-	BYTE	W06
-	BYTE		N11     En1   v127
-	BYTE	W12
-	BYTE		N06     Dn1   v124
-	BYTE	W24
-	BYTE		N04     Dn1   v104
-	BYTE	W24
-	BYTE		N03     Dn1   v088
-	BYTE	W06
-	BYTE		N04     Ds1   v072
-	BYTE	W18
-	BYTE	PEND
-// 009   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_005
-// 010   ----------------------------------------
-FootstepsOfFate_3_010:
-	BYTE		N05     Dn1   v127
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		N11     En1 
-	BYTE	W12
-	BYTE		N06     Dn1 
-	BYTE	W24
-	BYTE		N04     Dn1   v104
-	BYTE	W24
-	BYTE		N03     Dn1   v088
-	BYTE	W06
-	BYTE		N04     Ds1   v072
-	BYTE	W18
-	BYTE	PEND
-// 011   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_007
-// 012   ----------------------------------------
-	BYTE		N23     En1   v120
-	BYTE	W24
-	BYTE		N06     Dn1   v124
-	BYTE	W24
-	BYTE		N04     Dn1   v104
-	BYTE	W24
-	BYTE		N03     Dn1   v088
-	BYTE	W06
-	BYTE		N04     Ds1   v072
-	BYTE	W18
-// 013   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_005
-// 014   ----------------------------------------
-	BYTE		N05     Dn1   v112
-	BYTE	W06
-	BYTE		        Ds1   v116
-	BYTE	W06
-	BYTE		N11     En1   v127
-	BYTE	W12
-	BYTE		N06     Dn1 
-	BYTE	W24
-	BYTE		N04     Dn1   v104
-	BYTE	W24
-	BYTE		N03     Dn1   v088
-	BYTE	W06
-	BYTE		N04     Ds1   v072
-	BYTE	W18
-// 015   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_007
-// 016   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_008
-// 017   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_005
-// 018   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_010
-// 019   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_007
-// 020   ----------------------------------------
-	BYTE		N23     En1   v120
-	BYTE	W24
-	BYTE		N06     Dn1   v092
-	BYTE	W24
-	BYTE		N04     Dn1   v060
-	BYTE	W24
-	BYTE		        Dn1   v076
-	BYTE	W24
-// 021   ----------------------------------------
-	BYTE		        Dn1   v092
-	BYTE	W12
-	BYTE		N03     Ds1   v076
-	BYTE	W12
-	BYTE		N05     Dn1   v084
-	BYTE	W06
-	BYTE		N08     Ds1   v072
-	BYTE	W18
-	BYTE		N04     Dn1   v060
-	BYTE	W24
-	BYTE		        Dn1   v076
-	BYTE	W24
-// 022   ----------------------------------------
-	BYTE		        Dn1   v092
-	BYTE	W24
-	BYTE		N06     Dn1   v084
-	BYTE	W24
-	BYTE		N04     Dn1   v060
-	BYTE	W24
-	BYTE		        Dn1   v076
-	BYTE	W24
-// 023   ----------------------------------------
-	BYTE		        Dn1   v084
-	BYTE	W12
-	BYTE		        Dn1   v068
-	BYTE	W12
-	BYTE		N05     Dn1   v060
-	BYTE	W06
-	BYTE		N06     Ds1   v064
-	BYTE	W18
-	BYTE		N04     Dn1   v060
-	BYTE	W24
-	BYTE		        Dn1   v076
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		N02     Dn1   v056
-	BYTE	W03
-	BYTE		        Ds1   v044
-	BYTE	W03
-	BYTE		        Dn1   v056
-	BYTE	W03
-	BYTE		        Ds1   v064
-	BYTE	W03
-// 024   ----------------------------------------
-	BYTE		N06     Dn1   v076
-	BYTE	W12
-	BYTE		N05     Ds1   v084
-	BYTE	W06
-	BYTE		        Dn1   v068
-	BYTE	W06
-	BYTE		N03     Dn1   v096
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		N03     Ds1   v064
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		N03     Dn1   v076
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		        Ds1   v060
-	BYTE	W06
-	BYTE		        Dn1   v024
-	BYTE	W06
-	BYTE		N02     Dn1   v056
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		N05     Ds1   v044
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-// 025   ----------------------------------------
-	BYTE		        Dn1   v068
-	BYTE	W06
-	BYTE		N05     Ds1   v052
-	BYTE	W06
-	BYTE		N04     Dn1   v056
-	BYTE	W06
-	BYTE		N05     Ds1   v060
-	BYTE	W06
-	BYTE		        Dn1   v080
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		N05     Ds1   v060
-	BYTE	W06
-	BYTE		N04     Ds1   v024
-	BYTE	W06
-	BYTE		        Dn1   v080
-	BYTE	W06
-	BYTE		        Dn1   v024
-	BYTE	W06
-	BYTE		        Ds1   v064
-	BYTE	W06
-	BYTE		        Ds1   v024
-	BYTE	W06
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		        Ds1   v060
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		N05     Ds1   v068
-	BYTE	W06
-// 026   ----------------------------------------
-	BYTE		        Dn1   v084
-	BYTE	W06
-	BYTE		        Ds1   v064
-	BYTE	W06
-	BYTE		N04     Dn1   v056
-	BYTE	W06
-	BYTE		N05     Ds1   v060
-	BYTE	W06
-	BYTE		        Dn1   v080
-	BYTE	W06
-	BYTE		N04     Ds1   v024
-	BYTE	W06
-	BYTE		N05     Ds1   v072
-	BYTE	W06
-	BYTE		N04     Dn1   v024
-	BYTE	W06
-	BYTE		        Dn1   v092
-	BYTE	W06
-	BYTE		        Dn1   v024
-	BYTE	W06
-	BYTE		N05     Ds1   v072
-	BYTE	W06
-	BYTE		N04     Ds1   v032
-	BYTE	W06
-	BYTE		N03     Dn1   v084
-	BYTE	W06
-	BYTE		N04     Dn1   v040
-	BYTE	W06
-	BYTE		        Ds1   v076
-	BYTE	W09
-	BYTE		N02     Ds1   v044
-	BYTE	W03
-// 027   ----------------------------------------
-	BYTE		N04     Dn1   v076
-	BYTE	W06
-	BYTE		N05     Ds1   v084
-	BYTE	W06
-	BYTE		        Dn1   v092
-	BYTE	W06
-	BYTE		        Ds1   v088
-	BYTE	W06
-	BYTE		        Dn1   v116
-	BYTE	W06
-	BYTE		N04     Dn1   v048
-	BYTE	W06
-	BYTE		        Ds1   v112
-	BYTE	W06
-	BYTE		        Ds1   v048
-	BYTE	W06
-	BYTE		        Dn1   v127
-	BYTE	W06
-	BYTE		        Dn1   v048
-	BYTE	W06
-	BYTE		        Ds1   v112
-	BYTE	W06
-	BYTE		        Ds1   v048
-	BYTE	W06
-	BYTE		N05     Dn1   v127
-	BYTE	W06
-	BYTE		        Ds1   v104
-	BYTE	W06
-	BYTE		        Dn1   v116
-	BYTE	W06
-	BYTE		        Ds1   v100
-	BYTE	W06
-// 028   ----------------------------------------
-	BYTE		N04     Dn1   v127
-	BYTE	W06
-	BYTE		N05     Ds1   v084
-	BYTE	W06
-	BYTE		N11     En1   v127
-	BYTE	W12
-	BYTE		N15     Dn1 
-	BYTE		N13     Cs3 
-	BYTE	W24
-	BYTE		N11     En1   v100
-	BYTE	W12
-	BYTE		N17     Ds1   v104
-	BYTE	W24
-	BYTE		N03     Ds1   v112
-	BYTE	W12
-// 029   ----------------------------------------
-	BYTE		N05     Dn1   v120
-	BYTE	W06
-	BYTE		        Ds1   v088
-	BYTE	W06
-	BYTE		        Dn1   v104
-	BYTE	W12
-	BYTE		N23     Dn1   v127
-	BYTE		N13     Cn3   v052
-	BYTE	W24
-	BYTE		N03     Ds1   v072
-	BYTE	W12
-	BYTE		N18     Ds1   v112
-	BYTE	W24
-	BYTE		N04     Ds1   v100
-	BYTE	W12
-// 030   ----------------------------------------
-	BYTE		        Dn1   v108
-	BYTE	W06
-	BYTE		N05     Ds1   v072
-	BYTE	W06
-	BYTE		        Dn1   v092
-	BYTE		N05     Cs3   v108
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N23     Dn1   v120
-	BYTE		N13     Cs3   v127
-	BYTE	W24
-	BYTE		N11     En1   v104
-	BYTE	W12
-	BYTE		N19     Ds1 
-	BYTE	W24
-	BYTE		N03     Ds1   v100
-	BYTE	W12
-// 031   ----------------------------------------
-	BYTE		N05     Dn1   v104
-	BYTE	W06
-	BYTE		        Ds1   v072
-	BYTE	W06
-	BYTE		N04     Dn1   v084
-	BYTE	W12
-	BYTE		N13     Dn1   v124
-	BYTE		N13     Cn3   v052
-	BYTE	W24
-	BYTE		N03     Ds1   v096
-	BYTE	W12
-	BYTE		N23     En1   v104
-	BYTE	W24
-	BYTE		N02     Ds1   v096
-	BYTE	W12
-// 032   ----------------------------------------
-	BYTE		N04     Dn1   v104
-	BYTE	W06
-	BYTE		N05     Ds1   v084
-	BYTE	W06
-	BYTE		N04     Dn1 
-	BYTE		N05     Cs3   v108
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N16     Dn1   v108
-	BYTE		N13     Cs3   v127
-	BYTE	W24
-	BYTE		N03     Dn1   v104
-	BYTE	W12
-	BYTE		N32     En1 
-	BYTE	W36
-// 033   ----------------------------------------
-	BYTE		N04     Dn1   v108
-	BYTE	W06
-	BYTE		N05     Ds1   v088
-	BYTE	W06
-	BYTE		N04     Dn1 
-	BYTE	W06
-	BYTE		N05     Ds1   v072
-	BYTE	W06
-	BYTE		N07     Dn1   v104
-	BYTE		N13     Cn3   v052
-	BYTE	W12
-	BYTE		N03     Dn1   v116
-	BYTE	W12
-	BYTE		        Dn1   v104
-	BYTE	W12
-	BYTE		N17     Dn1   v116
-	BYTE	W24
-	BYTE		N03     Ds1   v092
-	BYTE	W06
-	BYTE		N05     Ds1   v080
-	BYTE	W06
-// 034   ----------------------------------------
-	BYTE		N04     Dn1   v088
-	BYTE	W06
-	BYTE		N05     Ds1   v084
-	BYTE	W06
-	BYTE		        Dn1 
-	BYTE		N05     Cs3   v108
-	BYTE	W06
-	BYTE		        Ds1   v072
-	BYTE	W06
-	BYTE		N13     Dn1   v100
-	BYTE		N13     Cs3   v127
-	BYTE	W24
-	BYTE		N03     Ds1   v096
-	BYTE	W12
-	BYTE		N16   
-	BYTE	W24
-	BYTE		N04     Dn1   v092
-	BYTE	W12
-// 035   ----------------------------------------
-	BYTE		        Dn1   v108
-	BYTE	W06
-	BYTE		N05     Ds1   v036
-	BYTE	W06
-	BYTE		        Dn1   v092
-	BYTE	W06
-	BYTE		        Ds1   v068
-	BYTE	W06
-	BYTE		        Dn1   v104
-	BYTE		N13     Cn3   v052
-	BYTE	W12
-	BYTE		N02     Dn1   v100
-	BYTE	W12
-	BYTE		N04   
-	BYTE	W12
-	BYTE		N23     En1   v108
-	BYTE	W24
-	BYTE		N04     Ds1   v084
-	BYTE	W12
-// 036   ----------------------------------------
-	BYTE		N05     Dn1   v120
-	BYTE	W06
-	BYTE		        Ds1   v096
-	BYTE	W06
-	BYTE		        Dn1   v104
-	BYTE	W06
-	BYTE		N04     Ds1   v100
-	BYTE	W06
-	BYTE		N80     En1   v096
-	BYTE	W04
-	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
-	BYTE	W08
-	BYTE		        115*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        114*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        112*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        110*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        108*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        106*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        105*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        103*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        101*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        98*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        96*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        94*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        91*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        88*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        86*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        83*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        79*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        76*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        72*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        67*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-// 037   ----------------------------------------
-	BYTE		        64*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        59*FootstepsOfFate_mvl/mxv
-	BYTE	W09
-	BYTE		        115*FootstepsOfFate_mvl/mxv
-	BYTE		N03     Ds1 
-	BYTE	W12
-	BYTE		N05     Dn1   v100
-	BYTE	W06
-	BYTE		        Ds1   v092
-	BYTE	W06
-	BYTE		N68     En1   v056
-	BYTE	W03
-	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        111*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        107*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        104*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        100*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        96*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        93*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        89*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        86*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        82*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        78*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        75*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        71*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        69*FootstepsOfFate_mvl/mxv
-	BYTE	W03
-	BYTE		        70*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        71*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        72*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        73*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        74*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        75*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        76*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        76*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        78*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        79*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        80*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        82*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        83*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        85*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        86*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        87*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        89*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        91*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        93*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        95*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        97*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        99*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        102*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        105*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-// 038   ----------------------------------------
-	BYTE	W01
-	BYTE		        107*FootstepsOfFate_mvl/mxv
-	BYTE	W01
-	BYTE		        111*FootstepsOfFate_mvl/mxv
-	BYTE	W02
-	BYTE		        115*FootstepsOfFate_mvl/mxv
-	BYTE	W08
-	BYTE		N11     En1   v096
-	BYTE	W12
-	BYTE		N06     Dn1   v076
-	BYTE	W24
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		        Ds1   v060
-	BYTE	W06
-	BYTE		N11     En1   v068
-	BYTE	W12
-	BYTE		N02     Dn1   v084
-	BYTE	W03
-	BYTE		N06     Ds1   v064
-	BYTE	W21
-// 039   ----------------------------------------
-	BYTE		N04     Dn1   v068
-	BYTE	W12
-	BYTE		N05     Ds1   v052
-	BYTE	W06
-	BYTE		        Dn1   v088
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N08     Dn1   v072
-	BYTE	W12
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		N05   
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		        En1   v084
-	BYTE	W06
-	BYTE		        Ds1   v064
-	BYTE	W06
-	BYTE		N02     Ds1   v072
-	BYTE	W03
-	BYTE		N06     Dn1   v068
-	BYTE	W09
-	BYTE		N06   
-	BYTE	W12
-// 040   ----------------------------------------
-	BYTE		N05     Dn1   v064
-	BYTE	W06
-	BYTE		        Ds1   v060
-	BYTE	W06
-	BYTE		        Dn1   v068
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		        Dn1   v084
-	BYTE	W24
-	BYTE		        Ds1   v064
-	BYTE	W06
-	BYTE		        Dn1 
-	BYTE	W06
-	BYTE		N11     En1   v068
-	BYTE	W12
-	BYTE		N09     Dn1   v064
-	BYTE	W12
-	BYTE		N08     Ds1   v056
-	BYTE	W12
-// 041   ----------------------------------------
-	BYTE		N04     Dn1   v068
-	BYTE	W06
-	BYTE		        Ds1   v080
-	BYTE	W06
-	BYTE		N05     Dn1   v076
-	BYTE	W06
-	BYTE		        Ds1   v092
-	BYTE	W06
-	BYTE		        Dn1   v100
-	BYTE	W06
-	BYTE		        Ds1   v068
-	BYTE	W06
-	BYTE		        Dn1   v084
-	BYTE	W06
-	BYTE		        Ds1 
-	BYTE	W06
-	BYTE		        Dn1   v100
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N11     En1 
-	BYTE	W12
-	BYTE		N05     Dn1   v108
-	BYTE	W06
-	BYTE		        Ds1   v084
-	BYTE	W06
-	BYTE		N02     Ds1   v108
-	BYTE	W03
-	BYTE		        Dn1   v084
-	BYTE	W03
-	BYTE		N05     Ds1 
-	BYTE	W06
-// 042   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_004
-// 043   ----------------------------------------
-	BYTE	PATT
-	 POIN2	FootstepsOfFate_3_005
-// 044   ----------------------------------------
-	BYTE		N05     Dn1   v112
-	BYTE	W06
-	BYTE		        Ds1   v116
-	BYTE	W06
-	BYTE		N11     En1   v127
-	BYTE	W11
-	BYTE	GoTo
-	 POIN2	FootstepsOfFate_3_B1
-FootstepsOfFate_3_B2:
-	BYTE	FINE
-
-//**************** Track 4 (Midi-Chn.4) ****************//
-
-FootstepsOfFate_4:
 	BYTE	KEYSH   FootstepsOfFate_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   4
@@ -2529,7 +1682,7 @@ FootstepsOfFate_4:
 	BYTE		N52     Fs1   v120
 	BYTE	W72
 // 001   ----------------------------------------
-FootstepsOfFate_4_001:
+FootstepsOfFate_3_001:
 	BYTE	W12
 	BYTE		N05     Fs1   v104
 	BYTE	W06
@@ -2547,7 +1700,7 @@ FootstepsOfFate_4_001:
 	BYTE		N52     Fs1   v124
 	BYTE	W72
 // 003   ----------------------------------------
-FootstepsOfFate_4_003:
+FootstepsOfFate_3_003:
 	BYTE	W12
 	BYTE		N05     Fs1   v092
 	BYTE	W06
@@ -2563,7 +1716,7 @@ FootstepsOfFate_4_003:
 	BYTE	W30
 	BYTE	PEND
 // 004   ----------------------------------------
-FootstepsOfFate_4_004:
+FootstepsOfFate_3_004:
 	BYTE		N23     Fs3   v104
 	BYTE	W24
 	BYTE		N52     Fs1   v120
@@ -2571,21 +1724,21 @@ FootstepsOfFate_4_004:
 	BYTE	PEND
 // 005   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_001
+	 POIN2	FootstepsOfFate_3_001
 // 006   ----------------------------------------
 	BYTE	W24
-FootstepsOfFate_4_B1:
+FootstepsOfFate_3_B1:
 	BYTE		N52     Fs1   v124
 	BYTE	W72
 // 007   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_003
+	 POIN2	FootstepsOfFate_3_003
 // 008   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_004
+	 POIN2	FootstepsOfFate_3_004
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_001
+	 POIN2	FootstepsOfFate_3_001
 // 010   ----------------------------------------
 	BYTE	W24
 	BYTE		N52     Dn1   v124
@@ -2611,20 +1764,20 @@ FootstepsOfFate_4_B1:
 	BYTE	W72
 // 013   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_001
+	 POIN2	FootstepsOfFate_3_001
 // 014   ----------------------------------------
 	BYTE	W24
 	BYTE		N52     Fs1   v124
 	BYTE	W72
 // 015   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_003
+	 POIN2	FootstepsOfFate_3_003
 // 016   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_004
+	 POIN2	FootstepsOfFate_3_004
 // 017   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_001
+	 POIN2	FootstepsOfFate_3_001
 // 018   ----------------------------------------
 	BYTE	W24
 	BYTE		N52     En1   v124
@@ -2951,14 +2104,14 @@ FootstepsOfFate_4_B1:
 	BYTE	W72
 // 037   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_001
+	 POIN2	FootstepsOfFate_3_001
 // 038   ----------------------------------------
 	BYTE	W24
 	BYTE		N52     Fs1   v124
 	BYTE	W72
 // 039   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_003
+	 POIN2	FootstepsOfFate_3_003
 // 040   ----------------------------------------
 	BYTE		N23     Fs3   v104
 	BYTE	W24
@@ -2966,23 +2119,23 @@ FootstepsOfFate_4_B1:
 	BYTE	W72
 // 041   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_003
+	 POIN2	FootstepsOfFate_3_003
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_004
+	 POIN2	FootstepsOfFate_3_004
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_4_001
+	 POIN2	FootstepsOfFate_3_001
 // 044   ----------------------------------------
 	BYTE	W23
 	BYTE	GoTo
-	 POIN2	FootstepsOfFate_4_B1
-FootstepsOfFate_4_B2:
+	 POIN2	FootstepsOfFate_3_B1
+FootstepsOfFate_3_B2:
 	BYTE	FINE
 
-//**************** Track 5 (Midi-Chn.5) ****************//
+//**************** Track 4 (Midi-Chn.5) ****************//
 
-FootstepsOfFate_5:
+FootstepsOfFate_4:
 	BYTE	KEYSH   FootstepsOfFate_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   60
@@ -3258,7 +2411,7 @@ FootstepsOfFate_5:
 	BYTE		        En3   v100
 	BYTE		N05     Gs3   v116
 	BYTE	W06
-FootstepsOfFate_5_B1:
+FootstepsOfFate_4_B1:
 	BYTE		VOL     127*FootstepsOfFate_mvl/mxv
 	BYTE		N05     En3   v092
 	BYTE		N05     Gs3   v104
@@ -5251,13 +4404,13 @@ FootstepsOfFate_5_B1:
 	BYTE		N05     Gs3   v112
 	BYTE	W05
 	BYTE	GoTo
-	 POIN2	FootstepsOfFate_5_B1
-FootstepsOfFate_5_B2:
+	 POIN2	FootstepsOfFate_4_B1
+FootstepsOfFate_4_B2:
 	BYTE	FINE
 
-//**************** Track 6 (Midi-Chn.6) ****************//
+//**************** Track 5 (Midi-Chn.6) ****************//
 
-FootstepsOfFate_6:
+FootstepsOfFate_5:
 	BYTE	KEYSH   FootstepsOfFate_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   51
@@ -5292,7 +4445,7 @@ FootstepsOfFate_6:
 	BYTE		        Bn3 
 	BYTE	W24
 // 004   ----------------------------------------
-FootstepsOfFate_6_004:
+FootstepsOfFate_5_004:
 	BYTE		N23     Gs3   v084
 	BYTE	W24
 	BYTE		N80     Cs3   v096
@@ -5424,7 +4577,7 @@ FootstepsOfFate_6_004:
 	BYTE	W06
 	BYTE		        Gs3   v116
 	BYTE	W06
-FootstepsOfFate_6_B1:
+FootstepsOfFate_5_B1:
 	BYTE		VOL     92*FootstepsOfFate_mvl/mxv
 	BYTE		N05     Gs3   v104
 	BYTE	W06
@@ -6677,7 +5830,7 @@ FootstepsOfFate_6_B1:
 	BYTE	W24
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_6_004
+	 POIN2	FootstepsOfFate_5_004
 // 043   ----------------------------------------
 	BYTE		VOL     82*FootstepsOfFate_mvl/mxv
 	BYTE	W03
@@ -6761,13 +5914,13 @@ FootstepsOfFate_6_B1:
 	BYTE		        Gs3   v116
 	BYTE	W05
 	BYTE	GoTo
-	 POIN2	FootstepsOfFate_6_B1
-FootstepsOfFate_6_B2:
+	 POIN2	FootstepsOfFate_5_B1
+FootstepsOfFate_5_B2:
 	BYTE	FINE
 
-//**************** Track 7 (Midi-Chn.7) ****************//
+//**************** Track 6 (Midi-Chn.7) ****************//
 
-FootstepsOfFate_7:
+FootstepsOfFate_6:
 	BYTE	KEYSH   FootstepsOfFate_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   49
@@ -6904,7 +6057,7 @@ FootstepsOfFate_7:
 	BYTE	W96
 // 006   ----------------------------------------
 	BYTE	W24
-FootstepsOfFate_7_B1:
+FootstepsOfFate_6_B1:
 	BYTE		PAN     c_v-23
 	BYTE		VOL     102*FootstepsOfFate_mvl/mxv
 	BYTE	W72
@@ -8544,13 +7697,13 @@ FootstepsOfFate_7_B1:
 // 044   ----------------------------------------
 	BYTE	W23
 	BYTE	GoTo
-	 POIN2	FootstepsOfFate_7_B1
-FootstepsOfFate_7_B2:
+	 POIN2	FootstepsOfFate_6_B1
+FootstepsOfFate_6_B2:
 	BYTE	FINE
 
-//**************** Track 8 (Midi-Chn.8) ****************//
+//**************** Track 7 (Midi-Chn.8) ****************//
 
-FootstepsOfFate_8:
+FootstepsOfFate_7:
 	BYTE	KEYSH   FootstepsOfFate_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   50
@@ -8708,7 +7861,7 @@ FootstepsOfFate_8:
 	BYTE		N92     An2   v088
 	BYTE	W72
 // 005   ----------------------------------------
-FootstepsOfFate_8_005:
+FootstepsOfFate_7_005:
 	BYTE	W24
 	BYTE		N88     En2   v100
 	BYTE		N88     Gs2   v084
@@ -8716,7 +7869,7 @@ FootstepsOfFate_8_005:
 	BYTE	PEND
 // 006   ----------------------------------------
 	BYTE	W24
-FootstepsOfFate_8_B1:
+FootstepsOfFate_7_B1:
 	BYTE		N90     Fs2   v088
 	BYTE		N92     An2   v080
 	BYTE	W72
@@ -8740,7 +7893,7 @@ FootstepsOfFate_8_B1:
 	BYTE	W72
 // 009   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_8_005
+	 POIN2	FootstepsOfFate_7_005
 // 010   ----------------------------------------
 	BYTE	W24
 	BYTE		N90     Fs2   v088
@@ -9302,17 +8455,17 @@ FootstepsOfFate_8_B1:
 	BYTE	W72
 // 043   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_8_005
+	 POIN2	FootstepsOfFate_7_005
 // 044   ----------------------------------------
 	BYTE	W23
 	BYTE	GoTo
-	 POIN2	FootstepsOfFate_8_B1
-FootstepsOfFate_8_B2:
+	 POIN2	FootstepsOfFate_7_B1
+FootstepsOfFate_7_B2:
 	BYTE	FINE
 
-//**************** Track 9 (Midi-Chn.9) ****************//
+//**************** Track 8 (Midi-Chn.9) ****************//
 
-FootstepsOfFate_9:
+FootstepsOfFate_8:
 	BYTE	KEYSH   FootstepsOfFate_key+0
 // 000   ----------------------------------------
 	BYTE		VOICE   67
@@ -9593,7 +8746,7 @@ FootstepsOfFate_9:
 	BYTE	W01
 // 006   ----------------------------------------
 	BYTE	W24
-FootstepsOfFate_9_B1:
+FootstepsOfFate_8_B1:
 	BYTE		PAN     c_v-17
 	BYTE		VOL     25*FootstepsOfFate_mvl/mxv
 	BYTE	W72
@@ -9741,7 +8894,7 @@ FootstepsOfFate_9_B1:
 	BYTE		        77*FootstepsOfFate_mvl/mxv
 	BYTE	W02
 // 028   ----------------------------------------
-FootstepsOfFate_9_028:
+FootstepsOfFate_8_028:
 	BYTE		VOL     80*FootstepsOfFate_mvl/mxv
 	BYTE	W01
 	BYTE		        82*FootstepsOfFate_mvl/mxv
@@ -9891,11 +9044,858 @@ FootstepsOfFate_9_028:
 	BYTE	W02
 // 042   ----------------------------------------
 	BYTE	PATT
-	 POIN2	FootstepsOfFate_9_028
+	 POIN2	FootstepsOfFate_8_028
 // 043   ----------------------------------------
 	BYTE	W96
 // 044   ----------------------------------------
 	BYTE	W23
+	BYTE	GoTo
+	 POIN2	FootstepsOfFate_8_B1
+FootstepsOfFate_8_B2:
+	BYTE	FINE
+
+//**************** Track 9 (Midi-Chn.10) ****************//
+
+FootstepsOfFate_9:
+	BYTE	KEYSH   FootstepsOfFate_key+0
+// 000   ----------------------------------------
+	BYTE		MODT    0
+	BYTE		LFOS    44
+	BYTE	W24
+	BYTE		VOICE   127
+	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
+	BYTE		PAN     c_v+0
+	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
+	BYTE		N06     Dn1   v076
+	BYTE	W24
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		        Ds1   v060
+	BYTE	W18
+	BYTE		N02     Dn1   v084
+	BYTE	W03
+	BYTE		N06     Ds1   v064
+	BYTE	W21
+// 001   ----------------------------------------
+	BYTE		N04     Dn1   v068
+	BYTE	W12
+	BYTE		N05     Ds1   v052
+	BYTE	W06
+	BYTE		        Dn1   v088
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N08     Dn1   v072
+	BYTE	W12
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W12
+	BYTE		N05   
+	BYTE	W06
+	BYTE		N02     Ds1   v072
+	BYTE	W03
+	BYTE		N06     Dn1   v068
+	BYTE	W09
+	BYTE		N06   
+	BYTE	W12
+// 002   ----------------------------------------
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		        Ds1   v060
+	BYTE	W06
+	BYTE		        Dn1   v068
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1   v084
+	BYTE	W24
+	BYTE		        Ds1   v064
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W18
+	BYTE		N09   
+	BYTE	W12
+	BYTE		N08     Ds1   v056
+	BYTE	W12
+// 003   ----------------------------------------
+	BYTE		N04     Dn1   v068
+	BYTE	W06
+	BYTE		        Ds1   v080
+	BYTE	W06
+	BYTE		N05     Dn1   v076
+	BYTE	W06
+	BYTE		        Ds1   v092
+	BYTE	W06
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE		        Ds1   v068
+	BYTE	W06
+	BYTE		        Dn1   v084
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W18
+	BYTE		        Dn1   v108
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N02     Ds1   v108
+	BYTE	W03
+	BYTE		        Dn1   v084
+	BYTE	W03
+	BYTE		N05     Ds1 
+	BYTE	W06
+// 004   ----------------------------------------
+FootstepsOfFate_9_004:
+	BYTE		N23     Dn1   v108
+	BYTE	W24
+	BYTE		N06     Dn1   v124
+	BYTE	W24
+	BYTE		N04     Dn1   v104
+	BYTE	W24
+	BYTE		N03     Dn1   v088
+	BYTE	W06
+	BYTE		N04     Ds1   v072
+	BYTE	W18
+	BYTE	PEND
+// 005   ----------------------------------------
+FootstepsOfFate_9_005:
+	BYTE		N03     Dn1   v096
+	BYTE	W06
+	BYTE		        Ds1   v080
+	BYTE	W06
+	BYTE		N11     Dn1   v120
+	BYTE	W12
+	BYTE		N05     Dn1   v127
+	BYTE	W24
+	BYTE		        Dn1   v120
+	BYTE	W06
+	BYTE		        Dn1   v127
+	BYTE	W18
+	BYTE		        Dn1   v108
+	BYTE	W06
+	BYTE		        Ds1   v096
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE	PEND
+// 006   ----------------------------------------
+	BYTE		        Dn1   v112
+	BYTE	W06
+	BYTE		        Ds1   v116
+	BYTE	W06
+	BYTE		N11     Dn1   v127
+	BYTE	W12
+FootstepsOfFate_9_B1:
+	BYTE		N06     Dn1   v127
+	BYTE	W24
+	BYTE		N04     Dn1   v104
+	BYTE	W24
+	BYTE		N03     Dn1   v088
+	BYTE	W06
+	BYTE		N04     Ds1   v072
+	BYTE	W18
+// 007   ----------------------------------------
+FootstepsOfFate_9_007:
+	BYTE		N03     Dn1   v096
+	BYTE	W06
+	BYTE		        Ds1   v080
+	BYTE	W06
+	BYTE		N11     Dn1   v108
+	BYTE	W12
+	BYTE		N06     Dn1   v100
+	BYTE	W24
+	BYTE		N05     Dn1   v092
+	BYTE	W06
+	BYTE		        Dn1   v104
+	BYTE	W12
+	BYTE		        Ds1   v100
+	BYTE	W06
+	BYTE		        Dn1   v108
+	BYTE	W06
+	BYTE		        Ds1   v096
+	BYTE	W12
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE	PEND
+// 008   ----------------------------------------
+FootstepsOfFate_9_008:
+	BYTE		N05     Dn1   v120
+	BYTE	W06
+	BYTE		        Ds1   v108
+	BYTE	W06
+	BYTE		N11     Dn1   v127
+	BYTE	W12
+	BYTE		N06     Dn1   v124
+	BYTE	W24
+	BYTE		N04     Dn1   v104
+	BYTE	W24
+	BYTE		N03     Dn1   v088
+	BYTE	W06
+	BYTE		N04     Ds1   v072
+	BYTE	W18
+	BYTE	PEND
+// 009   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_005
+// 010   ----------------------------------------
+FootstepsOfFate_9_010:
+	BYTE		N05     Dn1   v127
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		N11     Dn1 
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W24
+	BYTE		N04     Dn1   v104
+	BYTE	W24
+	BYTE		N03     Dn1   v088
+	BYTE	W06
+	BYTE		N04     Ds1   v072
+	BYTE	W18
+	BYTE	PEND
+// 011   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_007
+// 012   ----------------------------------------
+	BYTE		N23     Dn1   v120
+	BYTE	W24
+	BYTE		N06     Dn1   v124
+	BYTE	W24
+	BYTE		N04     Dn1   v104
+	BYTE	W24
+	BYTE		N03     Dn1   v088
+	BYTE	W06
+	BYTE		N04     Ds1   v072
+	BYTE	W18
+// 013   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_005
+// 014   ----------------------------------------
+	BYTE		N05     Dn1   v112
+	BYTE	W06
+	BYTE		        Ds1   v116
+	BYTE	W06
+	BYTE		N11     Dn1   v127
+	BYTE	W12
+	BYTE		N06   
+	BYTE	W24
+	BYTE		N04     Dn1   v104
+	BYTE	W24
+	BYTE		N03     Dn1   v088
+	BYTE	W06
+	BYTE		N04     Ds1   v072
+	BYTE	W18
+// 015   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_007
+// 016   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_008
+// 017   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_005
+// 018   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_010
+// 019   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_007
+// 020   ----------------------------------------
+	BYTE		N23     Dn1   v120
+	BYTE	W24
+	BYTE		N06     Dn1   v092
+	BYTE	W24
+	BYTE		N04     Dn1   v060
+	BYTE	W24
+	BYTE		        Dn1   v076
+	BYTE	W24
+// 021   ----------------------------------------
+	BYTE		        Dn1   v092
+	BYTE	W12
+	BYTE		N03     Ds1   v076
+	BYTE	W12
+	BYTE		N05     Dn1   v084
+	BYTE	W06
+	BYTE		N08     Ds1   v072
+	BYTE	W18
+	BYTE		N04     Dn1   v060
+	BYTE	W24
+	BYTE		        Dn1   v076
+	BYTE	W24
+// 022   ----------------------------------------
+	BYTE		        Dn1   v092
+	BYTE	W24
+	BYTE		N06     Dn1   v084
+	BYTE	W24
+	BYTE		N04     Dn1   v060
+	BYTE	W24
+	BYTE		        Dn1   v076
+	BYTE	W24
+// 023   ----------------------------------------
+	BYTE		        Dn1   v084
+	BYTE	W12
+	BYTE		        Dn1   v068
+	BYTE	W12
+	BYTE		N05     Dn1   v060
+	BYTE	W06
+	BYTE		N06     Ds1   v064
+	BYTE	W18
+	BYTE		N04     Dn1   v060
+	BYTE	W24
+	BYTE		        Dn1   v076
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		N02     Dn1   v056
+	BYTE	W03
+	BYTE		        Ds1   v044
+	BYTE	W03
+	BYTE		        Dn1   v056
+	BYTE	W03
+	BYTE		        Ds1   v064
+	BYTE	W03
+// 024   ----------------------------------------
+	BYTE		N06     Dn1   v076
+	BYTE	W12
+	BYTE		N05     Ds1   v084
+	BYTE	W06
+	BYTE		        Dn1   v068
+	BYTE	W06
+	BYTE		N03     Dn1   v096
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		N03     Ds1   v064
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		N03     Dn1   v076
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		        Ds1   v060
+	BYTE	W06
+	BYTE		        Dn1   v024
+	BYTE	W06
+	BYTE		N02     Dn1   v056
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		N05     Ds1   v044
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+// 025   ----------------------------------------
+	BYTE		        Dn1   v068
+	BYTE	W06
+	BYTE		N05     Ds1   v052
+	BYTE	W06
+	BYTE		N04     Dn1   v056
+	BYTE	W06
+	BYTE		N05     Ds1   v060
+	BYTE	W06
+	BYTE		        Dn1   v080
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		N05     Ds1   v060
+	BYTE	W06
+	BYTE		N04     Ds1   v024
+	BYTE	W06
+	BYTE		        Dn1   v080
+	BYTE	W06
+	BYTE		        Dn1   v024
+	BYTE	W06
+	BYTE		        Ds1   v064
+	BYTE	W06
+	BYTE		        Ds1   v024
+	BYTE	W06
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		        Ds1   v060
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		N05     Ds1   v068
+	BYTE	W06
+// 026   ----------------------------------------
+	BYTE		        Dn1   v084
+	BYTE	W06
+	BYTE		        Ds1   v064
+	BYTE	W06
+	BYTE		N04     Dn1   v056
+	BYTE	W06
+	BYTE		N05     Ds1   v060
+	BYTE	W06
+	BYTE		        Dn1   v080
+	BYTE	W06
+	BYTE		N04     Ds1   v024
+	BYTE	W06
+	BYTE		N05     Ds1   v072
+	BYTE	W06
+	BYTE		N04     Dn1   v024
+	BYTE	W06
+	BYTE		        Dn1   v092
+	BYTE	W06
+	BYTE		        Dn1   v024
+	BYTE	W06
+	BYTE		N05     Ds1   v072
+	BYTE	W06
+	BYTE		N04     Ds1   v032
+	BYTE	W06
+	BYTE		N03     Dn1   v084
+	BYTE	W06
+	BYTE		N04     Dn1   v040
+	BYTE	W06
+	BYTE		        Ds1   v076
+	BYTE	W09
+	BYTE		N02     Ds1   v044
+	BYTE	W03
+// 027   ----------------------------------------
+	BYTE		N04     Dn1   v076
+	BYTE	W06
+	BYTE		N05     Ds1   v084
+	BYTE	W06
+	BYTE		        Dn1   v092
+	BYTE	W06
+	BYTE		        Ds1   v088
+	BYTE	W06
+	BYTE		        Dn1   v116
+	BYTE	W06
+	BYTE		N04     Dn1   v048
+	BYTE	W06
+	BYTE		        Ds1   v112
+	BYTE	W06
+	BYTE		        Ds1   v048
+	BYTE	W06
+	BYTE		        Dn1   v127
+	BYTE	W06
+	BYTE		        Dn1   v048
+	BYTE	W06
+	BYTE		        Ds1   v112
+	BYTE	W06
+	BYTE		        Ds1   v048
+	BYTE	W06
+	BYTE		N05     Dn1   v127
+	BYTE	W06
+	BYTE		        Ds1   v104
+	BYTE	W06
+	BYTE		        Dn1   v116
+	BYTE	W06
+	BYTE		        Ds1   v100
+	BYTE	W06
+// 028   ----------------------------------------
+	BYTE		N04     Dn1   v127
+	BYTE	W06
+	BYTE		N05     Ds1   v084
+	BYTE	W06
+	BYTE		N11     Dn1   v127
+	BYTE	W12
+	BYTE		N15   
+	BYTE		N13     Cs3 
+	BYTE	W24
+	BYTE		N11     Dn1   v100
+	BYTE	W12
+	BYTE		N17     Ds1   v104
+	BYTE	W24
+	BYTE		N03     Ds1   v112
+	BYTE	W12
+// 029   ----------------------------------------
+	BYTE		N05     Dn1   v120
+	BYTE	W06
+	BYTE		        Ds1   v088
+	BYTE	W06
+	BYTE		        Dn1   v104
+	BYTE	W12
+	BYTE		N23     Dn1   v127
+	BYTE		N13     Cn3   v052
+	BYTE	W24
+	BYTE		N03     Ds1   v072
+	BYTE	W12
+	BYTE		N18     Ds1   v112
+	BYTE	W24
+	BYTE		N04     Ds1   v100
+	BYTE	W12
+// 030   ----------------------------------------
+	BYTE		        Dn1   v108
+	BYTE	W06
+	BYTE		N05     Ds1   v072
+	BYTE	W06
+	BYTE		        Dn1   v092
+	BYTE		N05     Cs3   v108
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N23     Dn1   v120
+	BYTE		N13     Cs3   v127
+	BYTE	W24
+	BYTE		N11     Dn1   v104
+	BYTE	W12
+	BYTE		N19     Ds1 
+	BYTE	W24
+	BYTE		N03     Ds1   v100
+	BYTE	W12
+// 031   ----------------------------------------
+	BYTE		N05     Dn1   v104
+	BYTE	W06
+	BYTE		        Ds1   v072
+	BYTE	W06
+	BYTE		N04     Dn1   v084
+	BYTE	W12
+	BYTE		N13     Dn1   v124
+	BYTE		N13     Cn3   v052
+	BYTE	W24
+	BYTE		N03     Ds1   v096
+	BYTE	W12
+	BYTE		N23     Dn1   v104
+	BYTE	W24
+	BYTE		N02     Ds1   v096
+	BYTE	W12
+// 032   ----------------------------------------
+	BYTE		N04     Dn1   v104
+	BYTE	W06
+	BYTE		N05     Ds1   v084
+	BYTE	W06
+	BYTE		N04     Dn1 
+	BYTE		N05     Cs3   v108
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N16     Dn1   v108
+	BYTE		N13     Cs3   v127
+	BYTE	W24
+	BYTE		N03     Dn1   v104
+	BYTE	W12
+	BYTE		N32   
+	BYTE	W36
+// 033   ----------------------------------------
+	BYTE		N04     Dn1   v108
+	BYTE	W06
+	BYTE		N05     Ds1   v088
+	BYTE	W06
+	BYTE		N04     Dn1 
+	BYTE	W06
+	BYTE		N05     Ds1   v072
+	BYTE	W06
+	BYTE		N07     Dn1   v104
+	BYTE		N13     Cn3   v052
+	BYTE	W12
+	BYTE		N03     Dn1   v116
+	BYTE	W12
+	BYTE		        Dn1   v104
+	BYTE	W12
+	BYTE		N17     Dn1   v116
+	BYTE	W24
+	BYTE		N03     Ds1   v092
+	BYTE	W06
+	BYTE		N05     Ds1   v080
+	BYTE	W06
+// 034   ----------------------------------------
+	BYTE		N04     Dn1   v088
+	BYTE	W06
+	BYTE		N05     Ds1   v084
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE		N05     Cs3   v108
+	BYTE	W06
+	BYTE		        Ds1   v072
+	BYTE	W06
+	BYTE		N13     Dn1   v100
+	BYTE		N13     Cs3   v127
+	BYTE	W24
+	BYTE		N03     Ds1   v096
+	BYTE	W12
+	BYTE		N16   
+	BYTE	W24
+	BYTE		N04     Dn1   v092
+	BYTE	W12
+// 035   ----------------------------------------
+	BYTE		        Dn1   v108
+	BYTE	W06
+	BYTE		N05     Ds1   v036
+	BYTE	W06
+	BYTE		        Dn1   v092
+	BYTE	W06
+	BYTE		        Ds1   v068
+	BYTE	W06
+	BYTE		        Dn1   v104
+	BYTE		N13     Cn3   v052
+	BYTE	W12
+	BYTE		N02     Dn1   v100
+	BYTE	W12
+	BYTE		N04   
+	BYTE	W12
+	BYTE		N23     Dn1   v108
+	BYTE	W24
+	BYTE		N04     Ds1   v084
+	BYTE	W12
+// 036   ----------------------------------------
+	BYTE		N05     Dn1   v120
+	BYTE	W06
+	BYTE		        Ds1   v096
+	BYTE	W06
+	BYTE		        Dn1   v104
+	BYTE	W06
+	BYTE		N04     Ds1   v100
+	BYTE	W06
+	BYTE		N80     Dn1   v096
+	BYTE	W04
+	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
+	BYTE	W08
+	BYTE		        115*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        114*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        112*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        110*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        108*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        106*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        105*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        103*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        101*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        98*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        96*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        94*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        91*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        88*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        86*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        83*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        79*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        76*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        72*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        67*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+// 037   ----------------------------------------
+	BYTE		        64*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        59*FootstepsOfFate_mvl/mxv
+	BYTE	W09
+	BYTE		        115*FootstepsOfFate_mvl/mxv
+	BYTE		N03     Ds1 
+	BYTE	W12
+	BYTE		N05     Dn1   v100
+	BYTE	W06
+	BYTE		        Ds1   v092
+	BYTE	W06
+	BYTE		N68     Dn1   v056
+	BYTE	W03
+	BYTE		VOL     115*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        111*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        107*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        104*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        100*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        96*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        93*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        89*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        86*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        82*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        78*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        75*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        69*FootstepsOfFate_mvl/mxv
+	BYTE	W03
+	BYTE		        70*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        71*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        72*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        73*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        74*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        75*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        76*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        76*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        78*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        79*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        80*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        82*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        83*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        85*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        86*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        87*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        89*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        91*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        93*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        95*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        97*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        99*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        102*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        105*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+// 038   ----------------------------------------
+	BYTE	W01
+	BYTE		        107*FootstepsOfFate_mvl/mxv
+	BYTE	W01
+	BYTE		        111*FootstepsOfFate_mvl/mxv
+	BYTE	W02
+	BYTE		        115*FootstepsOfFate_mvl/mxv
+	BYTE	W08
+	BYTE		N11     Dn1   v096
+	BYTE	W12
+	BYTE		N06     Dn1   v076
+	BYTE	W24
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		        Ds1   v060
+	BYTE	W06
+	BYTE		N11     Dn1   v068
+	BYTE	W12
+	BYTE		N02     Dn1   v084
+	BYTE	W03
+	BYTE		N06     Ds1   v064
+	BYTE	W21
+// 039   ----------------------------------------
+	BYTE		N04     Dn1   v068
+	BYTE	W12
+	BYTE		N05     Ds1   v052
+	BYTE	W06
+	BYTE		        Dn1   v088
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N08     Dn1   v072
+	BYTE	W12
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		N05   
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1   v084
+	BYTE	W06
+	BYTE		        Ds1   v064
+	BYTE	W06
+	BYTE		N02     Ds1   v072
+	BYTE	W03
+	BYTE		N06     Dn1   v068
+	BYTE	W09
+	BYTE		N06   
+	BYTE	W12
+// 040   ----------------------------------------
+	BYTE		N05     Dn1   v064
+	BYTE	W06
+	BYTE		        Ds1   v060
+	BYTE	W06
+	BYTE		        Dn1   v068
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1   v084
+	BYTE	W24
+	BYTE		        Ds1   v064
+	BYTE	W06
+	BYTE		        Dn1 
+	BYTE	W06
+	BYTE		N11     Dn1   v068
+	BYTE	W12
+	BYTE		N09     Dn1   v064
+	BYTE	W12
+	BYTE		N08     Ds1   v056
+	BYTE	W12
+// 041   ----------------------------------------
+	BYTE		N04     Dn1   v068
+	BYTE	W06
+	BYTE		        Ds1   v080
+	BYTE	W06
+	BYTE		N05     Dn1   v076
+	BYTE	W06
+	BYTE		        Ds1   v092
+	BYTE	W06
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE		        Ds1   v068
+	BYTE	W06
+	BYTE		        Dn1   v084
+	BYTE	W06
+	BYTE		        Ds1 
+	BYTE	W06
+	BYTE		        Dn1   v100
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N11     Dn1 
+	BYTE	W12
+	BYTE		N05     Dn1   v108
+	BYTE	W06
+	BYTE		        Ds1   v084
+	BYTE	W06
+	BYTE		N02     Ds1   v108
+	BYTE	W03
+	BYTE		        Dn1   v084
+	BYTE	W03
+	BYTE		N05     Ds1 
+	BYTE	W06
+// 042   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_004
+// 043   ----------------------------------------
+	BYTE	PATT
+	 POIN2	FootstepsOfFate_9_005
+// 044   ----------------------------------------
+	BYTE		N05     Dn1   v112
+	BYTE	W06
+	BYTE		        Ds1   v116
+	BYTE	W06
+	BYTE		N11     Dn1   v127
+	BYTE	W11
 	BYTE	GoTo
 	 POIN2	FootstepsOfFate_9_B1
 FootstepsOfFate_9_B2:

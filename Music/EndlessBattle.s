@@ -4662,9 +4662,650 @@ EndlessBattle_8_B2:
 @ 040   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 9 (Midi-Chn.12) ****************@
+@**************** Track 9 (Midi-Chn.10) ****************@
 
 EndlessBattle_9:
+	.byte	KEYSH , EndlessBattle_key+0
+@ 000   ----------------------------------------
+	.byte		VOICE , 127
+	.byte		VOL   , 122*EndlessBattle_mvl/mxv
+	.byte		PAN   , c_v+0
+	.byte		BEND  , c_v+0
+	.byte		N05   , Dn1 , v112
+	.byte		N13   , An2 , v040
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte		N13   , An2 , v048
+	.byte	W06
+	.byte		N05   , Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v076
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte		N13   , An2 , v040
+	.byte	W06
+	.byte		N05   , Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v044
+	.byte	W06
+	.byte		N02   , Dn1 , v056
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+@ 001   ----------------------------------------
+EndlessBattle_9_001:
+	.byte		N05   , Dn1 , v112
+	.byte		N13   , An2 , v056
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte		N13   , An2 , v048
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		N23   , Fs1 , v092
+	.byte		N13   , An2 , v040
+	.byte	W24
+	.byte	PEND
+EndlessBattle_9_B1:
+@ 002   ----------------------------------------
+	.byte		N05   , Dn1 , v112
+	.byte		N84   , Cs2 , v048
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W12
+	.byte		N02   , Dn1 , v056
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+@ 003   ----------------------------------------
+EndlessBattle_9_003:
+	.byte		N05   , Dn1 , v112
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		N23   , Fs1 , v080
+	.byte	W24
+	.byte	PEND
+@ 004   ----------------------------------------
+EndlessBattle_9_004:
+	.byte		N05   , Dn1 , v112
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W12
+	.byte		N02   , Dn1 , v056
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+	.byte	PEND
+@ 005   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 006   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_004
+@ 007   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 008   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_004
+@ 009   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 010   ----------------------------------------
+	.byte		N05   , Dn1 , v112
+	.byte		N84   , Cs2 , v032
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W12
+	.byte		N02   , Dn1 , v056
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+@ 011   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 012   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_004
+@ 013   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 014   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_004
+@ 015   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 016   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_004
+@ 017   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_003
+@ 018   ----------------------------------------
+EndlessBattle_9_018:
+	.byte		N15   , Dn1 , v100
+	.byte		N12   , An2 , v036
+	.byte	W16
+	.byte		N15   , Dn1 , v068
+	.byte	W08
+	.byte		N12   , An2 , v016
+	.byte	W08
+	.byte		N15   , Dn1 , v052
+	.byte	W16
+	.byte		        Dn1 , v040
+	.byte		N12   , An2 , v036
+	.byte	W16
+	.byte		N15   , Dn1 , v032
+	.byte	W08
+	.byte		N12   , An2 , v016
+	.byte	W08
+	.byte		N15   , Dn1 , v020
+	.byte	W16
+	.byte	PEND
+@ 019   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_018
+@ 020   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_018
+@ 021   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_018
+@ 022   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_018
+@ 023   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_018
+@ 024   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_018
+@ 025   ----------------------------------------
+	.byte		N15   , Dn1 , v100
+	.byte		N12   , An2 , v036
+	.byte	W16
+	.byte		N15   , Dn1 , v068
+	.byte	W08
+	.byte		N12   , An2 , v016
+	.byte	W08
+	.byte		N15   , Dn1 , v052
+	.byte	W16
+	.byte		        Dn1 , v040
+	.byte		N12   , An2 , v036
+	.byte	W24
+	.byte		N23   , Fs1 , v092
+	.byte		N03   , Fn2 , v004
+	.byte		N12   , An2 , v016
+	.byte	W04
+	.byte		N03   , Fn2 
+	.byte	W04
+	.byte		        Fn2 , v028
+	.byte	W04
+	.byte		        Fn2 , v040
+	.byte	W04
+	.byte		        Fn2 , v048
+	.byte	W04
+	.byte		        Fn2 , v060
+	.byte	W04
+@ 026   ----------------------------------------
+	.byte		N05   , Dn1 , v120
+	.byte		TIE   , Fn2 , v064
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W12
+	.byte		N02   , Dn1 , v064
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+@ 027   ----------------------------------------
+	.byte		N05   , Dn1 , v120
+	.byte	W02
+	.byte		EOT   , Fn2 
+	.byte	W04
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		N23   , Fs1 , v088
+	.byte	W24
+@ 028   ----------------------------------------
+EndlessBattle_9_028:
+	.byte		N05   , Dn1 , v120
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W12
+	.byte		N02   , Dn1 , v064
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+	.byte	PEND
+@ 029   ----------------------------------------
+EndlessBattle_9_029:
+	.byte		N05   , Dn1 , v120
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		N23   , Fs1 , v088
+	.byte	W24
+	.byte	PEND
+@ 030   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_028
+@ 031   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_029
+@ 032   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_028
+@ 033   ----------------------------------------
+	.byte		N05   , Dn1 , v120
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v108
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Dn1 , v044
+	.byte	W06
+	.byte		        Dn1 , v116
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		N11   , Fs1 , v100
+	.byte	W12
+	.byte		N05   , Dn1 , v096
+	.byte	W06
+	.byte		        Dn1 , v092
+	.byte	W06
+@ 034   ----------------------------------------
+	.byte		N23   , Fs1 , v096
+	.byte		N92   , Cs2 , v048
+	.byte	W24
+	.byte		N05   , Dn1 , v088
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte	W06
+	.byte		N23   , Fs1 
+	.byte	W24
+@ 035   ----------------------------------------
+	.byte		N05   , Dn1 , v088
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v072
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		N02   , Dn1 , v072
+	.byte	W03
+	.byte		        Dn1 , v076
+	.byte	W03
+	.byte		N05   , Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v052
+	.byte	W06
+@ 036   ----------------------------------------
+	.byte		N23   , Fs1 , v096
+	.byte		N92   , En2 , v048
+	.byte	W24
+	.byte		N05   , Dn1 , v088
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte	W06
+	.byte		N23   , Fs1 
+	.byte	W24
+@ 037   ----------------------------------------
+	.byte		N05   , Dn1 , v088
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		N05   
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v072
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte	W06
+	.byte		        Dn1 , v036
+	.byte	W06
+	.byte		        Dn1 , v088
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v048
+	.byte	W06
+	.byte		N02   , Dn1 , v072
+	.byte	W03
+	.byte		        Dn1 , v076
+	.byte	W03
+	.byte		N05   , Dn1 , v092
+	.byte	W06
+	.byte		        Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v052
+	.byte	W06
+@ 038   ----------------------------------------
+	.byte		        Dn1 , v112
+	.byte		N32   , An2 , v040
+	.byte	W06
+	.byte		N05   , Dn1 , v080
+	.byte	W06
+	.byte		        Dn1 , v100
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v028
+	.byte	W06
+	.byte		        Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte		N13   , An2 , v048
+	.byte	W06
+	.byte		N05   , Dn1 , v068
+	.byte	W06
+	.byte		        Dn1 , v076
+	.byte	W06
+	.byte		        Dn1 , v060
+	.byte	W06
+	.byte		        Dn1 , v084
+	.byte	W06
+	.byte		        Dn1 , v040
+	.byte	W06
+	.byte		        Dn1 , v096
+	.byte		N13   , An2 , v040
+	.byte	W06
+	.byte		N05   , Dn1 , v020
+	.byte	W06
+	.byte		        Dn1 , v044
+	.byte	W06
+	.byte		N02   , Dn1 , v056
+	.byte	W03
+	.byte		        Dn1 , v068
+	.byte	W03
+@ 039   ----------------------------------------
+	.byte	PATT
+	 .word	EndlessBattle_9_001
+	.byte	GOTO
+	 .word	EndlessBattle_9_B1
+EndlessBattle_9_B2:
+@ 040   ----------------------------------------
+	.byte	FINE
+
+@**************** Track 10 (Midi-Chn.12) ****************@
+
+EndlessBattle_10:
 	.byte	KEYSH , EndlessBattle_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 29
@@ -4688,7 +5329,7 @@ EndlessBattle_9:
 	.byte		        Gn2 , v096
 	.byte	W12
 @ 001   ----------------------------------------
-EndlessBattle_9_001:
+EndlessBattle_10_001:
 	.byte		N11   , Gn2 , v116
 	.byte	W12
 	.byte		        Gn2 , v096
@@ -4706,9 +5347,9 @@ EndlessBattle_9_001:
 	.byte		        Gn2 , v096
 	.byte	W12
 	.byte	PEND
-EndlessBattle_9_B1:
+EndlessBattle_10_B1:
 @ 002   ----------------------------------------
-EndlessBattle_9_002:
+EndlessBattle_10_002:
 	.byte		N11   , Cn3 , v116
 	.byte	W12
 	.byte		        Cn3 , v096
@@ -4727,7 +5368,7 @@ EndlessBattle_9_002:
 	.byte	W12
 	.byte	PEND
 @ 003   ----------------------------------------
-EndlessBattle_9_003:
+EndlessBattle_10_003:
 	.byte		N11   , As2 , v116
 	.byte	W12
 	.byte		        As2 , v096
@@ -4746,7 +5387,7 @@ EndlessBattle_9_003:
 	.byte	W12
 	.byte	PEND
 @ 004   ----------------------------------------
-EndlessBattle_9_004:
+EndlessBattle_10_004:
 	.byte		N11   , Gs2 , v116
 	.byte	W12
 	.byte		        Gs2 , v096
@@ -4766,7 +5407,7 @@ EndlessBattle_9_004:
 	.byte	PEND
 @ 005   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_001
+	 .word	EndlessBattle_10_001
 @ 006   ----------------------------------------
 	.byte		N11   , Fn2 , v116
 	.byte	W12
@@ -4802,7 +5443,7 @@ EndlessBattle_9_004:
 	.byte		        Ds2 , v096
 	.byte	W12
 @ 008   ----------------------------------------
-EndlessBattle_9_008:
+EndlessBattle_10_008:
 	.byte		N11   , Dn3 , v116
 	.byte	W12
 	.byte		        Dn3 , v096
@@ -4822,13 +5463,13 @@ EndlessBattle_9_008:
 	.byte	PEND
 @ 009   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_001
+	 .word	EndlessBattle_10_001
 @ 010   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_002
+	 .word	EndlessBattle_10_002
 @ 011   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_003
+	 .word	EndlessBattle_10_003
 @ 012   ----------------------------------------
 	.byte		N11   , An2 , v116
 	.byte	W12
@@ -4848,9 +5489,9 @@ EndlessBattle_9_008:
 	.byte	W12
 @ 013   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_004
+	 .word	EndlessBattle_10_004
 @ 014   ----------------------------------------
-EndlessBattle_9_014:
+EndlessBattle_10_014:
 	.byte		N11   , Cs3 , v116
 	.byte	W12
 	.byte		        Cs3 , v096
@@ -4870,13 +5511,13 @@ EndlessBattle_9_014:
 	.byte	PEND
 @ 015   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_014
+	 .word	EndlessBattle_10_014
 @ 016   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_008
+	 .word	EndlessBattle_10_008
 @ 017   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_001
+	 .word	EndlessBattle_10_001
 @ 018   ----------------------------------------
 	.byte		N44   , Gs0 , v076
 	.byte	W48
@@ -4894,7 +5535,7 @@ EndlessBattle_9_014:
 	.byte		        Dn1 
 	.byte	W06
 @ 020   ----------------------------------------
-EndlessBattle_9_020:
+EndlessBattle_10_020:
 	.byte		N48   , Ds1 , v076
 	.byte	W48
 	.byte		N24   , As0 
@@ -4953,7 +5594,7 @@ EndlessBattle_9_020:
 	.byte	W24
 @ 028   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_020
+	 .word	EndlessBattle_10_020
 @ 029   ----------------------------------------
 	.byte		N48   , Fn1 , v076
 	.byte	W48
@@ -4991,7 +5632,7 @@ EndlessBattle_9_020:
 	.byte		N23   , Bn2 
 	.byte	W24
 @ 034   ----------------------------------------
-EndlessBattle_9_034:
+EndlessBattle_10_034:
 	.byte		N11   , Cn3 , v116
 	.byte	W12
 	.byte		        Cn3 , v096
@@ -5011,28 +5652,28 @@ EndlessBattle_9_034:
 	.byte	PEND
 @ 035   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_004
+	 .word	EndlessBattle_10_004
 @ 036   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_034
+	 .word	EndlessBattle_10_034
 @ 037   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_004
+	 .word	EndlessBattle_10_004
 @ 038   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_001
+	 .word	EndlessBattle_10_001
 @ 039   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_9_001
+	 .word	EndlessBattle_10_001
 	.byte	GOTO
-	 .word	EndlessBattle_9_B1
-EndlessBattle_9_B2:
+	 .word	EndlessBattle_10_B1
+EndlessBattle_10_B2:
 @ 040   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 10 (Midi-Chn.13) ****************@
+@**************** Track 11 (Midi-Chn.13) ****************@
 
-EndlessBattle_10:
+EndlessBattle_11:
 	.byte	KEYSH , EndlessBattle_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 73
@@ -5042,7 +5683,7 @@ EndlessBattle_10:
 	.byte	W96
 @ 001   ----------------------------------------
 	.byte	W96
-EndlessBattle_10_B1:
+EndlessBattle_11_B1:
 @ 002   ----------------------------------------
 	.byte	W96
 @ 003   ----------------------------------------
@@ -5409,14 +6050,14 @@ EndlessBattle_10_B1:
 @ 039   ----------------------------------------
 	.byte	W96
 	.byte	GOTO
-	 .word	EndlessBattle_10_B1
-EndlessBattle_10_B2:
+	 .word	EndlessBattle_11_B1
+EndlessBattle_11_B2:
 @ 040   ----------------------------------------
 	.byte	FINE
 
-@**************** Track 11 (Midi-Chn.14) ****************@
+@**************** Track 12 (Midi-Chn.14) ****************@
 
-EndlessBattle_11:
+EndlessBattle_12:
 	.byte	KEYSH , EndlessBattle_key+0
 @ 000   ----------------------------------------
 	.byte		VOICE , 30
@@ -5430,7 +6071,7 @@ EndlessBattle_11:
 	.byte		N23   , Gn1 , v116
 	.byte	W24
 @ 001   ----------------------------------------
-EndlessBattle_11_001:
+EndlessBattle_12_001:
 	.byte		N32   , Gn1 , v116
 	.byte	W36
 	.byte		        Gn1 , v088
@@ -5444,30 +6085,30 @@ EndlessBattle_11_001:
 	.byte		        Gn1 , v104
 	.byte	W04
 	.byte	PEND
-EndlessBattle_11_B1:
+EndlessBattle_12_B1:
 @ 002   ----------------------------------------
-EndlessBattle_11_002:
+EndlessBattle_12_002:
 	.byte		N32   , Cn2 , v100
 	.byte	W36
 	.byte		N56   , Cn2 , v096
 	.byte	W60
 	.byte	PEND
 @ 003   ----------------------------------------
-EndlessBattle_11_003:
+EndlessBattle_12_003:
 	.byte		N32   , As1 , v100
 	.byte	W36
 	.byte		N56   , As1 , v096
 	.byte	W60
 	.byte	PEND
 @ 004   ----------------------------------------
-EndlessBattle_11_004:
+EndlessBattle_12_004:
 	.byte		N32   , Gs1 , v100
 	.byte	W36
 	.byte		N56   , Gs1 , v096
 	.byte	W60
 	.byte	PEND
 @ 005   ----------------------------------------
-EndlessBattle_11_005:
+EndlessBattle_12_005:
 	.byte		N32   , Gn1 , v100
 	.byte	W36
 	.byte		N56   , Gn1 , v096
@@ -5484,7 +6125,7 @@ EndlessBattle_11_005:
 	.byte		N56   , Ds1 , v096
 	.byte	W60
 @ 008   ----------------------------------------
-EndlessBattle_11_008:
+EndlessBattle_12_008:
 	.byte		N32   , Dn2 , v100
 	.byte	W36
 	.byte		N56   , Dn2 , v096
@@ -5492,13 +6133,13 @@ EndlessBattle_11_008:
 	.byte	PEND
 @ 009   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_005
+	 .word	EndlessBattle_12_005
 @ 010   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_002
+	 .word	EndlessBattle_12_002
 @ 011   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_003
+	 .word	EndlessBattle_12_003
 @ 012   ----------------------------------------
 	.byte		N32   , An1 , v100
 	.byte	W36
@@ -5506,9 +6147,9 @@ EndlessBattle_11_008:
 	.byte	W60
 @ 013   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_004
+	 .word	EndlessBattle_12_004
 @ 014   ----------------------------------------
-EndlessBattle_11_014:
+EndlessBattle_12_014:
 	.byte		N32   , Cs2 , v100
 	.byte	W36
 	.byte		N56   , Cs2 , v096
@@ -5516,13 +6157,13 @@ EndlessBattle_11_014:
 	.byte	PEND
 @ 015   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_014
+	 .word	EndlessBattle_12_014
 @ 016   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_008
+	 .word	EndlessBattle_12_008
 @ 017   ----------------------------------------
 	.byte	PATT
-	 .word	EndlessBattle_11_005
+	 .word	EndlessBattle_12_005
 @ 018   ----------------------------------------
 	.byte		N92   , Gs1 , v092
 	.byte	W96
@@ -5620,665 +6261,6 @@ EndlessBattle_11_014:
 	.byte	W36
 	.byte		N23   , Gn1 , v116
 	.byte	W24
-@ 039   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_11_001
-	.byte	GOTO
-	 .word	EndlessBattle_11_B1
-EndlessBattle_11_B2:
-@ 040   ----------------------------------------
-	.byte	FINE
-
-@**************** Track 12 (Midi-Chn.15) ****************@
-
-EndlessBattle_12:
-	.byte	KEYSH , EndlessBattle_key+0
-@ 000   ----------------------------------------
-	.byte		VOICE , 127
-	.byte		VOL   , 122*EndlessBattle_mvl/mxv
-	.byte		PAN   , c_v+0
-	.byte		BEND  , c_v+0
-	.byte		N05   , Dn1 , v112
-	.byte		N13   , An2 , v040
-	.byte	W06
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v096
-	.byte		N13   , An2 , v048
-	.byte	W06
-	.byte		N05   , Dn1 , v068
-	.byte	W06
-	.byte		        Dn1 , v076
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v084
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v096
-	.byte		N13   , An2 , v040
-	.byte	W06
-	.byte		N05   , Dn1 , v020
-	.byte	W06
-	.byte		        Dn1 , v044
-	.byte	W06
-	.byte		N02   , Dn1 , v056
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
-@ 001   ----------------------------------------
-EndlessBattle_12_001:
-	.byte		N05   , Dn1 , v112
-	.byte		N13   , An2 , v056
-	.byte	W06
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v092
-	.byte		N13   , An2 , v048
-	.byte	W06
-	.byte		N05   , Dn1 , v080
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		N23   , Fs1 , v092
-	.byte		N13   , An2 , v040
-	.byte	W24
-	.byte	PEND
-EndlessBattle_12_B1:
-@ 002   ----------------------------------------
-	.byte		N05   , Dn1 , v112
-	.byte		N84   , Cs2 , v048
-	.byte	W06
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W12
-	.byte		N02   , Dn1 , v056
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
-@ 003   ----------------------------------------
-EndlessBattle_12_003:
-	.byte		N05   , Dn1 , v112
-	.byte	W06
-	.byte		        En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		N23   , Fs1 , v080
-	.byte	W24
-	.byte	PEND
-@ 004   ----------------------------------------
-EndlessBattle_12_004:
-	.byte		N05   , Dn1 , v112
-	.byte	W06
-	.byte		        En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W12
-	.byte		N02   , Dn1 , v056
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
-	.byte	PEND
-@ 005   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 006   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_004
-@ 007   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 008   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_004
-@ 009   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 010   ----------------------------------------
-	.byte		N05   , Dn1 , v112
-	.byte		N84   , Cs2 , v032
-	.byte	W06
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        Dn1 , v092
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W12
-	.byte		N02   , Dn1 , v056
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
-@ 011   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 012   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_004
-@ 013   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 014   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_004
-@ 015   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 016   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_004
-@ 017   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_003
-@ 018   ----------------------------------------
-EndlessBattle_12_018:
-	.byte		N15   , En1 , v100
-	.byte		N12   , An2 , v036
-	.byte	W16
-	.byte		N15   , En1 , v068
-	.byte	W08
-	.byte		N12   , An2 , v016
-	.byte	W08
-	.byte		N15   , En1 , v052
-	.byte	W16
-	.byte		        En1 , v040
-	.byte		N12   , An2 , v036
-	.byte	W16
-	.byte		N15   , En1 , v032
-	.byte	W08
-	.byte		N12   , An2 , v016
-	.byte	W08
-	.byte		N15   , En1 , v020
-	.byte	W16
-	.byte	PEND
-@ 019   ----------------------------------------
-EndlessBattle_12_019:
-	.byte		N15   , Dn1 , v100
-	.byte		N12   , An2 , v036
-	.byte	W16
-	.byte		N15   , Dn1 , v068
-	.byte	W08
-	.byte		N12   , An2 , v016
-	.byte	W08
-	.byte		N15   , Dn1 , v052
-	.byte	W16
-	.byte		        Dn1 , v040
-	.byte		N12   , An2 , v036
-	.byte	W16
-	.byte		N15   , Dn1 , v032
-	.byte	W08
-	.byte		N12   , An2 , v016
-	.byte	W08
-	.byte		N15   , Dn1 , v020
-	.byte	W16
-	.byte	PEND
-@ 020   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_018
-@ 021   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_019
-@ 022   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_018
-@ 023   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_019
-@ 024   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_018
-@ 025   ----------------------------------------
-	.byte		N15   , Dn1 , v100
-	.byte		N12   , An2 , v036
-	.byte	W16
-	.byte		N15   , Dn1 , v068
-	.byte	W08
-	.byte		N12   , An2 , v016
-	.byte	W08
-	.byte		N15   , Dn1 , v052
-	.byte	W16
-	.byte		        Dn1 , v040
-	.byte		N12   , An2 , v036
-	.byte	W24
-	.byte		N23   , Fs1 , v092
-	.byte		N03   , Fn2 , v004
-	.byte		N12   , An2 , v016
-	.byte	W04
-	.byte		N03   , Fn2 
-	.byte	W04
-	.byte		        Fn2 , v028
-	.byte	W04
-	.byte		        Fn2 , v040
-	.byte	W04
-	.byte		        Fn2 , v048
-	.byte	W04
-	.byte		        Fn2 , v060
-	.byte	W04
-@ 026   ----------------------------------------
-	.byte		N05   , Dn1 , v120
-	.byte		TIE   , Fn2 , v064
-	.byte	W06
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W12
-	.byte		N02   , Dn1 , v064
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
-@ 027   ----------------------------------------
-	.byte		N05   , Dn1 , v120
-	.byte	W02
-	.byte		EOT   , Fn2 
-	.byte	W04
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		N23   , Fs1 , v088
-	.byte	W24
-@ 028   ----------------------------------------
-EndlessBattle_12_028:
-	.byte		N05   , Dn1 , v120
-	.byte	W06
-	.byte		        En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W12
-	.byte		N02   , Dn1 , v064
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
-	.byte	PEND
-@ 029   ----------------------------------------
-EndlessBattle_12_029:
-	.byte		N05   , Dn1 , v120
-	.byte	W06
-	.byte		        En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		N23   , Fs1 , v088
-	.byte	W24
-	.byte	PEND
-@ 030   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_028
-@ 031   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_029
-@ 032   ----------------------------------------
-	.byte	PATT
-	 .word	EndlessBattle_12_028
-@ 033   ----------------------------------------
-	.byte		N05   , Dn1 , v120
-	.byte	W06
-	.byte		        En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v108
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        Dn1 , v044
-	.byte	W06
-	.byte		        En1 , v116
-	.byte	W06
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		        En1 , v080
-	.byte	W06
-	.byte		N11   , Fs1 , v100
-	.byte	W12
-	.byte		N05   , Dn1 , v096
-	.byte	W06
-	.byte		        En1 , v092
-	.byte	W06
-@ 034   ----------------------------------------
-	.byte		N23   , Fs1 , v096
-	.byte		N92   , Cs2 , v048
-	.byte	W24
-	.byte		N05   , Dn1 , v088
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		        Dn1 
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v096
-	.byte	W06
-	.byte		N23   , Fs1 
-	.byte	W24
-@ 035   ----------------------------------------
-	.byte		N05   , Dn1 , v088
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		        Dn1 
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v072
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v096
-	.byte	W06
-	.byte		        En1 , v036
-	.byte	W06
-	.byte		        Dn1 , v080
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		N02   , En1 , v072
-	.byte	W03
-	.byte		        Dn1 , v076
-	.byte	W03
-	.byte		N05   , En1 , v092
-	.byte	W06
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		        En1 , v052
-	.byte	W06
-@ 036   ----------------------------------------
-	.byte		N23   , Fs1 , v096
-	.byte		N92   , En2 , v048
-	.byte	W24
-	.byte		N05   , Dn1 , v088
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		        Dn1 
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v096
-	.byte	W06
-	.byte		N23   , Fs1 
-	.byte	W24
-@ 037   ----------------------------------------
-	.byte		N05   , Dn1 , v088
-	.byte	W06
-	.byte		        En1 
-	.byte	W06
-	.byte		        Dn1 
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		        Dn1 , v036
-	.byte	W06
-	.byte		        Dn1 , v072
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v096
-	.byte	W06
-	.byte		        En1 , v036
-	.byte	W06
-	.byte		        Dn1 , v088
-	.byte	W06
-	.byte		        En1 , v068
-	.byte	W06
-	.byte		        Dn1 , v048
-	.byte	W06
-	.byte		N02   , En1 , v072
-	.byte	W03
-	.byte		        Dn1 , v076
-	.byte	W03
-	.byte		N05   , En1 , v092
-	.byte	W06
-	.byte		        Dn1 , v068
-	.byte	W06
-	.byte		        En1 , v052
-	.byte	W06
-@ 038   ----------------------------------------
-	.byte		        Dn1 , v112
-	.byte		N32   , An2 , v040
-	.byte	W06
-	.byte		N05   , En1 , v080
-	.byte	W06
-	.byte		        Dn1 , v100
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v028
-	.byte	W06
-	.byte		        Dn1 , v020
-	.byte	W06
-	.byte		        En1 , v096
-	.byte		N13   , An2 , v048
-	.byte	W06
-	.byte		N05   , Dn1 , v068
-	.byte	W06
-	.byte		        Dn1 , v076
-	.byte	W06
-	.byte		        En1 , v060
-	.byte	W06
-	.byte		        Dn1 , v084
-	.byte	W06
-	.byte		        Dn1 , v040
-	.byte	W06
-	.byte		        Dn1 , v096
-	.byte		N13   , An2 , v040
-	.byte	W06
-	.byte		N05   , Dn1 , v020
-	.byte	W06
-	.byte		        Dn1 , v044
-	.byte	W06
-	.byte		N02   , Dn1 , v056
-	.byte	W03
-	.byte		        En1 , v068
-	.byte	W03
 @ 039   ----------------------------------------
 	.byte	PATT
 	 .word	EndlessBattle_12_001
