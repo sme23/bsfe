@@ -154,7 +154,15 @@ POP
 
   ALIGN 4
   #include "FE8-Battle Stats with Anims Off/FE8-Battle Stats Master EA File.event"
-
+  
+  ALIGN 4
+  NewSeizeCheck:
+  #incbin "NewSeizeCheck.dmp"
+  
+  ALIGN 4
+  NewSupplyCheck:
+  #incbin "NewSupplyCheck.dmp"
+  
   ALIGN 4
   #include "StatGetters/_InstallStatGetters.event"
   
@@ -174,3 +182,17 @@ ORG 0x1E380
 BYTE 0xF7 0x20 0x00 0x00
 POP
 
+//infinite trading
+PUSH
+ORG 0x022f50
+BYTE 0xC0 0x46
+ORG 0x02D772
+BYTE 0x1B
+ORG 0x09E3B8
+BYTE 0x1C
+ORG 0x09E8F2
+BYTE 0x1C
+POP
+
+ALIGN 4
+#include "ItemEffectRevamp/IERevamp_Installer.event"

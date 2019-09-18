@@ -1,13 +1,2 @@
 General
--Infinte range Rescue staff
 -Battle palettes
--Thracia trade
--Give each map's lord Supply access
-
-Ep2
--Broken village is visitable <------ why?
--Minerva cannot seize (already written, just needs pulled from the old buildfile)
-
-Ep3
--Test the balance of this map to make sure it's really doable
-
