@@ -556,7 +556,7 @@ I am the one in charge of this palace.[A][NL]
 Are you the thieves who intruded here?[A][2NL]
 Hmm[ToggleMouthMove]...[ToggleMouthMove][NL]
 and a cleric too?[A]
-[OpenMidRight][ClearFace][LoadLena][OpenMidLeft]
+[OpenMidRight][ClearFace][LoadLena][OpenMidLeft][N]
 Sister, what is the meaning of this?[A][NL]
 Why are you aiding these pack of thieves?[A][X]
 

@@ -247,11 +247,13 @@ GIVETOSLOT3 //who the fuck named the take gold away opcode this
 TurnAlly(Malice)
 ENUT 11
 ENUT 12
+NoFade
 ENDA
 
 DiceRecruitment:
 Text(ch3talkmalicedice)
 TurnAlly(Dice)
+NoFade
 ENDA
 
 DiceDeathTestEvent:
