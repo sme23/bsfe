@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.0" tiledversion="1.1.5" orientation="orthogonal" renderorder="right-down" width="18" height="24" tilewidth="16" tileheight="16" infinite="0" nextobjectid="1">
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="18" height="24" tilewidth="16" tileheight="16" infinite="0" nextlayerid="5" nextobjectid="1">
  <tileset firstgid="1" source="castle.tsx"/>
- <layer name="Tile Layer 1" width="18" height="24">
+ <layer id="1" name="Tile Layer 1" width="18" height="24">
   <properties>
    <property name="Anims1" value="0x1C"/>
    <property name="ChapterID" value="1"/>
@@ -14,7 +14,7 @@
   </properties>
   <data encoding="csv">
 425,552,427,427,427,427,554,785,722,786,722,553,427,427,427,427,551,425,
-425,490,788,723,911,723,787,722,786,722,786,723,787,911,787,723,489,425,
+425,490,788,723,720,723,787,722,786,722,786,723,787,720,787,723,489,425,
 425,490,721,786,752,755,722,786,722,786,722,786,722,784,756,786,489,425,
 425,490,785,722,786,722,786,722,786,722,786,722,786,722,786,722,489,425,
 425,425,458,785,722,786,521,427,427,427,427,522,721,786,722,457,425,425,
@@ -31,15 +31,15 @@
 425,425,490,721,786,722,553,427,427,427,427,554,785,722,786,489,425,425,
 425,552,554,785,722,786,723,787,723,787,723,787,722,786,722,553,551,425,
 425,490,788,722,786,722,786,722,786,722,786,722,786,722,786,723,489,425,
-425,490,721,911,722,786,722,786,722,786,722,786,722,786,911,786,489,425,
+425,490,721,720,722,786,722,786,722,786,722,786,722,786,720,786,489,425,
 425,490,785,752,755,722,786,722,786,722,786,722,786,722,784,756,489,425,
 425,425,425,425,425,490,721,786,722,34,721,786,489,425,425,425,425,425,
 425,425,425,425,425,490,785,722,786,723,786,722,489,425,425,425,425,425,
-425,425,425,425,425,490,911,786,722,786,722,911,489,425,425,425,425,425,
+425,425,425,425,425,490,720,786,722,786,722,720,489,425,425,425,425,425,
 425,425,425,425,425,490,784,756,786,722,786,752,489,425,425,425,425,425
 </data>
  </layer>
- <layer name="Tile Layer 2" width="18" height="24">
+ <layer id="2" name="Tile Layer 2" width="18" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="1"/>
@@ -74,7 +74,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Tile Layer 3" width="18" height="24">
+ <layer id="3" name="Tile Layer 3" width="18" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="2"/>
@@ -109,7 +109,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer name="Tile Layer 4" width="18" height="24">
+ <layer id="4" name="Tile Layer 4" width="18" height="24">
   <properties>
    <property name="Height" value="1"/>
    <property name="ID" value="3"/>

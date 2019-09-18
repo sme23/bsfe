@@ -53,7 +53,7 @@ UNIT 0xCF Knight Ruben Level(5,Enemy,1) [15,18] 0x0 0x0 0x0 0x1 [Horseslayer] At
 UNIT 0xCF Archer Ruben Level(5,Enemy,1) [16,18] 0x0 0x0 0x0 0x1 [SteelBow] AttackInRangeAI
 UNIT 0xCF Knight Ruben Level(5,Enemy,1) [14,19] 0x0 0x0 0x0 0x1 [SteelLance] AttackInRangeAI
 UNIT 0xCF Knight Ruben Level(5,Enemy,1) [15,19] 0x2 0x0 0x0 0x1 [SteelLance,Vulnerary] AttackInRangeAI
-UNIT Ruben WyvernLord Ruben Level(3,Enemy,0) [2,4] 0x0 0x0 0x0 0x1 [SilverLance,SilverAxe] NeverMoveAI
+UNIT Ruben WyvernLord Ruben Level(3,Enemy,0) [4,7] 0x0 0x0 0x0 0x1 [SilverLance,SilverAxe] NeverMoveAI
 UNIT
 
 

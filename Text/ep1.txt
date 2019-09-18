@@ -451,7 +451,7 @@ Hail Princess Nyna[ToggleMouthMove]...![ToggleMouthMove][A]
 [OpenMidLeft][LoadFace][0x4][0x1]
 Princess! Are you safe?[A]
 [OpenMidRight]
-Yes, I am fine.[A]
+Yes, I am fine.[A][N]
 Midia, should anything[NL]
 happen to me[ToggleMouthMove]...[ToggleMouthMove][A][2NL]
 Forget about me.[NL]
@@ -534,3 +534,65 @@ Empire's control.[A][NL]
 Would Nyna's promise ever be fulfilled?[A][NL]
 The answer to that question[NL]
 would only be known years later.[A][X]
+
+##Ep1DeathQuoteNyna
+[OpenMidRight][LoadNyna][CloseEyes]
+So[ToggleMouthMove]...[ToggleMouthMove][N]
+this is the end[ToggleMouthMove]...[ToggleMouthMove][A][X]
+
+##Ep1DeathQuoteBoah
+[OpenMidRight][LoadBoah][CloseEyes]
+I cannot die here[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I must live and fulfill[N]
+the king's order[ToggleMouthMove]...[ToggleMouthMove][A]
+
+Nyna:
+[OpenMidRight][ClearFace][OpenEyes][LoadNyna]
+Bishop! How are you!?[A]
+
+[OpenMidRight][ClearFace][CloseEyes][LoadBoah]
+Princess, please forgive me[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I'll be a burden like this[ToggleMouthMove]...[ToggleMouthMove][A][N]
+I shall fall back to the rear[ToggleMouthMove]...[ToggleMouthMove][A]
+[X]
+
+##Ep1DeathQuoteMidia
+[OpenMidRight][LoadMidia][CloseEyes]
+Guh![A][N]
+It can't[ToggleMouthMove]...[ToggleMouthMove][N]
+end like this[ToggleMouthMove]...[ToggleMouthMove][A]
+
+[ClearFace][OpenEyes][LoadNyna]
+Midia!?　No![N]
+Please fall back.[A][N]
+For Astram's sake, too, please[ToggleMouthMove]...![ToggleMouthMove][A]
+
+[ClearFace][CloseEyes][LoadMidia]
+Princess[ToggleMouthMove]...[ToggleMouthMove][N]
+I'm so sorry[ToggleMouthMove]...[ToggleMouthMove][A]
+[X]
+
+##Ep1DeathQuoteTomas
+[OpenMidRight][LoadTomas][CloseEyes]
+Princess Nyna[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Sorry for[ToggleMouthMove]...[ToggleMouthMove][N]
+being useless[ToggleMouthMove]...[ToggleMouthMove][A]
+[X]
+
+##Ep1DeathQuoteDolph
+[OpenMidRight][LoadDolph][CloseEyes]
+Ugh[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Forgive me[ToggleMouthMove]...[ToggleMouthMove][N]
+Princess Nyna[ToggleMouthMove]...[ToggleMouthMove][A]
+[X]
+
+##Ep1DeathQuoteMacellan
+[OpenMidRight][LoadMacellan][CloseEyes]
+Ugh[ToggleMouthMove]...[ToggleMouthMove][A][N]
+Forgive me[ToggleMouthMove]...[ToggleMouthMove][N]
+Princess Nyna[ToggleMouthMove]...[ToggleMouthMove][A]
+[X]
+
+
+
+

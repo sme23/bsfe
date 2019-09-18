@@ -151,7 +151,7 @@ Endless Battle[X]
 Nyna Arrives[X]
 
 ##GradivusDesc
-GradivusDesc[X]
+The lance that pierces stone.[X]
 
 ##Ep1Hint
 [OpenMidLeft][LoadAnna]

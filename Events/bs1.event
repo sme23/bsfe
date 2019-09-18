@@ -50,7 +50,7 @@ UNIT Dolhr Knight Gouber Level(3,Enemy,1) [14,11] 0x2 0x0 0x0 0x0 [IronLance,Che
 UNIT Dolhr Mage Gouber Level(1,Enemy,1) [12,19] 0x0 0x0 0x0 0x0 [Fire] PursueWithoutHeedAI
 UNIT Dolhr Archer Gouber Level(1,Enemy,1) [10,20] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
 UNIT Dolhr Archer Gouber Level(1,Enemy,1) [10,18] 0x0 0x0 0x0 0x0 [IronBow] PursueWithoutHeedAI
-UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,21] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
+UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,21] 0x2 0x0 0x0 0x0 [IronLance,ChestKey] PursueWithoutHeedAI
 UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,19] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Dolhr Knight Gouber Level(3,Enemy,1) [8,17] 0x0 0x0 0x0 0x0 [IronLance] PursueWithoutHeedAI
 UNIT Gouber General Gouber Level(10,Enemy,0) [8,2] 0x0 0x0 0x0 0x0 [SteelLance] [AttackInRange,NoAI2,CautiousRecovery,DefaultAI4]
@@ -220,5 +220,5 @@ TalkProc:
 ENUF 8
 ENUF 9
 ENUF 0xA
-
+NoFade
 ENDA

@@ -129,7 +129,7 @@ UnitMenuTable:
   MenuCommand(UM_Reposition, UM_RepositionDesc, NormalText, prRepositionCommand_Usability, prRepositionCommand_Effect)
   MenuCommand(UM_Swap,       UM_SwapDesc,       NormalText, prSwapCommand_Usability,       prSwapCommand_Effect)
   
-  UM_Rescue
+  //UM_Rescue
   UM_Give
   UM_Take
   // MenuCommand(0x689, 0x6c5, 0, 0x228a4, RescueEffect) //rescue
