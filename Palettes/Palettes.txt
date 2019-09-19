@@ -1,0 +1,153 @@
+# char{0x1} "NynaPalette" set{Nyna, 0x1, Bishop_F} auto{0}
+	5553FF7FFF6BFF322F195C5FD84EFF0BFF6FF26B036F6B72C95119637452A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x2} "BoahPalette" set{Boah, 0x1, Bishop} auto{0}
+	5553FF7FFF6BFF322F19FE7B3663FF0B860EF26B036F3D0035048305030DA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x3} "MidiaPalette" set{Midia, 0x1, Paladin_F} auto{0}
+	5453FF7FFF6FBD2ED32DFF2731668C511842D7397325F2349873D15E0C46A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x4} "TomasPalette" set{Tomas, 0x1, Archer} auto{0}
+	5553FF7FFF6B1F4B2E19CB36472A2521783AD325777F607E025E2645E760A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x5} "DolphPalette" set{Dolph, 0x1, Knight} auto{0}
+	5553A51D682A6302104309038E43E5173557DE53DE1F561A1B1FDE7BFE7BA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x6} "MacellanPalette" set{Macellan, 0x1, Knight} auto{0}
+	5553AD1C13297300B8413801B841E5173557DE53DE1F561A1B1FDE7BFE7BA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x7} "MinervaPalette" set{Minerva, 0x1, WyvernLord_F} auto{0}
+	5553186393101821183A1E4BB02D56356D1C516E2E5BC342C0258021C810A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x8} "EstPalette" set{Est, 0x1, PegasusKnight} auto{0}
+	5553FF7F70219E36FF6BFF3F1F3E3F73C81018427C2DD977946F2F6F4C086310
+	auto
+	auto
+	auto
+	auto
+
+# char{0x9} "CatriaPalette" set{Catria, 0x1, PegasusKnight} auto{0}
+	5553FF7F70219E36FF6BFF3F28510B5EC8106B7E656DD977946F2F6F22316310
+	auto
+	auto
+	auto
+	auto
+
+# char{0xA} "HardinPalette" set{Hardin, 0x1, Cavalier} auto{0}
+	5553FF7FFF5B737FF431AA794E11C910FF7B9C6F5973B5661D4736324E1DA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0xB} "WolfPalette" set{Wolf, 0x1, Ranger} auto{0}
+	007EFF7FFF4BBD2ED421B051F658EE3C9E5B7E32BB15F1143A22F8612C21A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0xC} "RosheaPalette" set{Roshea, 0x1, Cavalier} auto{0}
+	5553FF7FFF5B737FF431AA79B66C7254756D10550C25CB341D4736324E1DA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0xD} "RickardPalette" set{Rickard, 0x1, Thief} auto{0}
+	007EFF73FF6BFF424D15A879064DC5349162EC410729571A3E17CB390625A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0xE} "LenaPalette" set{Lena, 0x1, Cleric} auto{0}
+	007EFE7FFF6B1F4B2E19FD30B920B210FB3E352AD26A3A7F7372CC492835A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0xF} "NavarrePalette" set{Navarre, 0x1, Myrmidon} auto{0}
+	007E7D6FFF6B1F4B2E19F0512831C624574E8F392A29F714B114AB188714A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x11} "MalicePalette" set{Malice, 0x1, Myrmidon_F} auto{0}
+	5553FF7FFF6B1F4B2E199865314DEA30567B6F5ECA49B741EF288C204914A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x12} "DicePalette" set{Dice, 0x1, Fighter} auto{0}
+	5553FF7FFF6B1D475A32D621B60DEB0CB97B14736F5E701DB60D5105EB0CA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x13} "CamusPalette" set{Camus, 0x1, Paladin} auto{0}
+	5453FF7FFF6FBD2ED32D9C27FF273B1754410E31EC2887209873D15E0C46A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x14} "FrostPalette" set{Frost, 0x1, Bishop} auto{0}
+	5553FF7FFF6BBF222E19BB778F56FF0BD509F26B036F357F4D5AA64D8444A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x15} "RobertoPalette" set{Roberto, 0x1, Ranger} auto{0}
+	5553FF7FFF4BBD2EF41DAA61DC0A1516F07F0F7FA8798454FC22707E2D11A514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x16} "ReidenPalette" set{Reiden, 0x1, Cavalier} auto{0}
+	5553FF7FFF5B737FF431AA79B72D32213973B562314EAD391D4736324E1DA514
+	auto
+	auto
+	auto
+	auto
+
+# char{0x17} "BelfPalette" set{Belf, 0x1, Cavalier} auto{0}
+	5553FF7FFF5B737FF431AA795622B015FE7F776F78776D521D4736324E1DA514
+	auto
+	auto
+	auto
+	auto

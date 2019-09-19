@@ -30,6 +30,7 @@
 	#include "Graphics/Animation Installer.event"
 	#include "Graphics/Background Installer.event"
 	#include "Graphics/Menu Graphics Installer.event"
+	#include "Palettes/Palette Setup.event"
 	
 	//Music
 	#include "Music/Music Installer.event"
