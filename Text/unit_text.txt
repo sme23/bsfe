@@ -77,76 +77,76 @@ Vergil[X]
 Berg[X]
 
 ##NynaDesc
-NynaDesc[X]
+[X]
 
 ##MidiaDesc
-MidiaDesc[X]
+[X]
 
 ##TomasDesc
-TomasDesc[X]
+[X]
 
 ##BoahDesc
-BoahDesc[X]
+[X]
 
 ##MacellanDesc
-MacellanDesc[X]
+[X]
 
 ##DolphDesc
-DolphDesc[X]
+[X]
 
 ##CamusDesc
-CamusDesc[X]
+[X]
 
 ##MinervaDesc
-MinervaDesc[X]
+[X]
 
 ##PallaDesc
-PallaDesc[X]
+[X]
 
 ##CatriaDesc
-CatriaDesc[X]
+[X]
 
 ##EstDesc
-EstDesc[X]
+[X]
 
 ##HardinDesc
-HardinDesc[X]
+[X]
 
 ##RosheaDesc
-RosheaDesc[X]
+[X]
 
 ##WolfDesc
-WolfDesc[X]
+[X]
 
 ##FrostDesc
-FrostDesc[X]
+[X]
 
 ##RickardDesc
-RickardDesc[X]
+[X]
 
 ##LenaDesc
-LenaDesc[X]
+[X]
 
 ##NavarreDesc
-NavarreDesc[X]
+[X]
 
 ##CastorDesc
-CastorDesc[X]
+[X]
 
 ##DiceDesc
-DiceDesc[X]
+[X]
 
 ##MaliceDesc
-MaliceDesc[X]
+[X]
 
 ##RobertoDesc
-RobertoDesc[X]
+[X]
 
 ##ReidenDesc
-ReidenDesc[X]
+[X]
 
 ##BelfDesc
-BelfDesc[X]
+[X]
 
 
 
@@ -154,49 +154,49 @@ BelfDesc[X]
 Gouber[X]
 
 ##GouberDesc
-GouberDesc[X]
+[X]
 
 ##RubenName
 Ruben[X]
 
 ##RubenDesc
-RubenDesc[X]
+[X]
 
 ##VaamName
 Vaam[X]
 
 ##VaamDesc
-VaamDesc[X]
+[X]
 
 ##BulzarkName
 Bulzark[X]
 
 ##BulzarkDesc
-BulzarkDesc[X]
+[X]
 
 ##DolhrName
 Dolhr[X]
 
 ##DolhrDesc
-DolhrDesc[X]
+[X]
 
 ##GrustName
 Grust[X]
 
 ##GrustDesc
-GrustDesc[X]
+[X]
 
 ##MacedonName
 Macedon[X]
 
 ##MacedonDesc
-MacedonDesc[X]
+[X]
 
 ##BanditName
 Bandit[X]
 
 ##BanditDesc
-BanditDesc[X]
+[X]
 
 
 
