@@ -2,7 +2,7 @@ Remake of BS Fire Emblem Akenia Saga in Fire Emblem: The Sacred Stones.
 
 Big special thanks to Card for title screen, pointing me to the CGs, and general motivation
 
-Halfbody credits:
+Portrait credits:
 
 Nyna by Nickt, Card, Lenh
 Midia by Backer
@@ -11,23 +11,23 @@ Dolph by Nickt
 Macellan by StairFacts, Nickt
 Tomas by Yang Kai, Blueeyedman, Blaze
 Minerva by Zelkami, Nickt
-Palla by Backer
+Palla by HyperGammaSpaces
 Catria by Nobody
 Est by Frigid
 Hardin by Nickt
 Wolf by DerTheVaporeon, Nickt
 Roshea by Alusq, DerTheVaporeon, Nickt
-Frost by |NOT YET DONE|
+Frost by DerTheVaporeon
 Rickard by Nickt
 Lena by MageKnight404, Nickt
 Navarre by Xenith, Card, FEier, Blueeyedman, Nickt
 Castor by flingleforp, Nickt
-Dice by |NOT YET DONE|
+Dice by Emperor Haardin
 Malice by luminescentblade
 Camus by Nickt
-Roberto by |NOT YET DONE|
-Reiden by |NOT YET DONE|
-Belf by |NOT YET DONE|
+Roberto by DerTheVaporeon
+Reiden by Soh
+Belf by Arch
 Gouber/Emereus by DerTheVaporeon, Nickt
 Ruben/Harmein by DerTheVaporeon
 Vaam/Gomer by Blaze
